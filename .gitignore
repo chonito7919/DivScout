@@ -22,6 +22,10 @@ data/
 # These are local user settings and should not be shared.
 .vscode/
 
+# Claude Code AI Assistant File
+# This file provides context for Claude Code sessions
+CLAUDE.md
+
 # Operating System Files (Debian/Linux)
 # Thumbs.db, .DS_Store, and other OS-specific files
 *~

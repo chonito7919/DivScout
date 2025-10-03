@@ -1,0 +1,29 @@
+# Python
+# Virtual environment (as requested, using the .venv folder name)
+.venv/
+**/__pycache__
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Sensitive / Environment Variables
+# The .env file should *never* be committed to version control.
+.env
+
+# Data
+# Ignore the data directory, which likely holds scraped data or temporary files.
+# If you have specific files in 'data' you *do* want to track, you will need 
+# to add exceptions below, e.g., '!data/important_config.json'
+data/
+
+# IDE/Editor Files (VS Code)
+# These are local user settings and should not be shared.
+.vscode/
+
+# Operating System Files (Debian/Linux)
+# Thumbs.db, .DS_Store, and other OS-specific files
+*~
+*.swp
+.Trash-*

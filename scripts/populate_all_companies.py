@@ -35,33 +35,41 @@ import argparse
 ALL_TICKERS = [
     # Technology
     'AAPL', 'MSFT', 'GOOGL', 'GOOG', 'META', 'NVDA', 'AVGO', 'CSCO', 'ORCL',
-    'IBM', 'INTC', 'TXN', 'QCOM', 'ADI',
+    'IBM', 'INTC', 'TXN', 'QCOM', 'ADI', 'HPQ', 'PAYX', 'SWKS',
 
     # Healthcare
     'JNJ', 'UNH', 'LLY', 'ABBV', 'MRK', 'TMO', 'ABT', 'PFE', 'AMGN', 'CVS',
+    'BDX', 'MDT',
 
     # Financials
     'JPM', 'BAC', 'WFC', 'MS', 'GS', 'BLK', 'C', 'USB', 'PNC', 'TFC', 'BK',
-    'AXP', 'V', 'MA', 'SPGI',
+    'AXP', 'V', 'MA', 'SPGI', 'AFL', 'ALL', 'AMP', 'AON', 'AIG', 'BRO', 'CB',
+    'CME', 'COF', 'DFS', 'ICE', 'MET', 'MMC', 'PRU', 'PGR', 'SCHW', 'TRV',
+    'BEN', 'CINF', 'TROW',
 
     # Consumer Staples
     'KO', 'PEP', 'PG', 'WMT', 'COST', 'PM', 'MO', 'CL', 'KMB', 'GIS', 'K',
-    'HSY', 'MDLZ', 'KHC',
+    'HSY', 'MDLZ', 'KHC', 'CHD', 'CLX', 'CPB', 'HRL', 'MKC', 'SJM', 'TSN', 'WBA',
 
     # Consumer Discretionary
     'AMZN', 'TSLA', 'HD', 'MCD', 'NKE', 'SBUX', 'TGT', 'LOW', 'F', 'GM',
 
     # Energy
     'XOM', 'CVX', 'COP', 'SLB', 'EOG', 'PSX', 'VLO', 'OXY', 'KMI', 'WMB',
+    'EPD', 'MMP', 'OKE', 'TRP',
 
     # Industrials
     'BA', 'CAT', 'GE', 'LMT', 'RTX', 'UNP', 'HON', 'UPS', 'DE', 'MMM',
+    'EMR', 'ETN', 'FDX', 'GD', 'GWW', 'ITW', 'NSC', 'PH', 'ROK', 'RSG',
+    'SWK', 'SYY', 'WM', 'CTAS',
 
     # Utilities
-    'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE', 'XEL', 'PCG',
+    'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE', 'XEL', 'PCG', 'ED', 'ETR',
+    'ES', 'FE', 'PPL', 'WEC',
 
     # Real Estate / REITs
     'O', 'AMT', 'PLD', 'CCI', 'EQIX', 'PSA', 'WELL', 'DLR', 'SPG', 'AVB',
+    'VNO', 'MPW', 'STAG', 'NNN', 'DOC', 'ESS', 'FRT',
 
     # Materials
     'LIN', 'APD', 'SHW', 'FCX', 'NEM', 'ECL',

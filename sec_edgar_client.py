@@ -249,6 +249,86 @@ class SECAPIClient:
             'T': '0000732717',     # AT&T
             'VZ': '0000732712',    # Verizon
             'TMUS': '0001283699',  # T-Mobile
+
+            # Additional Dividend Aristocrats & High-Yield Stocks
+            'BEN': '0000038777',   # Franklin Resources
+            'BDX': '0000010795',   # Becton Dickinson
+            'CINF': '0000020286',  # Cincinnati Financial
+            'CTAS': '0000723254',  # Cintas
+            'ED': '0001047862',    # Consolidated Edison
+            'EMR': '0000032604',   # Emerson Electric
+            'ESS': '0000920522',   # Essex Property Trust
+            'FRT': '0000034903',   # Federal Realty Investment Trust
+            'GD': '0000040533',    # General Dynamics
+            'GWW': '0000277135',   # W.W. Grainger
+            'ITW': '0000049826',   # Illinois Tool Works
+            'MDT': '0001613103',   # Medtronic
+            'SWK': '0000093556',   # Stanley Black & Decker
+            'SYY': '0000096021',   # Sysco
+            'TRV': '0000086312',   # The Travelers Companies
+            'TROW': '0000701221',  # T. Rowe Price
+            'WBA': '0001618921',   # Walgreens Boots Alliance
+
+            # High-Yield REITs
+            'VNO': '0000899689',   # Vornado Realty Trust
+            'MPW': '0001074820',   # Medical Properties Trust
+            'STAG': '0001536989',  # STAG Industrial
+            'NNN': '0001065517',   # National Retail Properties
+            'DOC': '0001675149',   # Physicians Realty Trust
+
+            # Additional Utilities
+            'ETR': '0000065984',   # Entergy
+            'ES': '0000072741',    # Eversource Energy
+            'FE': '0001031296',    # FirstEnergy
+            'PPL': '0000922224',   # PPL Corporation
+            'WEC': '0001078727',   # WEC Energy Group
+
+            # Consumer Staples
+            'CHD': '0000313927',   # Church & Dwight
+            'CLX': '0000021076',   # Clorox
+            'CPB': '0000016732',   # Campbell Soup
+            'HRL': '0000048465',   # Hormel Foods
+            'MKC': '0000063754',   # McCormick & Company
+            'SJM': '0001001657',   # J.M. Smucker
+            'TSN': '0000100493',   # Tyson Foods
+
+            # Additional Financials
+            'AFL': '0000004977',   # Aflac
+            'ALL': '0001398344',   # Allstate
+            'AMP': '0001258433',   # Ameriprise Financial
+            'AON': '0000315293',   # Aon
+            'AIG': '0000005272',   # American International Group
+            'BRO': '0000109843',   # Brown & Brown
+            'CB': '0000896159',    # Chubb
+            'CME': '0001156375',   # CME Group
+            'COF': '0000927628',   # Capital One
+            'DFS': '0001393612',   # Discover Financial
+            'ICE': '0001174746',   # Intercontinental Exchange
+            'MET': '0001099219',   # MetLife
+            'MMC': '0000062709',   # Marsh & McLennan
+            'PRU': '0000079879',   # Prudential Financial
+            'PGR': '0000080661',   # Progressive
+            'SCHW': '0000316709',  # Charles Schwab
+
+            # Additional Industrials
+            'ETN': '0001551182',   # Eaton
+            'FDX': '0001048911',   # FedEx
+            'NSC': '0000702165',   # Norfolk Southern
+            'PH': '0000076334',    # Parker-Hannifin
+            'ROK': '0001024478',   # Rockwell Automation
+            'RSG': '0001060391',   # Republic Services
+            'WM': '0000823768',    # Waste Management
+
+            # Technology Dividend Payers
+            'HPQ': '0000047217',   # HP Inc
+            'PAYX': '0000723531',  # Paychex
+            'SWKS': '0000004127',  # Skyworks Solutions
+
+            # Energy/MLPs
+            'EPD': '0001061219',   # Enterprise Products Partners
+            'MMP': '0001554976',   # Magellan Midstream Partners
+            'OKE': '0001039684',   # ONEOK
+            'TRP': '0001070423',   # TC Energy
         }
     
         if ticker in known_ciks:

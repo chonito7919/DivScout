@@ -72,11 +72,54 @@ def process_company(ticker, client, parser):
     print(f"  ✓ Found: {company_name}")
     print(f"  ✓ CIK: {cik}")
 
+    # Fetch company submissions to get sector/industry info
+    print(f"  Fetching sector/industry info...")
+    submissions = client.get_company_submissions(cik)
+
+    sector = None
+    industry = None
+
+    if submissions:
+        # Use SIC description as industry
+        industry = submissions.get('sicDescription')
+
+        # Map SIC code to sector (simplified mapping)
+        sic = submissions.get('sic')
+        if sic:
+            sic_str = str(sic)
+            # Basic sector mapping based on SIC division
+            if sic_str.startswith(('01', '02', '07', '08', '09')):
+                sector = 'Agriculture, Forestry & Fishing'
+            elif sic_str.startswith(('10', '11', '12', '13', '14')):
+                sector = 'Mining'
+            elif sic_str.startswith(('15', '16', '17')):
+                sector = 'Construction'
+            elif sic_str.startswith(('20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39')):
+                sector = 'Manufacturing'
+            elif sic_str.startswith(('40', '41', '42', '43', '44', '45', '46', '47', '48', '49')):
+                sector = 'Transportation & Public Utilities'
+            elif sic_str.startswith(('50', '51')):
+                sector = 'Wholesale Trade'
+            elif sic_str.startswith(('52', '53', '54', '55', '56', '57', '58', '59')):
+                sector = 'Retail Trade'
+            elif sic_str.startswith(('60', '61', '62', '63', '64', '65', '66', '67')):
+                sector = 'Finance, Insurance & Real Estate'
+            elif sic_str.startswith(('70', '72', '73', '75', '76', '78', '79', '80', '81', '82', '83', '84', '86', '87', '88', '89')):
+                sector = 'Services'
+            elif sic_str.startswith('99'):
+                sector = 'Public Administration'
+
+            if sector and industry:
+                print(f"  ✓ Sector: {sector}")
+                print(f"  ✓ Industry: {industry}")
+
     # Get or create company in database
     company_id = db.get_or_create_company(
         ticker=ticker,
         company_name=company_name,
-        cik=cik
+        cik=cik,
+        sector=sector,
+        industry=industry
     )
     print(f"  ✓ Company ID: {company_id}")
 

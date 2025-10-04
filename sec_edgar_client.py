@@ -114,21 +114,141 @@ class SECAPIClient:
         """
         ticker = ticker.upper()
     
-        # Common CIKs for testing (can expand this)
+        # Known CIKs for dividend-paying stocks
+        # Organized by sector for easier maintenance
         known_ciks = {
-            'AAPL': '0000320193',
-            'MSFT': '0000789019',
-            'GOOGL': '0001652044',
-            'AMZN': '0001018724',
-            'META': '0001326801',
-            'TSLA': '0001318605',
-            'NVDA': '0001045810',
-            'JPM': '0000019617',
-            'V': '0001403161',
-            'JNJ': '0000200406',
-            'KO': '0000021344',
-            'PG': '0000080424',
-            'O': '0000726728',  # Realty Income
+            # Technology
+            'AAPL': '0000320193',  # Apple Inc.
+            'MSFT': '0000789019',  # Microsoft Corporation
+            'GOOGL': '0001652044', # Alphabet Inc.
+            'GOOG': '0001652044',  # Alphabet Inc. (Class C)
+            'META': '0001326801',  # Meta Platforms
+            'NVDA': '0001045810',  # NVIDIA Corporation
+            'AVGO': '0001730168',  # Broadcom Inc.
+            'CSCO': '0000858877',  # Cisco Systems
+            'ORCL': '0001341439',  # Oracle Corporation
+            'IBM': '0000051143',   # IBM
+            'INTC': '0000050863',  # Intel Corporation
+            'TXN': '0000097476',   # Texas Instruments
+            'QCOM': '0000804328',  # Qualcomm
+            'ADI': '0000006281',   # Analog Devices
+
+            # Healthcare
+            'JNJ': '0000200406',   # Johnson & Johnson
+            'UNH': '0000731766',   # UnitedHealth Group
+            'LLY': '0000059478',   # Eli Lilly
+            'ABBV': '0001551152',  # AbbVie
+            'MRK': '0000310158',   # Merck & Co
+            'TMO': '0000097745',   # Thermo Fisher Scientific
+            'ABT': '0000001800',   # Abbott Laboratories
+            'PFE': '0000078003',   # Pfizer
+            'AMGN': '0000318154',  # Amgen
+            'CVS': '0000064803',   # CVS Health
+
+            # Financials
+            'JPM': '0000019617',   # JPMorgan Chase
+            'BAC': '0000070858',   # Bank of America
+            'WFC': '0000072971',   # Wells Fargo
+            'MS': '0000895421',    # Morgan Stanley
+            'GS': '0000886982',    # Goldman Sachs
+            'BLK': '0001364742',   # BlackRock
+            'C': '0000831001',     # Citigroup
+            'USB': '0000036104',   # U.S. Bancorp
+            'PNC': '0000713676',   # PNC Financial
+            'TFC': '0000092230',   # Truist Financial
+            'BK': '0001390777',    # Bank of New York Mellon
+            'AXP': '0000004962',   # American Express
+            'V': '0001403161',     # Visa
+            'MA': '0001141391',    # Mastercard
+            'SPGI': '0000064040',  # S&P Global
+
+            # Consumer Staples
+            'KO': '0000021344',    # Coca-Cola
+            'PEP': '0000077476',   # PepsiCo
+            'PG': '0000080424',    # Procter & Gamble
+            'WMT': '0000104169',   # Walmart
+            'COST': '0000909832',  # Costco
+            'PM': '0001413329',    # Philip Morris
+            'MO': '0000764180',    # Altria Group
+            'CL': '0000021665',    # Colgate-Palmolive
+            'KMB': '0000055785',   # Kimberly-Clark
+            'GIS': '0000040704',   # General Mills
+            'K': '0000055067',     # Kellogg
+            'HSY': '0000047111',   # Hershey
+            'MDLZ': '0001103982',  # Mondelez
+            'KHC': '0001637459',   # Kraft Heinz
+
+            # Consumer Discretionary
+            'AMZN': '0001018724',  # Amazon
+            'TSLA': '0001318605',  # Tesla
+            'HD': '0000354950',    # Home Depot
+            'MCD': '0000063908',   # McDonald's
+            'NKE': '0000320187',   # Nike
+            'SBUX': '0000829224',  # Starbucks
+            'TGT': '0000027419',   # Target
+            'LOW': '0000060667',   # Lowe's
+            'F': '0000037996',     # Ford
+            'GM': '0001467858',    # General Motors
+
+            # Energy
+            'XOM': '0000034088',   # Exxon Mobil
+            'CVX': '0000093410',   # Chevron
+            'COP': '0001163165',   # ConocoPhillips
+            'SLB': '0000087347',   # Schlumberger
+            'EOG': '0001101215',   # EOG Resources
+            'PSX': '0001534701',   # Phillips 66
+            'VLO': '0001035002',   # Valero Energy
+            'OXY': '0000797468',   # Occidental Petroleum
+            'KMI': '0001506307',   # Kinder Morgan
+            'WMB': '0000107263',   # Williams Companies
+
+            # Industrials
+            'BA': '0000012927',    # Boeing
+            'CAT': '0000018230',   # Caterpillar
+            'GE': '0000040545',    # General Electric
+            'LMT': '0000936468',   # Lockheed Martin
+            'RTX': '0000101829',   # Raytheon Technologies
+            'UNP': '0000100885',   # Union Pacific
+            'HON': '0000773840',   # Honeywell
+            'UPS': '0001090727',   # United Parcel Service
+            'DE': '0000315189',    # Deere & Company
+            'MMM': '0000066740',   # 3M Company
+
+            # Utilities
+            'NEE': '0000753308',   # NextEra Energy
+            'DUK': '0001326160',   # Duke Energy
+            'SO': '0000092122',    # Southern Company
+            'D': '0000715957',     # Dominion Energy
+            'AEP': '0000004904',   # American Electric Power
+            'EXC': '0001109357',   # Exelon
+            'SRE': '0000086521',   # Sempra Energy
+            'XEL': '0000072903',   # Xcel Energy
+            'PCG': '0001004980',   # PG&E Corporation
+
+            # Real Estate / REITs
+            'O': '0000726728',     # Realty Income
+            'AMT': '0001053507',   # American Tower
+            'PLD': '0001045609',   # Prologis
+            'CCI': '0001051470',   # Crown Castle
+            'EQIX': '0001101239',  # Equinix
+            'PSA': '0001393311',   # Public Storage
+            'WELL': '0000957494',  # Welltower
+            'DLR': '0001297996',   # Digital Realty
+            'SPG': '0001063761',   # Simon Property Group
+            'AVB': '0000915912',   # AvalonBay Communities
+
+            # Materials
+            'LIN': '0001707925',   # Linde
+            'APD': '0000002969',   # Air Products & Chemicals
+            'SHW': '0000089800',   # Sherwin-Williams
+            'FCX': '0000831259',   # Freeport-McMoRan
+            'NEM': '0001164727',   # Newmont Corporation
+            'ECL': '0000031462',   # Ecolab
+
+            # Telecommunications
+            'T': '0000732717',     # AT&T
+            'VZ': '0000732712',    # Verizon
+            'TMUS': '0001283699',  # T-Mobile
         }
     
         if ticker in known_ciks:

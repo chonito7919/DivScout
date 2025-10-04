@@ -210,6 +210,8 @@ class XBRLDividendParser:
                 'period_days': period_days,
                 'start_date': start_date,
                 'end_date': end_date,
+                # XBRL CompanyFacts API does not provide these dates
+                # They would need to be extracted from 8-K filings separately
                 'declaration_date': None,
                 'record_date': None,
                 'payment_date': None,

@@ -62,9 +62,10 @@ class DatabaseConnection:
             print(f"✗ Database connection failed: {e}")
             return False
     
-    def get_or_create_company(self, ticker, company_name=None, cik=None):
+    def get_or_create_company(self, ticker, company_name=None, cik=None, sector=None, industry=None):
         """
         Get company_id for a ticker, or create new company entry
+        Updates sector/industry if provided and company exists
         Returns: company_id
         """
         with self.get_connection() as conn:
@@ -75,18 +76,30 @@ class DatabaseConnection:
                     (ticker,)
                 )
                 result = cur.fetchone()
-                
+
                 if result:
-                    return result[0]
-                
+                    company_id = result[0]
+                    # Update sector/industry if provided and currently NULL
+                    if sector or industry:
+                        cur.execute(
+                            """
+                            UPDATE companies
+                            SET sector = COALESCE(sector, %s),
+                                industry = COALESCE(industry, %s)
+                            WHERE company_id = %s
+                            """,
+                            (sector, industry, company_id)
+                        )
+                    return company_id
+
                 # Create new company
                 cur.execute(
                     """
-                    INSERT INTO companies (ticker, company_name, cik, is_active)
-                    VALUES (%s, %s, %s, true)
+                    INSERT INTO companies (ticker, company_name, cik, sector, industry, is_active)
+                    VALUES (%s, %s, %s, %s, %s, true)
                     RETURNING company_id
                     """,
-                    (ticker, company_name, cik)
+                    (ticker, company_name, cik, sector, industry)
                 )
                 company_id = cur.fetchone()[0]
                 print(f"  Created new company: {ticker} (ID: {company_id})")

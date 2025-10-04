@@ -46,11 +46,10 @@ Before contributing, please understand:
 - **Error handling** - better error messages and recovery
 - **Logging improvements** - more detailed audit trails
 - **Admin tools** - better data review and cleanup utilities
-- **Database schema** - SQL schema file for easier setup
 
 ### Low Priority / May Be Rejected
 
-- **UI/Web interface** - project focuses on data extraction, not presentation
+- **UI/Web interface** - project focuses on data extraction, not presentation (consider contributing to [divscout-web](https://github.com/chonito7919/divscout-web) instead)
 - **Real-time features** - not aligned with XBRL data source capabilities
 - **Prediction/ML features** - outside project scope, implies financial advice
 - **Alternative data sources** - must use official SEC APIs only
@@ -280,13 +279,18 @@ See: https://www.sec.gov/os/accessing-edgar-data
 
 ## Database Schema
 
-Expected database tables (see `db_connection.py` for details):
+Expected database tables (see `schema.sql` for full schema):
 
 - `companies` - Company master data
 - `dividend_events` - Dividend records with confidence scoring
 - `data_collection_log` - Audit trail of scraping runs
 - `data_sources` - Source tracking for data provenance
 - `dividend_review_log` - Manual review audit trail
+
+Set up the database with:
+```bash
+psql -U your_user -d your_database -f schema.sql
+```
 
 ## Questions?
 

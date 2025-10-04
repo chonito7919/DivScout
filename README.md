@@ -16,6 +16,23 @@ This tool extracts publicly available data from SEC filings. It is **NOT** finan
 
 The authors and contributors of this software accept **NO LIABILITY** for any financial losses, damages, or other consequences resulting from the use of this software or its output.
 
+## Live Demo
+
+**Visit [divscout.app](https://divscout.app)** to see DivScout in action!
+
+The web interface provides:
+- 📊 **Dashboard** with dividend statistics overview
+- 🏢 **Company browser** with sector and industry filtering
+- 📅 **Payment calendar** showing upcoming dividends
+- 📈 **Dividend histories** with confidence scores
+- 🔍 **High-confidence data** (≥0.8 confidence threshold)
+
+**Current dataset**: 146+ verified dividend records for AAPL, JNJ, and TGT with ~85-90% accuracy.
+
+**Tech stack**: Flask API + Vanilla JavaScript frontend hosted on Namecheap Stellar with PostgreSQL on DigitalOcean.
+
+**Repository**: [github.com/chonito7919/divscout-web](https://github.com/chonito7919/divscout-web)
+
 ## What It Does
 
 DivScout automatically:
@@ -106,6 +123,16 @@ The tool has been tested against real SEC XBRL data with the following results:
 - **Coefficient of variation**: 0.0 (perfectly stable)
 
 #### Test Coverage Summary
+
+Available test files:
+- ✅ **`tests/test_apple_dividends.py`**: Apple Inc. (AAPL) - stable quarterly dividend payer
+- ✅ **`tests/test_us_market_diverse.py`**: Diverse set of US companies with varying dividend patterns
+- ✅ **`tests/test_edge_cases.py`**: Special cases, suspensions, and irregular patterns
+- ✅ **`tests/test_multiple_companies.py`**: Batch processing of multiple tickers
+- ✅ **`tests/test_load_with_confidence.py`**: Confidence scoring and quality metrics
+- ✅ **`tests/test_one.py`**: Single company quick test
+
+Feature coverage:
 - ✅ **Quarterly dividend extraction**: Working correctly
 - ✅ **Annual total filtering**: Successfully removes cumulative amounts
 - ✅ **Confidence scoring**: Assigns appropriate scores based on data quality
@@ -123,6 +150,20 @@ The tool has been tested against real SEC XBRL data with the following results:
 
 **Note**: Test results demonstrate the tool works for its intended use case but do not guarantee accuracy for all companies or time periods. Always verify extracted data against official sources before use.
 
+### Running Tests
+
+```bash
+# Run all tests
+python tests/test_apple_dividends.py
+python tests/test_us_market_diverse.py
+python tests/test_edge_cases.py
+python tests/test_multiple_companies.py
+python tests/test_load_with_confidence.py
+
+# Quick single company test
+python tests/test_one.py
+```
+
 ## Requirements
 
 - Python 3.8+
@@ -135,6 +176,26 @@ The tool has been tested against real SEC XBRL data with the following results:
 requests>=2.31.0
 psycopg2-binary>=2.9.9
 python-dotenv>=1.0.0
+```
+
+## Quick Start
+
+Want to see it in action quickly? Try this:
+
+```bash
+# After installation (see below)
+python main.py AAPL
+
+# Expected output:
+# ✔ Database connected successfully
+# Processing AAPL (Apple Inc. - CIK: 0000320193)
+# ✔ Found 46 dividends from XBRL data
+# ✔ Inserted 46 new dividends (0 duplicates skipped)
+#
+# Confidence Summary:
+#   Average: 1.00 (100%)
+#   Range: $0.1925 - $2.6500
+#   0 dividends flagged for review
 ```
 
 ## Installation
@@ -150,7 +211,10 @@ cd DivScout
 pip install -r requirements.txt
 ```
 
-3. Set up PostgreSQL database and create required tables (schema not included - see `db_connection.py` for expected structure)
+3. Set up PostgreSQL database and create required tables:
+```bash
+psql -U your_user -d your_database -f schema.sql
+```
 
 4. Create a `.env` file with required configuration:
 ```env
@@ -245,6 +309,67 @@ This tool does **NOT**:
 - Scrape HTML pages
 - Use unofficial APIs or data sources
 - Cache or redistribute SEC data
+
+## Troubleshooting
+
+### Common Issues
+
+**"SEC API returned 403 Forbidden"**
+- Make sure `SEC_USER_AGENT` is set in your `.env` file
+- Format must be: `YourName your.email@domain.com`
+- The SEC blocks requests without proper identification
+
+**"Ticker not found" or "Unknown ticker"**
+- Only a limited set of tickers are hardcoded in `sec_edgar_client.py`
+- Find the company's CIK manually at https://www.sec.gov/edgar/searchedgar/companysearch
+- Modify the `lookup_ticker_to_cik()` function to add your ticker
+
+**"Database connection failed"**
+- Verify PostgreSQL is running: `systemctl status postgresql` or `brew services list`
+- Check `.env` file has correct DB credentials
+- Test connection: `psql -U your_user -d your_database`
+- For SSL errors, try `DB_SSLMODE=disable` (not recommended for production)
+
+**"Rate limit exceeded"**
+- SEC enforces 10 requests/second
+- The client handles this automatically with rate limiting
+- If you see this error, wait 60 seconds and try again
+- Don't make direct `requests.get()` calls - always use `SECAPIClient`
+
+**"No dividends found for [ticker]"**
+- Not all companies report dividends in XBRL format
+- Some companies don't pay dividends
+- Try a known dividend payer first (AAPL, JNJ, KO) to verify setup
+- Check if the company actually pays dividends on their investor relations page
+
+**"Too many annual totals detected"**
+- Some companies report cumulative amounts in their filings
+- The parser attempts to filter these automatically
+- Review flagged entries: `python admin/admin_stats.py --company TICKER`
+- Manual review: use `db.get_dividends_for_review()`
+
+**"Low confidence scores on valid dividends"**
+- Confidence scoring is heuristic-based, not perfect
+- Review flagged entries and approve if valid
+- Adjust thresholds in `parsers/xbrl_dividend_parser.py` if needed
+- Some edge cases (special dividends, stock dividends) may score low
+
+**"Tests failing"**
+- Ensure database is set up: `psql -U your_user -d your_database -f schema.sql`
+- Check `.env` file exists and has all required variables
+- Verify internet connection (tests fetch live SEC data)
+- Some tests may fail if SEC API is temporarily unavailable
+
+### Getting Help
+
+If you encounter issues not covered here:
+1. Check existing [GitHub Issues](https://github.com/chonito7919/DivScout/issues)
+2. Review CLAUDE.md for detailed implementation notes
+3. Run component tests to isolate the problem:
+   - `python sec_edgar_client.py` - Test API client
+   - `python parsers/xbrl_dividend_parser.py` - Test parser
+   - `python db_connection.py` - Test database
+4. Open a new issue with error messages and steps to reproduce
 
 ## Contributing
 

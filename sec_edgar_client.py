@@ -329,6 +329,77 @@ class SECAPIClient:
             'MMP': '0001554976',   # Magellan Midstream Partners
             'OKE': '0001039684',   # ONEOK
             'TRP': '0001070423',   # TC Energy
+
+            # Dividend Aristocrats (Additional)
+            'FDS': '000128134',    # FactSet Research Systems
+            'ERIE': '0000922621',  # Erie Indemnity
+            'LEG': '0000058492',   # Leggett & Platt
+            'CHRW': '0001043277',  # C.H. Robinson Worldwide
+            'CAH': '0000721371',   # Cardinal Health
+            'EXPD': '0000746515',  # Expeditors International
+            'ALB': '0000915913',   # Albemarle
+            'NDSN': '0000072331',  # Nordson
+            'ROP': '0000882835',   # Roper Technologies
+            'WST': '0001591272',   # West Pharmaceutical Services
+
+            # Monthly Dividend REITs
+            'ADC': '0000007754',   # Agree Realty
+            'EPR': '0001045105',   # EPR Properties
+            'GOOD': '0001085391',  # Gladstone Commercial
+            'APLE': '0001517175',  # Apple Hospitality REIT
+            'LAND': '0001437071',  # Gladstone Land
+            'SLG': '0001040971',   # SL Green Realty
+            'LTC': '0000910108',   # LTC Properties
+            'MAIN': '0001520506',  # Main Street Capital
+            'SBRA': '0001610524',  # Sabra Health Care REIT
+            'UHT': '0000074208',   # Universal Health Realty Income
+
+            # High-Yield Blue Chips
+            'BTI': '0000898960',   # British American Tobacco
+            'ENB': '0001289490',   # Enbridge
+            'BMY': '0000014272',   # Bristol-Myers Squibb
+
+            # Materials & Chemicals
+            'ADM': '0000007084',   # Archer-Daniels-Midland
+            'BG': '0001067983',    # Bunge Limited
+            'MOS': '0001285785',   # The Mosaic Company
+            'CF': '0001324404',    # CF Industries
+            'PKG': '0001065638',   # Packaging Corp of America
+            'IP': '0000051434',    # International Paper
+            'AVY': '0000008818',   # Avery Dennison
+
+            # Utilities (Additional)
+            'ATO': '0000731802',   # Atmos Energy
+            'CNP': '0001130310',   # CenterPoint Energy
+            'NI': '0000079732',    # NiSource
+            'OGE': '0001021635',   # OGE Energy
+
+            # Telecom & Media
+            'OMC': '0000029989',   # Omnicom Group
+            'IPG': '0000051644',   # Interpublic Group
+
+            # Consumer & Retail
+            'KR': '0000056873',    # Kroger
+            'DG': '0000029534',    # Dollar General
+            'ROST': '0000745732',  # Ross Stores
+            'TJX': '0000109198',   # TJX Companies
+
+            # Financial Services (Additional)
+            'NTRS': '0000073124',  # Northern Trust
+            'HBAN': '0000049196',  # Huntington Bancshares
+            'KEY': '0000091576',   # KeyCorp
+            'RF': '0001281761',    # Regions Financial
+            'CFG': '0000759944',   # Citizens Financial Group
+            'FITB': '0000035527',  # Fifth Third Bancorp
+            'MTB': '0000036270',   # M&T Bank
+            'STT': '0000093751',   # State Street Corporation
+            'ZION': '0000109380',  # Zions Bancorporation
+
+            # Industrial & Manufacturing (Additional)
+            'DOV': '0000029905',   # Dover Corporation
+            'IEX': '0001096752',   # IDEX Corporation
+            'J': '0000790816',     # Jacobs Solutions
+            'PWR': '0001050915',   # Quanta Services
         }
     
         if ticker in known_ciks:

@@ -39,43 +39,52 @@ ALL_TICKERS = [
 
     # Healthcare
     'JNJ', 'UNH', 'LLY', 'ABBV', 'MRK', 'TMO', 'ABT', 'PFE', 'AMGN', 'CVS',
-    'BDX', 'MDT',
+    'BDX', 'MDT', 'BMY',
 
     # Financials
     'JPM', 'BAC', 'WFC', 'MS', 'GS', 'BLK', 'C', 'USB', 'PNC', 'TFC', 'BK',
     'AXP', 'V', 'MA', 'SPGI', 'AFL', 'ALL', 'AMP', 'AON', 'AIG', 'BRO', 'CB',
     'CME', 'COF', 'DFS', 'ICE', 'MET', 'MMC', 'PRU', 'PGR', 'SCHW', 'TRV',
-    'BEN', 'CINF', 'TROW',
+    'BEN', 'CINF', 'TROW', 'NTRS', 'HBAN', 'KEY', 'RF', 'CFG', 'FITB', 'MTB',
+    'STT', 'ZION',
 
     # Consumer Staples
     'KO', 'PEP', 'PG', 'WMT', 'COST', 'PM', 'MO', 'CL', 'KMB', 'GIS', 'K',
     'HSY', 'MDLZ', 'KHC', 'CHD', 'CLX', 'CPB', 'HRL', 'MKC', 'SJM', 'TSN', 'WBA',
+    'KR', 'DG',
 
     # Consumer Discretionary
     'AMZN', 'TSLA', 'HD', 'MCD', 'NKE', 'SBUX', 'TGT', 'LOW', 'F', 'GM',
+    'ROST', 'TJX',
 
     # Energy
     'XOM', 'CVX', 'COP', 'SLB', 'EOG', 'PSX', 'VLO', 'OXY', 'KMI', 'WMB',
-    'EPD', 'MMP', 'OKE', 'TRP',
+    'EPD', 'MMP', 'OKE', 'TRP', 'ENB',
 
     # Industrials
     'BA', 'CAT', 'GE', 'LMT', 'RTX', 'UNP', 'HON', 'UPS', 'DE', 'MMM',
     'EMR', 'ETN', 'FDX', 'GD', 'GWW', 'ITW', 'NSC', 'PH', 'ROK', 'RSG',
-    'SWK', 'SYY', 'WM', 'CTAS',
+    'SWK', 'SYY', 'WM', 'CTAS', 'DOV', 'IEX', 'J', 'PWR', 'LEG', 'CHRW',
+    'CAH', 'EXPD',
 
     # Utilities
     'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE', 'XEL', 'PCG', 'ED', 'ETR',
-    'ES', 'FE', 'PPL', 'WEC',
+    'ES', 'FE', 'PPL', 'WEC', 'ATO', 'CNP', 'NI', 'OGE',
 
     # Real Estate / REITs
     'O', 'AMT', 'PLD', 'CCI', 'EQIX', 'PSA', 'WELL', 'DLR', 'SPG', 'AVB',
-    'VNO', 'MPW', 'STAG', 'NNN', 'DOC', 'ESS', 'FRT',
+    'VNO', 'MPW', 'STAG', 'NNN', 'DOC', 'ESS', 'FRT', 'ADC', 'EPR', 'GOOD',
+    'APLE', 'LAND', 'SLG', 'LTC', 'MAIN', 'SBRA', 'UHT',
 
     # Materials
-    'LIN', 'APD', 'SHW', 'FCX', 'NEM', 'ECL',
+    'LIN', 'APD', 'SHW', 'FCX', 'NEM', 'ECL', 'ADM', 'BG', 'MOS', 'CF',
+    'PKG', 'IP', 'AVY', 'ALB', 'NDSN', 'ROP', 'WST',
 
-    # Telecommunications
-    'T', 'VZ', 'TMUS',
+    # Telecommunications & Media
+    'T', 'VZ', 'TMUS', 'OMC', 'IPG',
+
+    # Dividend Aristocrats & Special Additions
+    'FDS', 'ERIE', 'BTI',
 ]
 
 

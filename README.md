@@ -27,7 +27,7 @@ The web interface provides:
 - 📈 **Dividend histories** with confidence scores
 - 🔍 **High-confidence data** (≥0.8 confidence threshold)
 
-**Current dataset**: 4,643 verified dividend records across 109 companies with 100% confidence scoring (all low-confidence entries removed).
+**Current dataset**: 8,183 verified dividend records across 195 companies with 95.7% data quality (95.7% high-confidence, 4.3% flagged for review).
 
 **Tech stack**: Flask API + Vanilla JavaScript frontend hosted on Namecheap Stellar with PostgreSQL on DigitalOcean.
 
@@ -61,18 +61,19 @@ DivScout automatically:
 ## Known Limitations
 
 ### Ticker Coverage
-- **111+ tickers** are hardcoded in the CIK lookup function across all major sectors:
-  - Technology (14 companies): AAPL, MSFT, NVDA, CSCO, ORCL, IBM, INTC, TXN, QCOM, ADI, etc.
-  - Healthcare (10 companies): JNJ, UNH, LLY, ABBV, MRK, TMO, ABT, PFE, AMGN, CVS
-  - Financials (15 companies): JPM, BAC, WFC, MS, GS, BLK, C, USB, PNC, V, MA, etc.
-  - Consumer Staples (14 companies): KO, PEP, PG, WMT, COST, PM, MO, CL, KMB, GIS, etc.
-  - Consumer Discretionary (10 companies): HD, MCD, NKE, SBUX, TGT, LOW, F, GM, etc.
-  - Energy (10 companies): XOM, CVX, COP, SLB, EOG, PSX, VLO, OXY, KMI, WMB
-  - Industrials (10 companies): BA, CAT, GE, LMT, RTX, UNP, HON, UPS, DE, MMM
-  - Utilities (9 companies): NEE, DUK, SO, D, AEP, EXC, SRE, XEL, PCG
-  - REITs (10 companies): O, AMT, PLD, CCI, EQIX, PSA, WELL, DLR, SPG, AVB
-  - Materials (6 companies): LIN, APD, SHW, FCX, NEM, ECL
-  - Telecom (3 companies): T, VZ, TMUS
+- **228 tickers** are hardcoded in the CIK lookup function across all major sectors:
+  - Technology (17 companies): AAPL, MSFT, NVDA, CSCO, ORCL, IBM, INTC, TXN, QCOM, ADI, HPQ, PAYX, SWKS, etc.
+  - Healthcare (13 companies): JNJ, UNH, LLY, ABBV, MRK, TMO, ABT, PFE, AMGN, CVS, BDX, MDT, BMY
+  - Financials (46 companies): JPM, BAC, WFC, MS, GS, BLK, C, USB, PNC, TFC, V, MA, SPGI, AFL, AON, AIG, CB, CME, COF, DFS, ICE, MET, MMC, PRU, PGR, SCHW, TRV, BEN, CINF, TROW, NTRS, HBAN, KEY, RF, CFG, FITB, MTB, STT, ZION, etc.
+  - Consumer Staples (24 companies): KO, PEP, PG, WMT, COST, PM, MO, CL, KMB, GIS, K, HSY, MDLZ, KHC, CHD, CLX, CPB, HRL, MKC, SJM, TSN, WBA, KR, DG
+  - Consumer Discretionary (12 companies): HD, MCD, NKE, SBUX, TGT, LOW, F, GM, ROST, TJX, etc.
+  - Energy (15 companies): XOM, CVX, COP, SLB, EOG, PSX, VLO, OXY, KMI, WMB, EPD, MMP, OKE, TRP, ENB
+  - Industrials (32 companies): BA, CAT, GE, LMT, RTX, UNP, HON, UPS, DE, MMM, EMR, ETN, FDX, NSC, PH, ROK, RSG, WM, CTAS, DOV, IEX, J, PWR, LEG, CHRW, CAH, EXPD, etc.
+  - Utilities (19 companies): NEE, DUK, SO, D, AEP, EXC, SRE, XEL, PCG, ED, ETR, ES, FE, PPL, WEC, ATO, CNP, NI, OGE
+  - REITs (27 companies): O, AMT, PLD, CCI, EQIX, PSA, WELL, DLR, SPG, AVB, VNO, MPW, STAG, NNN, DOC, ESS, FRT, ADC, EPR, GOOD, APLE, LAND, SLG, LTC, MAIN, SBRA, UHT
+  - Materials (17 companies): LIN, APD, SHW, FCX, NEM, ECL, ADM, BG, MOS, CF, PKG, IP, AVY, ALB, NDSN, ROP, WST
+  - Telecom & Media (5 companies): T, VZ, TMUS, OMC, IPG
+  - Dividend Aristocrats (3 companies): FDS, ERIE, BTI
 - For other companies, you must manually find the CIK and add to `sec_edgar_client.py`
 - The SEC's `company_tickers.json` endpoint is sometimes unavailable
 

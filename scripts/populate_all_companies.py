@@ -85,6 +85,33 @@ ALL_TICKERS = [
 
     # Dividend Aristocrats & Special Additions
     'FDS', 'ERIE', 'BTI',
+
+    # Dow 30 Additions
+    'CRM', 'DIS', 'DOW',
+
+    # Consumer & Retail (Additional)
+    'MNST', 'STZ', 'TAP', 'CAG', 'GPC',
+
+    # BDCs (Business Development Companies)
+    'ARCC', 'HTGC', 'PSEC',
+
+    # Additional REITs
+    'VTR', 'VICI', 'WPC', 'BXP', 'KIM', 'REG',
+
+    # Healthcare & Pharma (Additional)
+    'GILD', 'VRTX', 'BIIB',
+
+    # Energy (Additional)
+    'HAL', 'MPC', 'DVN',
+
+    # Insurance
+    'UNM', 'LNC', 'PFG', 'GL',
+
+    # Technology (Additional)
+    'AMAT', 'LRCX', 'KLAC', 'MCHP',
+
+    # Aerospace & Defense
+    'LHX', 'NOC', 'TXT',
 ]
 
 

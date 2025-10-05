@@ -400,6 +400,72 @@ class SECAPIClient:
             'IEX': '0001096752',   # IDEX Corporation
             'J': '0000790816',     # Jacobs Solutions
             'PWR': '0001050915',   # Quanta Services
+
+            # Dow 30 (Missing)
+            'CRM': '0001108524',   # Salesforce
+            'DIS': '0001744489',   # Walt Disney Company
+            'DOW': '0001751788',   # Dow Inc.
+
+            # Additional Dividend Aristocrats & Kings
+            'ATVI': '0000718877',  # Activision Blizzard (before MSFT acquisition)
+            'BF.B': '0000014693',  # Brown-Forman
+            'CWT': '0001060955',   # California Water Service
+            'CINF': '0000020286',  # Cincinnati Financial (duplicate check)
+            'GWW': '0000277135',   # W.W. Grainger
+            'ITW': '0000049826',   # Illinois Tool Works
+            'LOW': '0000060667',   # Lowe's Companies
+            'SWK': '0000093556',   # Stanley Black & Decker
+            'SYY': '0000096021',   # Sysco
+            'TGT': '0000027419',   # Target
+
+            # High Quality Consumer
+            'MNST': '0000865752',  # Monster Beverage
+            'STZ': '0000016918',   # Constellation Brands
+            'TAP': '0000024545',   # Molson Coors
+            'CAG': '0001047862',   # Conagra Brands
+            'GPC': '0000040987',   # Genuine Parts
+
+            # BDCs & High Yield
+            'ARCC': '0001121901',  # Ares Capital
+            'HTGC': '0001380388',  # Hercules Capital
+            'PSEC': '0001093782',  # Prospect Capital
+
+            # Additional REITs
+            'VTR': '0000740260',   # Ventas
+            'VICI': '0001721408',  # VICI Properties
+            'WPC': '0000026827',   # W. P. Carey
+            'BXP': '0001043121',   # Boston Properties
+            'KIM': '0000879101',   # Kimco Realty
+            'REG': '0000720955',   # Regency Centers
+            'FRT': '0000034903',   # Federal Realty (duplicate check)
+
+            # Pharma & Healthcare (Additional)
+            'GILD': '0000882095',  # Gilead Sciences
+            'VRTX': '0000875320',  # Vertex Pharmaceuticals
+            'BIIB': '0000875045',  # Biogen
+
+            # Energy (Additional)
+            'HAL': '0000045012',   # Halliburton
+            'MPC': '0001510295',   # Marathon Petroleum
+            'DVN': '0001090012',   # Devon Energy
+
+            # Insurance
+            'UNM': '0000005513',   # Unum Group
+            'LNC': '0000059558',   # Lincoln National
+            'PFG': '0001126328',   # Principal Financial
+            'GL': '0001137774',    # Globe Life
+
+            # Tech Dividend Payers (Additional)
+            'AMAT': '0000006951',  # Applied Materials
+            'LRCX': '0000707549',  # Lam Research
+            'KLAC': '0000319201',  # KLA Corporation
+            'MCHP': '0000827054',  # Microchip Technology
+
+            # Industrials & Aerospace
+            'GD': '0000040533',    # General Dynamics
+            'LHX': '0001757898',   # L3Harris Technologies
+            'NOC': '0001133421',   # Northrop Grumman
+            'TXT': '0000217346',   # Textron
         }
     
         if ticker in known_ciks:

@@ -112,6 +112,18 @@ ALL_TICKERS = [
 
     # Aerospace & Defense
     'LHX', 'NOC', 'TXT',
+
+    # Industrials (Additional)
+    'CARR', 'OTIS', 'PCAR', 'CMI', 'CSX',
+
+    # Dividend Kings (50+ years)
+    'UVV', 'UBSI', 'AWR', 'MGEE', 'RLI', 'NFG', 'BKH',
+
+    # Mortgage REITs
+    'ARR', 'ORC', 'EFC', 'TWO', 'CHCT',
+
+    # Retail & Healthcare
+    'APA', 'HUM', 'ORLY', 'AZO',
 ]
 
 

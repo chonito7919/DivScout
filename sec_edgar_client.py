@@ -466,6 +466,33 @@ class SECAPIClient:
             'LHX': '0001757898',   # L3Harris Technologies
             'NOC': '0001133421',   # Northrop Grumman
             'TXT': '0000217346',   # Textron
+            'CARR': '0001783180',  # Carrier Global
+            'OTIS': '0001781335',  # Otis Worldwide
+            'PCAR': '0000075362',  # PACCAR
+            'CMI': '0000026172',   # Cummins
+            'CSX': '0000277948',   # CSX Corporation
+
+            # Dividend Kings (50+ years of increases)
+            'UVV': '0000102037',   # Universal Corporation
+            'UBSI': '0000729986',  # United Bankshares
+            'AWR': '0000105770',   # American States Water
+            'MGEE': '0001161728',  # MGE Energy
+            'RLI': '0000084246',   # RLI Corp
+            'NFG': '0000070145',   # National Fuel Gas
+            'BKH': '0001130464',   # Black Hills Corp
+
+            # Mortgage REITs (High Yield)
+            'ARR': '0001350868',   # ARMOUR Residential
+            'ORC': '0001289774',   # Orchid Island Capital
+            'EFC': '0001421102',   # Ellington Financial
+            'TWO': '0001540305',   # Two Harbors Investment
+            'CHCT': '0001588006',  # Community Healthcare Trust
+
+            # Additional Quality Stocks
+            'APA': '0000006769',   # APA Corporation
+            'HUM': '0000049071',   # Humana
+            'ORLY': '0000898173',  # O'Reilly Automotive
+            'AZO': '0000866787',   # AutoZone
         }
     
         if ticker in known_ciks:

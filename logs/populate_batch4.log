@@ -1,0 +1,6318 @@
+
+Testing database connection...
+✔ Database connected successfully
+  PostgreSQL version: PostgreSQL 17.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 14.2.1 20240912 (Red Hat 14.2.1-3), 64-bit
+
+Processing 437 companies...
+
+[1/437] 
+======================================================================
+Processing: AAPL
+======================================================================
+  ✓ Found: Apple Inc.
+  ✓ CIK: 0000320193
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electronic Computers
+  ✓ Company ID: 13
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[2/437] 
+======================================================================
+Processing: MSFT
+======================================================================
+  ✓ Found: MICROSOFT CORP
+  ✓ CIK: 0000789019
+  ✓ Sector: Services
+  ✓ Industry: Services-Prepackaged Software
+  ✓ Company ID: 16
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[3/437] 
+======================================================================
+Processing: GOOGL
+======================================================================
+  ✓ Found: Alphabet Inc.
+  ✓ CIK: 0001652044
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Programming, Data Processing, Etc.
+  ✓ Company ID: 17
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 4 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 4
+
+[4/437] 
+======================================================================
+Processing: GOOG
+======================================================================
+  ✓ Found: Alphabet Inc.
+  ✓ CIK: 0001652044
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Programming, Data Processing, Etc.
+  ⊘ CIK already exists (likely alternate ticker)
+
+[5/437] 
+======================================================================
+Processing: META
+======================================================================
+  ✓ Found: Meta Platforms, Inc.
+  ✓ CIK: 0001326801
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Programming, Data Processing, Etc.
+  ✓ Company ID: 19
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 5 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 5
+
+[6/437] 
+======================================================================
+Processing: NVDA
+======================================================================
+  ✓ Found: NVIDIA CORP
+  ✓ CIK: 0001045810
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 22
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[7/437] 
+======================================================================
+Processing: AVGO
+======================================================================
+  ✓ Found: Broadcom Inc.
+  ✓ CIK: 0001730168
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 23
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 26 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 26
+
+[8/437] 
+======================================================================
+Processing: CSCO
+======================================================================
+  ✓ Found: CISCO SYSTEMS, INC.
+  ✓ CIK: 0000858877
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer Communications Equipment
+  ✓ Company ID: 24
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 45 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 45
+
+[9/437] 
+======================================================================
+Processing: ORCL
+======================================================================
+  ✓ Found: ORACLE CORP
+  ✓ CIK: 0001341439
+  ✓ Sector: Services
+  ✓ Industry: Services-Prepackaged Software
+  ✓ Company ID: 25
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[10/437] 
+======================================================================
+Processing: IBM
+======================================================================
+  ✓ Found: INTERNATIONAL BUSINESS MACHINES CORP
+  ✓ CIK: 0000051143
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer & office Equipment
+  ✓ Company ID: 26
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[11/437] 
+======================================================================
+Processing: INTC
+======================================================================
+  ✓ Found: INTEL CORP
+  ✓ CIK: 0000050863
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 27
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 37 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 37
+
+[12/437] 
+======================================================================
+Processing: TXN
+======================================================================
+  ✓ Found: TEXAS INSTRUMENTS INC
+  ✓ CIK: 0000097476
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 28
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[13/437] 
+======================================================================
+Processing: QCOM
+======================================================================
+  ✓ Found: QUALCOMM INC/DE
+  ✓ CIK: 0000804328
+  ✓ Sector: Manufacturing
+  ✓ Industry: Radio & Tv Broadcasting & Communications Equipment
+  ✓ Company ID: 29
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 54
+
+[14/437] 
+======================================================================
+Processing: ADI
+======================================================================
+  ✓ Found: ANALOG DEVICES INC
+  ✓ CIK: 0000006281
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 30
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[15/437] 
+======================================================================
+Processing: HPQ
+======================================================================
+  ✓ Found: HP INC
+  ✓ CIK: 0000047217
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer & office Equipment
+  ✓ Company ID: 127
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[16/437] 
+======================================================================
+Processing: PAYX
+======================================================================
+  ✓ Found: PAYCHEX INC
+  ✓ CIK: 0000723531
+  ✓ Sector: Services
+  ✓ Industry: Services-Engineering, Accounting, Research, Management
+  ✓ Company ID: 128
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[17/437] 
+======================================================================
+Processing: SWKS
+======================================================================
+  ✓ Found: SKYWORKS SOLUTIONS, INC.
+  ✓ CIK: 0000004127
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 129
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[18/437] 
+======================================================================
+Processing: JNJ
+======================================================================
+  ✓ Found: JOHNSON & JOHNSON
+  ✓ CIK: 0000200406
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 14
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[19/437] 
+======================================================================
+Processing: UNH
+======================================================================
+  ✓ Found: UNITEDHEALTH GROUP INC
+  ✓ CIK: 0000731766
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Hospital & Medical Service Plans
+  ✓ Company ID: 31
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 92 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 92
+
+[20/437] 
+======================================================================
+Processing: LLY
+======================================================================
+  ✓ Found: ELI LILLY & Co
+  ✓ CIK: 0000059478
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 32
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 45 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 45
+
+[21/437] 
+======================================================================
+Processing: ABBV
+======================================================================
+  ✓ Found: AbbVie Inc.
+  ✓ CIK: 0001551152
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 33
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[22/437] 
+======================================================================
+Processing: MRK
+======================================================================
+  ✓ Found: Merck & Co., Inc.
+  ✓ CIK: 0000310158
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 34
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[23/437] 
+======================================================================
+Processing: TMO
+======================================================================
+  ✓ Found: THERMO FISHER SCIENTIFIC INC.
+  ✓ CIK: 0000097745
+  ✓ Sector: Manufacturing
+  ✓ Industry: Measuring & Controlling Devices, NEC
+  ✓ Company ID: 35
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[24/437] 
+======================================================================
+Processing: ABT
+======================================================================
+  ✓ Found: ABBOTT LABORATORIES
+  ✓ CIK: 0000001800
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 36
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 40
+
+[25/437] 
+======================================================================
+Processing: PFE
+======================================================================
+  ✓ Found: PFIZER INC
+  ✓ CIK: 0000078003
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 37
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 56 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 56
+
+[26/437] 
+======================================================================
+Processing: AMGN
+======================================================================
+  ✓ Found: AMGEN INC
+  ✓ CIK: 0000318154
+  ✓ Sector: Manufacturing
+  ✓ Industry: Biological Products, (No Diagnostic Substances)
+  ✓ Company ID: 38
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 87 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 87
+
+[27/437] 
+======================================================================
+Processing: CVS
+======================================================================
+  ✓ Found: CVS HEALTH Corp
+  ✓ CIK: 0000064803
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Drug Stores and Proprietary Stores
+  ✓ Company ID: 39
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[28/437] 
+======================================================================
+Processing: BDX
+======================================================================
+  ✓ Found: BECTON DICKINSON & CO
+  ✓ CIK: 0000010795
+  ✓ Sector: Manufacturing
+  ✓ Industry: Surgical & Medical Instruments & Apparatus
+  ✓ Company ID: 125
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[29/437] 
+======================================================================
+Processing: MDT
+======================================================================
+  ✓ Found: Medtronic plc
+  ✓ CIK: 0001613103
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electromedical & Electrotherapeutic Apparatus
+  ✓ Company ID: 130
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 35
+
+[30/437] 
+======================================================================
+Processing: BMY
+======================================================================
+  ✓ Found: BRISTOL MYERS SQUIBB CO
+  ✓ CIK: 0000014272
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 186
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[31/437] 
+======================================================================
+Processing: JPM
+======================================================================
+  ✓ Found: JPMORGAN CHASE & CO
+  ✓ CIK: 0000019617
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 40
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[32/437] 
+======================================================================
+Processing: BAC
+======================================================================
+  ✓ Found: BANK OF AMERICA CORP /DE/
+  ✓ CIK: 0000070858
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 41
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 74 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 74
+
+[33/437] 
+======================================================================
+Processing: WFC
+======================================================================
+  ✓ Found: WELLS FARGO & COMPANY/MN
+  ✓ CIK: 0000072971
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 42
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[34/437] 
+======================================================================
+Processing: MS
+======================================================================
+  ✓ Found: MORGAN STANLEY
+  ✓ CIK: 0000895421
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  ✓ Company ID: 43
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 44
+
+[35/437] 
+======================================================================
+Processing: GS
+======================================================================
+  ✓ Found: GOLDMAN SACHS GROUP INC
+  ✓ CIK: 0000886982
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  ✓ Company ID: 44
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 57
+
+[36/437] 
+======================================================================
+Processing: BLK
+======================================================================
+  ✓ Found: BlackRock Finance, Inc.
+  ✓ CIK: 0001364742
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  ✓ Company ID: 45
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 33 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 33
+
+[37/437] 
+======================================================================
+Processing: C
+======================================================================
+  ✓ Found: CITIGROUP INC
+  ✓ CIK: 0000831001
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 46
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 45 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 45
+
+[38/437] 
+======================================================================
+Processing: USB
+======================================================================
+  ✓ Found: US BANCORP \DE\
+  ✓ CIK: 0000036104
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 47
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[39/437] 
+======================================================================
+Processing: PNC
+======================================================================
+  ✓ Found: PNC FINANCIAL SERVICES GROUP, INC.
+  ✓ CIK: 0000713676
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 48
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 28 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 28
+
+[40/437] 
+======================================================================
+Processing: TFC
+======================================================================
+  ✓ Found: TRUIST FINANCIAL CORP
+  ✓ CIK: 0000092230
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 49
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[41/437] 
+======================================================================
+Processing: BK
+======================================================================
+  ✓ Found: Bank of New York Mellon Corp
+  ✓ CIK: 0001390777
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 50
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 56 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 56
+
+[42/437] 
+======================================================================
+Processing: AXP
+======================================================================
+  ✓ Found: AMERICAN EXPRESS CO
+  ✓ CIK: 0000004962
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Finance Services
+  ✓ Company ID: 51
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[43/437] 
+======================================================================
+Processing: V
+======================================================================
+  ✓ Found: VISA INC.
+  ✓ CIK: 0001403161
+  ✓ Sector: Services
+  ✓ Industry: Services-Business Services, NEC
+  ✓ Company ID: 52
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 27 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 27
+
+[44/437] 
+======================================================================
+Processing: MA
+======================================================================
+  ✓ Found: Mastercard Inc
+  ✓ CIK: 0001141391
+  ✓ Sector: Services
+  ✓ Industry: Services-Business Services, NEC
+  ✓ Company ID: 53
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[45/437] 
+======================================================================
+Processing: SPGI
+======================================================================
+  ✓ Found: S&P Global Inc.
+  ✓ CIK: 0000064040
+  ✓ Sector: Services
+  ✓ Industry: Services-Consumer Credit Reporting, Collection Agencies
+  ✓ Company ID: 54
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 57
+
+[46/437] 
+======================================================================
+Processing: AFL
+======================================================================
+  ✓ Found: AFLAC INC
+  ✓ CIK: 0000004977
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Accident & Health Insurance
+  ✓ Company ID: 131
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[47/437] 
+======================================================================
+Processing: ALL
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001398344.json
+  ✗ Ticker ALL not in known list. Please use CIK directly.
+
+[48/437] 
+======================================================================
+Processing: AMP
+======================================================================
+  ✓ Found: BATTERY INTELLIGENCE INC
+  ✓ CIK: 0001258433
+  ✓ Company ID: 132
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001258433
+  ✗ Could not fetch XBRL data
+
+[49/437] 
+======================================================================
+Processing: AON
+======================================================================
+  ✓ Found: Aon plc
+  ✓ CIK: 0000315293
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Insurance Agents, Brokers & Service
+  ✓ Company ID: 133
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[50/437] 
+======================================================================
+Processing: AIG
+======================================================================
+  ✓ Found: AMERICAN INTERNATIONAL GROUP, INC.
+  ✓ CIK: 0000005272
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 134
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 56 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 56
+
+[51/437] 
+======================================================================
+Processing: BRO
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000109843.json
+  ✗ Ticker BRO not in known list. Please use CIK directly.
+
+[52/437] 
+======================================================================
+Processing: CB
+======================================================================
+  ✓ Found: Chubb Ltd
+  ✓ CIK: 0000896159
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 135
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 37 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 37
+
+[53/437] 
+======================================================================
+Processing: CME
+======================================================================
+  ✓ Found: CME GROUP INC.
+  ✓ CIK: 0001156375
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security & Commodity Brokers, Dealers, Exchanges & Services
+  ✓ Company ID: 136
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[54/437] 
+======================================================================
+Processing: COF
+======================================================================
+  ✓ Found: CAPITAL ONE FINANCIAL CORP
+  ✓ CIK: 0000927628
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 137
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 55 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 55
+
+[55/437] 
+======================================================================
+Processing: DFS
+======================================================================
+  ✓ Found: Discover Financial Services
+  ✓ CIK: 0001393612
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Personal Credit Institutions
+  ✓ Company ID: 138
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[56/437] 
+======================================================================
+Processing: ICE
+======================================================================
+  ✓ Found: Intercontinental Exchange Holdings, Inc.
+  ✓ CIK: 0001174746
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security & Commodity Brokers, Dealers, Exchanges & Services
+  ✓ Company ID: 139
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[57/437] 
+======================================================================
+Processing: MET
+======================================================================
+  ✓ Found: METLIFE INC
+  ✓ CIK: 0001099219
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Life Insurance
+  ✓ Company ID: 140
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[58/437] 
+======================================================================
+Processing: MMC
+======================================================================
+  ✓ Found: MARSH & MCLENNAN COMPANIES, INC.
+  ✓ CIK: 0000062709
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Insurance Agents, Brokers & Service
+  ✓ Company ID: 141
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 28 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 28
+
+[59/437] 
+======================================================================
+Processing: PRU
+======================================================================
+  ✓ Found: PPG INDUSTRIES INC
+  ✓ CIK: 0000079879
+  ✓ Sector: Manufacturing
+  ✓ Industry: Paints, Varnishes, Lacquers, Enamels & Allied Prods
+  ✓ Company ID: 142
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[60/437] 
+======================================================================
+Processing: PGR
+======================================================================
+  ✓ Found: PROGRESSIVE CORP/OH/
+  ✓ CIK: 0000080661
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 143
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 29 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 29
+
+[61/437] 
+======================================================================
+Processing: SCHW
+======================================================================
+  ✓ Found: SCHWAB CHARLES CORP
+  ✓ CIK: 0000316709
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  ✓ Company ID: 144
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 36
+
+[62/437] 
+======================================================================
+Processing: TRV
+======================================================================
+  ✓ Found: TRAVELERS COMPANIES, INC.
+  ✓ CIK: 0000086312
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 145
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[63/437] 
+======================================================================
+Processing: BEN
+======================================================================
+  ✓ Found: FRANKLIN RESOURCES INC
+  ✓ CIK: 0000038777
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Investment Advice
+  ✓ Company ID: 146
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[64/437] 
+======================================================================
+Processing: CINF
+======================================================================
+  ✓ Found: CINCINNATI FINANCIAL CORP
+  ✓ CIK: 0000020286
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 147
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 12 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 12
+
+[65/437] 
+======================================================================
+Processing: TROW
+======================================================================
+  ✓ Found: Cigna Holding Co
+  ✓ CIK: 0000701221
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Hospital & Medical Service Plans
+  ✓ Company ID: 148
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 32 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 32
+
+[66/437] 
+======================================================================
+Processing: NTRS
+======================================================================
+  ✓ Found: NORTHERN TRUST CORP
+  ✓ CIK: 0000073124
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 187
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 32 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 32
+
+[67/437] 
+======================================================================
+Processing: HBAN
+======================================================================
+  ✓ Found: HUNTINGTON BANCSHARES INC /MD/
+  ✓ CIK: 0000049196
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 188
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[68/437] 
+======================================================================
+Processing: KEY
+======================================================================
+  ✓ Found: KEYCORP /NEW/
+  ✓ CIK: 0000091576
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 189
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[69/437] 
+======================================================================
+Processing: RF
+======================================================================
+  ✓ Found: REGIONS FINANCIAL CORP
+  ✓ CIK: 0001281761
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 190
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 54
+
+[70/437] 
+======================================================================
+Processing: CFG
+======================================================================
+  ✓ Found: CITIZENS FINANCIAL GROUP INC/RI
+  ✓ CIK: 0000759944
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 191
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 40
+
+[71/437] 
+======================================================================
+Processing: FITB
+======================================================================
+  ✓ Found: FIFTH THIRD BANCORP
+  ✓ CIK: 0000035527
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 192
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[72/437] 
+======================================================================
+Processing: MTB
+======================================================================
+  ✓ Found: M&T BANK CORP
+  ✓ CIK: 0000036270
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 193
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 38 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 38
+
+[73/437] 
+======================================================================
+Processing: STT
+======================================================================
+  ✓ Found: STATE STREET CORP
+  ✓ CIK: 0000093751
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 194
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[74/437] 
+======================================================================
+Processing: ZION
+======================================================================
+  ✓ Found: ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/
+  ✓ CIK: 0000109380
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  ✓ Company ID: 195
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[75/437] 
+======================================================================
+Processing: KO
+======================================================================
+  ✓ Found: COCA COLA CO
+  ✓ CIK: 0000021344
+  ✓ Sector: Manufacturing
+  ✓ Industry: Beverages
+  ✓ Company ID: 55
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 43 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 43
+
+[76/437] 
+======================================================================
+Processing: PEP
+======================================================================
+  ✓ Found: PEPSICO INC
+  ✓ CIK: 0000077476
+  ✓ Sector: Manufacturing
+  ✓ Industry: Beverages
+  ✓ Company ID: 56
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[77/437] 
+======================================================================
+Processing: PG
+======================================================================
+  ✓ Found: PROCTER & GAMBLE Co
+  ✓ CIK: 0000080424
+  ✓ Sector: Manufacturing
+  ✓ Industry: Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics
+  ✓ Company ID: 57
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[78/437] 
+======================================================================
+Processing: WMT
+======================================================================
+  ✓ Found: Walmart Inc.
+  ✓ CIK: 0000104169
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Variety Stores
+  ✓ Company ID: 58
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[79/437] 
+======================================================================
+Processing: COST
+======================================================================
+  ✓ Found: COSTCO WHOLESALE CORP /NEW
+  ✓ CIK: 0000909832
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Variety Stores
+  ✓ Company ID: 59
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[80/437] 
+======================================================================
+Processing: PM
+======================================================================
+  ✓ Found: Philip Morris International Inc.
+  ✓ CIK: 0001413329
+  ✓ Sector: Manufacturing
+  ✓ Industry: Cigarettes
+  ✓ Company ID: 60
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[81/437] 
+======================================================================
+Processing: MO
+======================================================================
+  ✓ Found: ALTRIA GROUP, INC.
+  ✓ CIK: 0000764180
+  ✓ Sector: Manufacturing
+  ✓ Industry: Cigarettes
+  ✓ Company ID: 61
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 66 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 66
+
+[82/437] 
+======================================================================
+Processing: CL
+======================================================================
+  ✓ Found: COLGATE PALMOLIVE CO
+  ✓ CIK: 0000021665
+  ✓ Sector: Manufacturing
+  ✓ Industry: Perfumes, Cosmetics & Other Toilet Preparations
+  ✓ Company ID: 62
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[83/437] 
+======================================================================
+Processing: KMB
+======================================================================
+  ✓ Found: KIMBERLY CLARK CORP
+  ✓ CIK: 0000055785
+  ✓ Sector: Manufacturing
+  ✓ Industry: Converted Paper & Paperboard Prods (No Contaners/Boxes)
+  ✓ Company ID: 63
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[84/437] 
+======================================================================
+Processing: GIS
+======================================================================
+  ✓ Found: GENERAL MILLS INC
+  ✓ CIK: 0000040704
+  ✓ Sector: Manufacturing
+  ✓ Industry: Grain Mill Products
+  ✓ Company ID: 64
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 62 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 62
+
+[85/437] 
+======================================================================
+Processing: K
+======================================================================
+  ✓ Found: KELLANOVA
+  ✓ CIK: 0000055067
+  ✓ Sector: Manufacturing
+  ✓ Industry: Grain Mill Products
+  ✓ Company ID: 65
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[86/437] 
+======================================================================
+Processing: HSY
+======================================================================
+  ✓ Found: HERSHEY CO
+  ✓ CIK: 0000047111
+  ✓ Sector: Manufacturing
+  ✓ Industry: Sugar & Confectionery Products
+  ✓ Company ID: 66
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 6 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 6
+
+[87/437] 
+======================================================================
+Processing: MDLZ
+======================================================================
+  ✓ Found: Mondelez International, Inc.
+  ✓ CIK: 0001103982
+  ✓ Sector: Manufacturing
+  ✓ Industry: Food and Kindred Products
+  ✓ Company ID: 67
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[88/437] 
+======================================================================
+Processing: KHC
+======================================================================
+  ✓ Found: Kraft Heinz Co
+  ✓ CIK: 0001637459
+  ✓ Sector: Manufacturing
+  ✓ Industry: Canned, Frozen & Preservd Fruit, Veg & Food Specialties
+  ✓ Company ID: 68
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 30 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 30
+
+[89/437] 
+======================================================================
+Processing: CHD
+======================================================================
+  ✓ Found: CHURCH & DWIGHT CO INC /DE/
+  ✓ CIK: 0000313927
+  ✓ Sector: Manufacturing
+  ✓ Industry: Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics
+  ✓ Company ID: 149
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[90/437] 
+======================================================================
+Processing: CLX
+======================================================================
+  ✓ Found: CLOROX CO /DE/
+  ✓ CIK: 0000021076
+  ✓ Sector: Manufacturing
+  ✓ Industry: Specialty Cleaning, Polishing and Sanitation Preparations
+  ✓ Company ID: 150
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[91/437] 
+======================================================================
+Processing: CPB
+======================================================================
+  ✓ Found: CAMPBELL'S Co
+  ✓ CIK: 0000016732
+  ✓ Sector: Manufacturing
+  ✓ Industry: Food and Kindred Products
+  ✓ Company ID: 151
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[92/437] 
+======================================================================
+Processing: HRL
+======================================================================
+  ✓ Found: HORMEL FOODS CORP /DE/
+  ✓ CIK: 0000048465
+  ✓ Sector: Manufacturing
+  ✓ Industry: Meat Packing Plants
+  ✓ Company ID: 152
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[93/437] 
+======================================================================
+Processing: MKC
+======================================================================
+  ✓ Found: MCCORMICK & CO INC
+  ✓ CIK: 0000063754
+  ✓ Sector: Manufacturing
+  ✓ Industry: Miscellaneous Food Preparations & Kindred Products
+  ✓ Company ID: 153
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 36
+
+[94/437] 
+======================================================================
+Processing: SJM
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001001657.json
+  ✗ Ticker SJM not in known list. Please use CIK directly.
+
+[95/437] 
+======================================================================
+Processing: TSN
+======================================================================
+  ✓ Found: TYSON FOODS, INC.
+  ✓ CIK: 0000100493
+  ✓ Sector: Manufacturing
+  ✓ Industry: Poultry Slaughtering and Processing
+  ✓ Company ID: 154
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[96/437] 
+======================================================================
+Processing: WBA
+======================================================================
+  ✓ Found: Walgreens Boots Alliance, Inc.
+  ✓ CIK: 0001618921
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Drug Stores and Proprietary Stores
+  ✓ Company ID: 155
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 35
+
+[97/437] 
+======================================================================
+Processing: KR
+======================================================================
+  ✓ Found: KROGER CO
+  ✓ CIK: 0000056873
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Grocery Stores
+  ✓ Company ID: 196
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[98/437] 
+======================================================================
+Processing: DG
+======================================================================
+  ✓ Found: DOLLAR GENERAL CORP
+  ✓ CIK: 0000029534
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Variety Stores
+  ✓ Company ID: 197
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 42 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 42
+
+[99/437] 
+======================================================================
+Processing: AMZN
+======================================================================
+  ✓ Found: AMAZON COM INC
+  ✓ CIK: 0001018724
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Catalog & Mail-Order Houses
+  ✓ Company ID: 69
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[100/437] 
+======================================================================
+Processing: TSLA
+======================================================================
+  ✓ Found: Tesla, Inc.
+  ✓ CIK: 0001318605
+  ✓ Sector: Manufacturing
+  ✓ Industry: Motor Vehicles & Passenger Car Bodies
+  ✓ Company ID: 70
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[101/437] 
+======================================================================
+Processing: HD
+======================================================================
+  ✓ Found: HOME DEPOT, INC.
+  ✓ CIK: 0000354950
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Lumber & Other Building Materials Dealers
+  ✓ Company ID: 71
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[102/437] 
+======================================================================
+Processing: MCD
+======================================================================
+  ✓ Found: MCDONALDS CORP
+  ✓ CIK: 0000063908
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Eating  Places
+  ✓ Company ID: 72
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[103/437] 
+======================================================================
+Processing: NKE
+======================================================================
+  ✓ Found: NIKE, Inc.
+  ✓ CIK: 0000320187
+  ✓ Sector: Manufacturing
+  ✓ Industry: Rubber & Plastics Footwear
+  ✓ Company ID: 73
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[104/437] 
+======================================================================
+Processing: SBUX
+======================================================================
+  ✓ Found: STARBUCKS CORP
+  ✓ CIK: 0000829224
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Eating & Drinking Places
+  ✓ Company ID: 74
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[105/437] 
+======================================================================
+Processing: TGT
+======================================================================
+  ✓ Found: TARGET CORP
+  ✓ CIK: 0000027419
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Variety Stores
+  ✓ Company ID: 15
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 65 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 65
+
+[106/437] 
+======================================================================
+Processing: LOW
+======================================================================
+  ✓ Found: LOWES COMPANIES INC
+  ✓ CIK: 0000060667
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Lumber & Other Building Materials Dealers
+  ✓ Company ID: 75
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[107/437] 
+======================================================================
+Processing: F
+======================================================================
+  ✓ Found: FORD MOTOR CO
+  ✓ CIK: 0000037996
+  ✓ Sector: Manufacturing
+  ✓ Industry: Motor Vehicles & Passenger Car Bodies
+  ✓ Company ID: 76
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[108/437] 
+======================================================================
+Processing: GM
+======================================================================
+  ✓ Found: General Motors Co
+  ✓ CIK: 0001467858
+  ✓ Sector: Manufacturing
+  ✓ Industry: Motor Vehicles & Passenger Car Bodies
+  ✓ Company ID: 77
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 30 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 30
+
+[109/437] 
+======================================================================
+Processing: ROST
+======================================================================
+  ✓ Found: ROSS STORES, INC.
+  ✓ CIK: 0000745732
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Family Clothing Stores
+  ✓ Company ID: 198
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 112 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 112
+
+[110/437] 
+======================================================================
+Processing: TJX
+======================================================================
+  ✓ Found: TJX COMPANIES INC /DE/
+  ✓ CIK: 0000109198
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Family Clothing Stores
+  ✓ Company ID: 199
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[111/437] 
+======================================================================
+Processing: XOM
+======================================================================
+  ✓ Found: EXXON MOBIL CORP
+  ✓ CIK: 0000034088
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 78
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[112/437] 
+======================================================================
+Processing: CVX
+======================================================================
+  ✓ Found: CHEVRON CORP
+  ✓ CIK: 0000093410
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 79
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[113/437] 
+======================================================================
+Processing: COP
+======================================================================
+  ✓ Found: CONOCOPHILLIPS
+  ✓ CIK: 0001163165
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 80
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[114/437] 
+======================================================================
+Processing: SLB
+======================================================================
+  ✓ Found: SCHLUMBERGER LIMITED/NV
+  ✓ CIK: 0000087347
+  ✓ Sector: Mining
+  ✓ Industry: Oil & Gas Field Services, NEC
+  ✓ Company ID: 81
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 13 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 13
+
+[115/437] 
+======================================================================
+Processing: EOG
+======================================================================
+  ✓ Found: BREAD FINANCIAL HOLDINGS, INC.
+  ✓ CIK: 0001101215
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Personal Credit Institutions
+  ✓ Company ID: 82
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 47
+
+[116/437] 
+======================================================================
+Processing: PSX
+======================================================================
+  ✓ Found: Phillips 66
+  ✓ CIK: 0001534701
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 83
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 39 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 39
+
+[117/437] 
+======================================================================
+Processing: VLO
+======================================================================
+  ✓ Found: VALERO ENERGY CORP/TX
+  ✓ CIK: 0001035002
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 84
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[118/437] 
+======================================================================
+Processing: OXY
+======================================================================
+  ✓ Found: OCCIDENTAL PETROLEUM CORP /DE/
+  ✓ CIK: 0000797468
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  ✓ Company ID: 85
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[119/437] 
+======================================================================
+Processing: KMI
+======================================================================
+  ✓ Found: KINDER MORGAN, INC.
+  ✓ CIK: 0001506307
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Transmission
+  ✓ Company ID: 86
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 43 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 43
+
+[120/437] 
+======================================================================
+Processing: WMB
+======================================================================
+  ✓ Found: WILLIAMS COMPANIES, INC.
+  ✓ CIK: 0000107263
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Transmission
+  ✓ Company ID: 87
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[121/437] 
+======================================================================
+Processing: EPD
+======================================================================
+  ✓ Found: ENTERPRISE PRODUCTS PARTNERS L.P.
+  ✓ CIK: 0001061219
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Transmission
+  ✓ Company ID: 156
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[122/437] 
+======================================================================
+Processing: MMP
+======================================================================
+  ✓ Found: EP Energy Brazil, L.L.C.
+  ✓ CIK: 0001554976
+  ✓ Company ID: 157
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001554976
+  ✗ Could not fetch XBRL data
+
+[123/437] 
+======================================================================
+Processing: OKE
+======================================================================
+  ✓ Found: ONEOK INC /NEW/
+  ✓ CIK: 0001039684
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Transmisison & Distribution
+  ✓ Company ID: 158
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[124/437] 
+======================================================================
+Processing: TRP
+======================================================================
+  ✓ Found: PLAINS ALL AMERICAN PIPELINE LP
+  ✓ CIK: 0001070423
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Pipe Lines (No Natural Gas)
+  ✓ Company ID: 159
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[125/437] 
+======================================================================
+Processing: ENB
+======================================================================
+  ✓ Found: Extra Space Storage Inc.
+  ✓ CIK: 0001289490
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 200
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[126/437] 
+======================================================================
+Processing: BA
+======================================================================
+  ✓ Found: BOEING CO
+  ✓ CIK: 0000012927
+  ✓ Sector: Manufacturing
+  ✓ Industry: Aircraft
+  ✓ Company ID: 88
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 35
+
+[127/437] 
+======================================================================
+Processing: CAT
+======================================================================
+  ✓ Found: CATERPILLAR INC
+  ✓ CIK: 0000018230
+  ✓ Sector: Manufacturing
+  ✓ Industry: Construction Machinery & Equip
+  ✓ Company ID: 89
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 35
+
+[128/437] 
+======================================================================
+Processing: GE
+======================================================================
+  ✓ Found: GENERAL ELECTRIC CO
+  ✓ CIK: 0000040545
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electronic & Other Electrical Equipment (No Computer Equip)
+  ✓ Company ID: 90
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 55 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 55
+
+[129/437] 
+======================================================================
+Processing: LMT
+======================================================================
+  ✓ Found: LOCKHEED MARTIN CORP
+  ✓ CIK: 0000936468
+  ✓ Sector: Manufacturing
+  ✓ Industry: Guided Missiles & Space Vehicles & Parts
+  ✓ Company ID: 91
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 56 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 56
+
+[130/437] 
+======================================================================
+Processing: RTX
+======================================================================
+  ✓ Found: RTX Corp
+  ✓ CIK: 0000101829
+  ✓ Sector: Manufacturing
+  ✓ Industry: Aircraft Engines & Engine Parts
+  ✓ Company ID: 92
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[131/437] 
+======================================================================
+Processing: UNP
+======================================================================
+  ✓ Found: UNION PACIFIC CORP
+  ✓ CIK: 0000100885
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Railroads, Line-Haul Operating
+  ✓ Company ID: 93
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[132/437] 
+======================================================================
+Processing: HON
+======================================================================
+  ✓ Found: HONEYWELL INTERNATIONAL INC
+  ✓ CIK: 0000773840
+  ✓ Sector: Manufacturing
+  ✓ Industry: Aircraft Engines & Engine Parts
+  ✓ Company ID: 94
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[133/437] 
+======================================================================
+Processing: UPS
+======================================================================
+  ✓ Found: UNITED PARCEL SERVICE INC
+  ✓ CIK: 0001090727
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Trucking & Courier Services (No Air)
+  ✓ Company ID: 95
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 27 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 27
+
+[134/437] 
+======================================================================
+Processing: DE
+======================================================================
+  ✓ Found: DEERE & CO
+  ✓ CIK: 0000315189
+  ✓ Sector: Manufacturing
+  ✓ Industry: Farm Machinery & Equipment
+  ✓ Company ID: 96
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[135/437] 
+======================================================================
+Processing: MMM
+======================================================================
+  ✓ Found: 3M CO
+  ✓ CIK: 0000066740
+  ✓ Sector: Manufacturing
+  ✓ Industry: Surgical & Medical Instruments & Apparatus
+  ✓ Company ID: 97
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[136/437] 
+======================================================================
+Processing: EMR
+======================================================================
+  ✓ Found: EMERSON ELECTRIC CO
+  ✓ CIK: 0000032604
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electronic & Other Electrical Equipment (No Computer Equip)
+  ✓ Company ID: 160
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[137/437] 
+======================================================================
+Processing: ETN
+======================================================================
+  ✓ Found: Eaton Corp plc
+  ✓ CIK: 0001551182
+  ✓ Sector: Manufacturing
+  ✓ Industry: Misc Industrial & Commercial Machinery & Equipment
+  ✓ Company ID: 161
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[138/437] 
+======================================================================
+Processing: FDX
+======================================================================
+  ✓ Found: FEDEX CORP
+  ✓ CIK: 0001048911
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Air Courier Services
+  ✓ Company ID: 162
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[139/437] 
+======================================================================
+Processing: GD
+======================================================================
+  ✓ Found: GENERAL DYNAMICS CORP
+  ✓ CIK: 0000040533
+  ✓ Sector: Manufacturing
+  ✓ Industry: Ship & Boat Building & Repairing
+  ✓ Company ID: 163
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[140/437] 
+======================================================================
+Processing: GWW
+======================================================================
+  ✓ Found: W.W. GRAINGER, INC.
+  ✓ CIK: 0000277135
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Durable Goods
+  ✓ Company ID: 164
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 54
+
+[141/437] 
+======================================================================
+Processing: ITW
+======================================================================
+  ✓ Found: ILLINOIS TOOL WORKS INC
+  ✓ CIK: 0000049826
+  ✓ Sector: Manufacturing
+  ✓ Industry: General Industrial Machinery & Equipment
+  ✓ Company ID: 165
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[142/437] 
+======================================================================
+Processing: NSC
+======================================================================
+  ✓ Found: NORFOLK SOUTHERN CORP
+  ✓ CIK: 0000702165
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Railroads, Line-Haul Operating
+  ✓ Company ID: 166
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[143/437] 
+======================================================================
+Processing: PH
+======================================================================
+  ✓ Found: Parker-Hannifin Corp
+  ✓ CIK: 0000076334
+  ✓ Sector: Manufacturing
+  ✓ Industry: Miscellaneous Fabricated Metal Products
+  ✓ Company ID: 167
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[144/437] 
+======================================================================
+Processing: ROK
+======================================================================
+  ✓ Found: ROCKWELL AUTOMATION, INC
+  ✓ CIK: 0001024478
+  ✓ Sector: Manufacturing
+  ✓ Industry: Measuring & Controlling Devices, NEC
+  ✓ Company ID: 168
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[145/437] 
+======================================================================
+Processing: RSG
+======================================================================
+  ✓ Found: REPUBLIC SERVICES, INC.
+  ✓ CIK: 0001060391
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Refuse Systems
+  ✓ Company ID: 169
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 81 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 81
+
+[146/437] 
+======================================================================
+Processing: SWK
+======================================================================
+  ✓ Found: STANLEY BLACK & DECKER, INC.
+  ✓ CIK: 0000093556
+  ✓ Sector: Manufacturing
+  ✓ Industry: Cutlery, Handtools & General Hardware
+  ✓ Company ID: 170
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[147/437] 
+======================================================================
+Processing: SYY
+======================================================================
+  ✓ Found: SYSCO CORP
+  ✓ CIK: 0000096021
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Groceries & Related Products
+  ✓ Company ID: 171
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[148/437] 
+======================================================================
+Processing: WM
+======================================================================
+  ✓ Found: WASTE MANAGEMENT INC
+  ✓ CIK: 0000823768
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Refuse Systems
+  ✓ Company ID: 172
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[149/437] 
+======================================================================
+Processing: CTAS
+======================================================================
+  ✓ Found: CINTAS CORP
+  ✓ CIK: 0000723254
+  ✓ Sector: Manufacturing
+  ✓ Industry: Men's & Boys' Furnishgs, Work Clothg, & Allied Garments
+  ✓ Company ID: 173
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 35
+
+[150/437] 
+======================================================================
+Processing: DOV
+======================================================================
+  ✓ Found: DOVER Corp
+  ✓ CIK: 0000029905
+  ✓ Sector: Manufacturing
+  ✓ Industry: Construction, Mining & Materials Handling Machinery & Equip
+  ✓ Company ID: 201
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[151/437] 
+======================================================================
+Processing: IEX
+======================================================================
+  ✓ Found: EDGEWELL PERSONAL CARE Co
+  ✓ CIK: 0001096752
+  ✓ Sector: Manufacturing
+  ✓ Industry: Perfumes, Cosmetics & Other Toilet Preparations
+  ✓ Company ID: 202
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 31 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 31
+
+[152/437] 
+======================================================================
+Processing: J
+======================================================================
+  ✓ Found: BRANDYWINE REALTY TRUST
+  ✓ CIK: 0000790816
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 203
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[153/437] 
+======================================================================
+Processing: PWR
+======================================================================
+  ✓ Found: QUANTA SERVICES, INC.
+  ✓ CIK: 0001050915
+  ✓ Sector: Construction
+  ✓ Industry: Electrical Work
+  ✓ Company ID: 204
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 45 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 45
+
+[154/437] 
+======================================================================
+Processing: LEG
+======================================================================
+  ✓ Found: LEGGETT & PLATT INC
+  ✓ CIK: 0000058492
+  ✓ Sector: Manufacturing
+  ✓ Industry: Household Furniture
+  ✓ Company ID: 205
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[155/437] 
+======================================================================
+Processing: CHRW
+======================================================================
+  ✓ Found: C. H. ROBINSON WORLDWIDE, INC.
+  ✓ CIK: 0001043277
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Arrangement of  Transportation of  Freight & Cargo
+  ✓ Company ID: 206
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 29 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 29
+
+[156/437] 
+======================================================================
+Processing: CAH
+======================================================================
+  ✓ Found: CARDINAL HEALTH INC
+  ✓ CIK: 0000721371
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Drugs, Proprietaries & Druggists' Sundries
+  ✓ Company ID: 207
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[157/437] 
+======================================================================
+Processing: EXPD
+======================================================================
+  ✓ Found: EXPEDITORS INTERNATIONAL OF WASHINGTON INC
+  ✓ CIK: 0000746515
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Arrangement of  Transportation of  Freight & Cargo
+  ✓ Company ID: 208
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[158/437] 
+======================================================================
+Processing: NEE
+======================================================================
+  ✓ Found: NEXTERA ENERGY INC
+  ✓ CIK: 0000753308
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 98
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 54
+
+[159/437] 
+======================================================================
+Processing: DUK
+======================================================================
+  ✓ Found: Duke Energy CORP
+  ✓ CIK: 0001326160
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 99
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[160/437] 
+======================================================================
+Processing: SO
+======================================================================
+  ✓ Found: SOUTHERN CO
+  ✓ CIK: 0000092122
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 100
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[161/437] 
+======================================================================
+Processing: D
+======================================================================
+  ✓ Found: DOMINION ENERGY, INC
+  ✓ CIK: 0000715957
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 101
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[162/437] 
+======================================================================
+Processing: AEP
+======================================================================
+  ✓ Found: AMERICAN ELECTRIC POWER CO INC
+  ✓ CIK: 0000004904
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 102
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 58 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 58
+
+[163/437] 
+======================================================================
+Processing: EXC
+======================================================================
+  ✓ Found: EXELON CORP
+  ✓ CIK: 0001109357
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 103
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[164/437] 
+======================================================================
+Processing: SRE
+======================================================================
+  ✓ Found: SAN DIEGO GAS & ELECTRIC CO
+  ✓ CIK: 0000086521
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 104
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0000086521
+  ✗ Could not fetch XBRL data
+
+[165/437] 
+======================================================================
+Processing: XEL
+======================================================================
+  ✓ Found: XCEL ENERGY INC
+  ✓ CIK: 0000072903
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 105
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 40
+
+[166/437] 
+======================================================================
+Processing: PCG
+======================================================================
+  ✓ Found: PG&E Corp
+  ✓ CIK: 0001004980
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 106
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 32 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 32
+
+[167/437] 
+======================================================================
+Processing: ED
+======================================================================
+  ✓ Found: CONSOLIDATED EDISON INC
+  ✓ CIK: 0001047862
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ✓ Company ID: 174
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[168/437] 
+======================================================================
+Processing: ETR
+======================================================================
+  ✓ Found: ENTERGY CORP /DE/
+  ✓ CIK: 0000065984
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 175
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 58 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 58
+
+[169/437] 
+======================================================================
+Processing: ES
+======================================================================
+  ✓ Found: EVERSOURCE ENERGY
+  ✓ CIK: 0000072741
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 176
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[170/437] 
+======================================================================
+Processing: FE
+======================================================================
+  ✓ Found: FIRSTENERGY CORP
+  ✓ CIK: 0001031296
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 177
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[171/437] 
+======================================================================
+Processing: PPL
+======================================================================
+  ✓ Found: PPL Corp
+  ✓ CIK: 0000922224
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 178
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 82 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 82
+
+[172/437] 
+======================================================================
+Processing: WEC
+======================================================================
+  ✓ Found: BEL AIR INVESTMENT ADVISORS LLC
+  ✓ CIK: 0001078727
+  ✓ Company ID: 179
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001078727
+  ✗ Could not fetch XBRL data
+
+[173/437] 
+======================================================================
+Processing: ATO
+======================================================================
+  ✓ Found: ATMOS ENERGY CORP
+  ✓ CIK: 0000731802
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Distribution
+  ✓ Company ID: 209
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 47
+
+[174/437] 
+======================================================================
+Processing: CNP
+======================================================================
+  ✓ Found: CENTERPOINT ENERGY INC
+  ✓ CIK: 0001130310
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 210
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 41 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 41
+
+[175/437] 
+======================================================================
+Processing: NI
+======================================================================
+  ✓ Found: POTOMAC ELECTRIC POWER CO
+  ✓ CIK: 0000079732
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 211
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[176/437] 
+======================================================================
+Processing: OGE
+======================================================================
+  ✓ Found: OGE ENERGY CORP.
+  ✓ CIK: 0001021635
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 212
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[177/437] 
+======================================================================
+Processing: O
+======================================================================
+  ✓ Found: REALTY INCOME CORP
+  ✓ CIK: 0000726728
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 107
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 72 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 72
+
+[178/437] 
+======================================================================
+Processing: AMT
+======================================================================
+  ✓ Found: AMERICAN TOWER CORP /MA/
+  ✓ CIK: 0001053507
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 108
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 38 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 38
+
+[179/437] 
+======================================================================
+Processing: PLD
+======================================================================
+  ✓ Found: Prologis, Inc.
+  ✓ CIK: 0001045609
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 109
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[180/437] 
+======================================================================
+Processing: CCI
+======================================================================
+  ✓ Found: CROWN CASTLE INC.
+  ✓ CIK: 0001051470
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 110
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 36
+
+[181/437] 
+======================================================================
+Processing: EQIX
+======================================================================
+  ✓ Found: EQUINIX INC
+  ✓ CIK: 0001101239
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 111
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 40
+
+[182/437] 
+======================================================================
+Processing: PSA
+======================================================================
+  ✓ Found: Public Storage
+  ✓ CIK: 0001393311
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 112
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[183/437] 
+======================================================================
+Processing: WELL
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000957494.json
+  ✗ Ticker WELL not in known list. Please use CIK directly.
+
+[184/437] 
+======================================================================
+Processing: DLR
+======================================================================
+  ✓ Found: DIGITAL REALTY TRUST, INC.
+  ✓ CIK: 0001297996
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 113
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[185/437] 
+======================================================================
+Processing: SPG
+======================================================================
+  ✓ Found: SIMON PROPERTY GROUP INC /DE/
+  ✓ CIK: 0001063761
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 114
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[186/437] 
+======================================================================
+Processing: AVB
+======================================================================
+  ✓ Found: AVALONBAY COMMUNITIES INC
+  ✓ CIK: 0000915912
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 115
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[187/437] 
+======================================================================
+Processing: VNO
+======================================================================
+  ✓ Found: VORNADO REALTY TRUST
+  ✓ CIK: 0000899689
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 180
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 47
+
+[188/437] 
+======================================================================
+Processing: MPW
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001074820.json
+  ✗ Ticker MPW not in known list. Please use CIK directly.
+
+[189/437] 
+======================================================================
+Processing: STAG
+======================================================================
+  ✓ Found: TN-KY Development Fund II LP
+  ✓ CIK: 0001536989
+  ✓ Company ID: 181
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001536989
+  ✗ Could not fetch XBRL data
+
+[190/437] 
+======================================================================
+Processing: NNN
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001065517.json
+  ✗ Ticker NNN not in known list. Please use CIK directly.
+
+[191/437] 
+======================================================================
+Processing: DOC
+======================================================================
+  ✓ Found: Alcoa Corp
+  ✓ CIK: 0001675149
+  ✓ Sector: Manufacturing
+  ✓ Industry: Primary Production of  Aluminum
+  ✓ Company ID: 182
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 11 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 11
+
+[192/437] 
+======================================================================
+Processing: ESS
+======================================================================
+  ✓ Found: ESSEX PROPERTY TRUST, INC.
+  ✓ CIK: 0000920522
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 183
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[193/437] 
+======================================================================
+Processing: FRT
+======================================================================
+  ✓ Found: FEDERAL REALTY INVESTMENT TRUST
+  ✓ CIK: 0000034903
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 184
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 28 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 28
+
+[194/437] 
+======================================================================
+Processing: ADC
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000007754.json
+  ✗ Ticker ADC not in known list. Please use CIK directly.
+
+[195/437] 
+======================================================================
+Processing: EPR
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001045105.json
+  ✗ Ticker EPR not in known list. Please use CIK directly.
+
+[196/437] 
+======================================================================
+Processing: GOOD
+======================================================================
+  ✓ Found: MCNIFFE CHRIS J
+  ✓ CIK: 0001085391
+  ✓ Company ID: 214
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001085391
+  ✗ Could not fetch XBRL data
+
+[197/437] 
+======================================================================
+Processing: APLE
+======================================================================
+  ✓ Found: Chefs' Warehouse, Inc.
+  ✓ CIK: 0001517175
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Groceries, General Line
+  ✓ Company ID: 215
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[198/437] 
+======================================================================
+Processing: LAND
+======================================================================
+  ✓ Found: Invesco Mortgage Capital Inc.
+  ✓ CIK: 0001437071
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 216
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 59
+
+[199/437] 
+======================================================================
+Processing: SLG
+======================================================================
+  ✓ Found: SL GREEN REALTY CORP
+  ✓ CIK: 0001040971
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 217
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[200/437] 
+======================================================================
+Processing: LTC
+======================================================================
+  ✓ Found: LXP Industrial Trust
+  ✓ CIK: 0000910108
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 218
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 15 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 15
+
+[201/437] 
+======================================================================
+Processing: MAIN
+======================================================================
+  ✓ Found: Insightful Solutions, LLC
+  ✓ CIK: 0001520506
+  ✓ Company ID: 219
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001520506
+  ✗ Could not fetch XBRL data
+
+[202/437] 
+======================================================================
+Processing: SBRA
+======================================================================
+  ✓ Found: PMC Partners I Access LP
+  ✓ CIK: 0001610524
+  ✓ Company ID: 220
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001610524
+  ✗ Could not fetch XBRL data
+
+[203/437] 
+======================================================================
+Processing: UHT
+======================================================================
+  ✓ Found: UDR, Inc.
+  ✓ CIK: 0000074208
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 221
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[204/437] 
+======================================================================
+Processing: LIN
+======================================================================
+  ✓ Found: LINDE PLC
+  ✓ CIK: 0001707925
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Inorganic Chemicals
+  ✓ Company ID: 116
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 23 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 23
+
+[205/437] 
+======================================================================
+Processing: APD
+======================================================================
+  ✓ Found: Air Products & Chemicals, Inc.
+  ✓ CIK: 0000002969
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Inorganic Chemicals
+  ✓ Company ID: 117
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[206/437] 
+======================================================================
+Processing: SHW
+======================================================================
+  ✓ Found: SHERWIN WILLIAMS CO
+  ✓ CIK: 0000089800
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Building Materials, Hardware, Garden Supply
+  ✓ Company ID: 118
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[207/437] 
+======================================================================
+Processing: FCX
+======================================================================
+  ✓ Found: FREEPORT-MCMORAN INC
+  ✓ CIK: 0000831259
+  ✓ Sector: Mining
+  ✓ Industry: Metal Mining
+  ✓ Company ID: 119
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 54
+
+[208/437] 
+======================================================================
+Processing: NEM
+======================================================================
+  ✓ Found: NEWMONT Corp /DE/
+  ✓ CIK: 0001164727
+  ✓ Sector: Mining
+  ✓ Industry: Gold and Silver Ores
+  ✓ Company ID: 120
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[209/437] 
+======================================================================
+Processing: ECL
+======================================================================
+  ✓ Found: ECOLAB INC.
+  ✓ CIK: 0000031462
+  ✓ Sector: Manufacturing
+  ✓ Industry: Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics
+  ✓ Company ID: 121
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[210/437] 
+======================================================================
+Processing: ADM
+======================================================================
+  ✓ Found: Archer-Daniels-Midland Co
+  ✓ CIK: 0000007084
+  ✓ Sector: Manufacturing
+  ✓ Industry: Fats & Oils
+  ✓ Company ID: 222
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[211/437] 
+======================================================================
+Processing: BG
+======================================================================
+  ✓ Found: BERKSHIRE HATHAWAY INC
+  ✓ CIK: 0001067983
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 223
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[212/437] 
+======================================================================
+Processing: MOS
+======================================================================
+  ✓ Found: MOSAIC CO
+  ✓ CIK: 0001285785
+  ✓ Sector: Manufacturing
+  ✓ Industry: Agricultural Chemicals
+  ✓ Company ID: 224
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[213/437] 
+======================================================================
+Processing: CF
+======================================================================
+  ✓ Found: CF Industries Holdings, Inc.
+  ✓ CIK: 0001324404
+  ✓ Sector: Manufacturing
+  ✓ Industry: Agricultural Chemicals
+  ✓ Company ID: 225
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 57
+
+[214/437] 
+======================================================================
+Processing: PKG
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001065638.json
+  ✗ Ticker PKG not in known list. Please use CIK directly.
+
+[215/437] 
+======================================================================
+Processing: IP
+======================================================================
+  ✓ Found: INTERNATIONAL PAPER CO /NEW/
+  ✓ CIK: 0000051434
+  ✓ Sector: Manufacturing
+  ✓ Industry: Paper Mills
+  ✓ Company ID: 226
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[216/437] 
+======================================================================
+Processing: AVY
+======================================================================
+  ✓ Found: Avery Dennison Corp
+  ✓ CIK: 0000008818
+  ✓ Sector: Manufacturing
+  ✓ Industry: Converted Paper & Paperboard Prods (No Contaners/Boxes)
+  ✓ Company ID: 227
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[217/437] 
+======================================================================
+Processing: ALB
+======================================================================
+  ✓ Found: ALBEMARLE CORP
+  ✓ CIK: 0000915913
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastic Materials, Synth Resins & Nonvulcan Elastomers
+  ✓ Company ID: 228
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[218/437] 
+======================================================================
+Processing: NDSN
+======================================================================
+  ✓ Found: NORDSON CORP
+  ✓ CIK: 0000072331
+  ✓ Sector: Manufacturing
+  ✓ Industry: General Industrial Machinery & Equipment, NEC
+  ✓ Company ID: 229
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[219/437] 
+======================================================================
+Processing: ROP
+======================================================================
+  ✓ Found: ROPER TECHNOLOGIES INC
+  ✓ CIK: 0000882835
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Instruments For Measurement, Display, and Control
+  ✓ Company ID: 230
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 51
+
+[220/437] 
+======================================================================
+Processing: WST
+======================================================================
+  ✓ Found: Thomas Michael H
+  ✓ CIK: 0001591272
+  ✓ Company ID: 231
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001591272
+  ✗ Could not fetch XBRL data
+
+[221/437] 
+======================================================================
+Processing: T
+======================================================================
+  ✓ Found: AT&T INC.
+  ✓ CIK: 0000732717
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Telephone Communications (No Radiotelephone)
+  ✓ Company ID: 122
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 50
+
+[222/437] 
+======================================================================
+Processing: VZ
+======================================================================
+  ✓ Found: VERIZON COMMUNICATIONS INC
+  ✓ CIK: 0000732712
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Telephone Communications (No Radiotelephone)
+  ✓ Company ID: 123
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[223/437] 
+======================================================================
+Processing: TMUS
+======================================================================
+  ✓ Found: T-Mobile US, Inc.
+  ✓ CIK: 0001283699
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Radiotelephone Communications
+  ✓ Company ID: 124
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 6 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 6
+
+[224/437] 
+======================================================================
+Processing: OMC
+======================================================================
+  ✓ Found: OMNICOM GROUP INC.
+  ✓ CIK: 0000029989
+  ✓ Sector: Services
+  ✓ Industry: Services-Advertising Agencies
+  ✓ Company ID: 232
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[225/437] 
+======================================================================
+Processing: IPG
+======================================================================
+  ✓ Found: INTERPUBLIC GROUP OF COMPANIES, INC.
+  ✓ CIK: 0000051644
+  ✓ Sector: Services
+  ✓ Industry: Services-Advertising Agencies
+  ✓ Company ID: 233
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 26 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 26
+
+[226/437] 
+======================================================================
+Processing: FDS
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000128134.json
+  ✗ Ticker FDS not in known list. Please use CIK directly.
+
+[227/437] 
+======================================================================
+Processing: ERIE
+======================================================================
+  ✓ Found: ERIE INDEMNITY CO
+  ✓ CIK: 0000922621
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Insurance Agents, Brokers & Service
+  ✓ Company ID: 234
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[228/437] 
+======================================================================
+Processing: BTI
+======================================================================
+  ✓ Found: DORFMAN SECURITIES INC
+  ✓ CIK: 0000898960
+  ✓ Company ID: 235
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0000898960
+  ✗ Could not fetch XBRL data
+
+[229/437] 
+======================================================================
+Processing: CRM
+======================================================================
+  ✓ Found: Salesforce, Inc.
+  ✓ CIK: 0001108524
+  ✓ Sector: Services
+  ✓ Industry: Services-Prepackaged Software
+  ✓ Company ID: 236
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 6 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 6
+
+[230/437] 
+======================================================================
+Processing: DIS
+======================================================================
+  ✓ Found: Walt Disney Co
+  ✓ CIK: 0001744489
+  ✓ Sector: Services
+  ✓ Industry: Services-Miscellaneous Amusement & Recreation
+  ✓ Company ID: 237
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 12 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 12
+
+[231/437] 
+======================================================================
+Processing: DOW
+======================================================================
+  ✓ Found: DOW INC.
+  ✓ CIK: 0001751788
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastic Materials, Synth Resins & Nonvulcan Elastomers
+  ✓ Company ID: 238
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 19 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 19
+
+[232/437] 
+======================================================================
+Processing: MNST
+======================================================================
+  ✓ Found: Monster Beverage Corp
+  ✓ CIK: 0000865752
+  ✓ Sector: Manufacturing
+  ✓ Industry: Bottled & Canned Soft Drinks & Carbonated Waters
+  ✓ Company ID: 239
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[233/437] 
+======================================================================
+Processing: STZ
+======================================================================
+  ✓ Found: CONSTELLATION BRANDS, INC.
+  ✓ CIK: 0000016918
+  ✓ Sector: Manufacturing
+  ✓ Industry: Beverages
+  ✓ Company ID: 240
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[234/437] 
+======================================================================
+Processing: TAP
+======================================================================
+  ✓ Found: MOLSON COORS BEVERAGE CO
+  ✓ CIK: 0000024545
+  ✓ Sector: Manufacturing
+  ✓ Industry: Malt Beverages
+  ✓ Company ID: 241
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 53 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 53
+
+[235/437] 
+======================================================================
+Processing: CAG
+======================================================================
+  ✓ Found: CONSOLIDATED EDISON INC
+  ✓ CIK: 0001047862
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  ⊘ CIK already exists (likely alternate ticker)
+
+[236/437] 
+======================================================================
+Processing: GPC
+======================================================================
+  ✓ Found: GENUINE PARTS CO
+  ✓ CIK: 0000040987
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Motor Vehicle Supplies & New Parts
+  ✓ Company ID: 243
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[237/437] 
+======================================================================
+Processing: ARCC
+======================================================================
+  ✓ Found: GLOBAL EARTH ENERGY, INC.
+  ✓ CIK: 0001121901
+  ✓ Sector: Services
+  ✓ Industry: Services-Management Consulting Services
+  ✓ Company ID: 244
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[238/437] 
+======================================================================
+Processing: HTGC
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001380388.json
+  ✗ Ticker HTGC not in known list. Please use CIK directly.
+
+[239/437] 
+======================================================================
+Processing: PSEC
+======================================================================
+  ✓ Found: BIOSPACE COM INC
+  ✓ CIK: 0001093782
+  ✓ Company ID: 245
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001093782
+  ✗ Could not fetch XBRL data
+
+[240/437] 
+======================================================================
+Processing: VTR
+======================================================================
+  ✓ Found: Ventas, Inc.
+  ✓ CIK: 0000740260
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 246
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 62 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 62
+
+[241/437] 
+======================================================================
+Processing: VICI
+======================================================================
+  ✓ Found: Perfect Snax Prime, LLC
+  ✓ CIK: 0001721408
+  ✓ Company ID: 247
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001721408
+  ✗ Could not fetch XBRL data
+
+[242/437] 
+======================================================================
+Processing: WPC
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000026827.json
+  ✗ Ticker WPC not in known list. Please use CIK directly.
+
+[243/437] 
+======================================================================
+Processing: BXP
+======================================================================
+  ✓ Found: BOSTON PROPERTIES LTD PARTNERSHIP
+  ✓ CIK: 0001043121
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 248
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 19 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 19
+
+[244/437] 
+======================================================================
+Processing: KIM
+======================================================================
+  ✓ Found: KIMCO REALTY CORP
+  ✓ CIK: 0000879101
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ✓ Company ID: 249
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[245/437] 
+======================================================================
+Processing: REG
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000720955.json
+  ✗ Ticker REG not in known list. Please use CIK directly.
+
+[246/437] 
+======================================================================
+Processing: GILD
+======================================================================
+  ✓ Found: GILEAD SCIENCES, INC.
+  ✓ CIK: 0000882095
+  ✓ Sector: Manufacturing
+  ✓ Industry: Biological Products, (No Diagnostic Substances)
+  ✓ Company ID: 250
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 31 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 31
+
+[247/437] 
+======================================================================
+Processing: VRTX
+======================================================================
+  ✓ Found: VERTEX PHARMACEUTICALS INC / MA
+  ✓ CIK: 0000875320
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  ✓ Company ID: 251
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[248/437] 
+======================================================================
+Processing: BIIB
+======================================================================
+  ✓ Found: BIOGEN INC.
+  ✓ CIK: 0000875045
+  ✓ Sector: Manufacturing
+  ✓ Industry: Biological Products, (No Diagnostic Substances)
+  ✓ Company ID: 252
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[249/437] 
+======================================================================
+Processing: HAL
+======================================================================
+  ✓ Found: HALLIBURTON CO
+  ✓ CIK: 0000045012
+  ✓ Sector: Mining
+  ✓ Industry: Oil & Gas Field Services, NEC
+  ✓ Company ID: 253
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[250/437] 
+======================================================================
+Processing: MPC
+======================================================================
+  ✓ Found: Marathon Petroleum Corp
+  ✓ CIK: 0001510295
+  ✓ Sector: Manufacturing
+  ✓ Industry: Petroleum Refining
+  ✓ Company ID: 254
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 42 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 42
+
+[251/437] 
+======================================================================
+Processing: DVN
+======================================================================
+  ✓ Found: DEVON ENERGY CORP/DE
+  ✓ CIK: 0001090012
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  ✓ Company ID: 255
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 46
+
+[252/437] 
+======================================================================
+Processing: UNM
+======================================================================
+  ✓ Found: Unum Group
+  ✓ CIK: 0000005513
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Accident & Health Insurance
+  ✓ Company ID: 256
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 20 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 20
+
+[253/437] 
+======================================================================
+Processing: LNC
+======================================================================
+  ✓ Found: LINCOLN NATIONAL CORP
+  ✓ CIK: 0000059558
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Life Insurance
+  ✓ Company ID: 257
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[254/437] 
+======================================================================
+Processing: PFG
+======================================================================
+  ✓ Found: PRINCIPAL FINANCIAL GROUP INC
+  ✓ CIK: 0001126328
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Accident & Health Insurance
+  ✓ Company ID: 258
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 25 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 25
+
+[255/437] 
+======================================================================
+Processing: GL
+======================================================================
+  ✓ Found: PRUDENTIAL FINANCIAL INC
+  ✓ CIK: 0001137774
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Life Insurance
+  ✓ Company ID: 259
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 34
+
+[256/437] 
+======================================================================
+Processing: AMAT
+======================================================================
+  ✓ Found: APPLIED MATERIALS INC /DE
+  ✓ CIK: 0000006951
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 260
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 74 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 74
+
+[257/437] 
+======================================================================
+Processing: LRCX
+======================================================================
+  ✓ Found: LAM RESEARCH CORP
+  ✓ CIK: 0000707549
+  ✓ Sector: Manufacturing
+  ✓ Industry: Special Industry Machinery, NEC
+  ✓ Company ID: 261
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 33 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 33
+
+[258/437] 
+======================================================================
+Processing: KLAC
+======================================================================
+  ✓ Found: KLA CORP
+  ✓ CIK: 0000319201
+  ✓ Sector: Manufacturing
+  ✓ Industry: Optical Instruments & Lenses
+  ✓ Company ID: 262
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 60 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 60
+
+[259/437] 
+======================================================================
+Processing: MCHP
+======================================================================
+  ✓ Found: MICROCHIP TECHNOLOGY INC
+  ✓ CIK: 0000827054
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  ✓ Company ID: 263
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 88 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 88
+
+[260/437] 
+======================================================================
+Processing: LHX
+======================================================================
+  ✓ Found: STERIS plc
+  ✓ CIK: 0001757898
+  ✓ Sector: Manufacturing
+  ✓ Industry: Orthopedic, Prosthetic & Surgical Appliances & Supplies
+  ✓ Company ID: 264
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 22 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 22
+
+[261/437] 
+======================================================================
+Processing: NOC
+======================================================================
+  ✓ Found: NORTHROP GRUMMAN CORP /DE/
+  ✓ CIK: 0001133421
+  ✓ Sector: Manufacturing
+  ✓ Industry: Search, Detection, Navigation, Guidance, Aeronautical Sys
+  ✓ Company ID: 265
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 66 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 66
+
+[262/437] 
+======================================================================
+Processing: TXT
+======================================================================
+  ✓ Found: TEXTRON INC
+  ✓ CIK: 0000217346
+  ✓ Sector: Manufacturing
+  ✓ Industry: Aircraft & Parts
+  ✓ Company ID: 266
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 48 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 48
+
+[263/437] 
+======================================================================
+Processing: CARR
+======================================================================
+  ✓ Found: CARRIER GLOBAL Corp
+  ✓ CIK: 0001783180
+  ✓ Sector: Manufacturing
+  ✓ Industry: Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip
+  ✓ Company ID: 270
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 6 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 6
+
+[264/437] 
+======================================================================
+Processing: OTIS
+======================================================================
+  ✓ Found: Otis Worldwide Corp
+  ✓ CIK: 0001781335
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electronic & Other Electrical Equipment (No Computer Equip)
+  ✓ Company ID: 271
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 16 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 16
+
+[265/437] 
+======================================================================
+Processing: PCAR
+======================================================================
+  ✓ Found: PACCAR INC
+  ✓ CIK: 0000075362
+  ✓ Sector: Manufacturing
+  ✓ Industry: Motor Vehicles & Passenger Car Bodies
+  ✓ Company ID: 272
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 38 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 38
+
+[266/437] 
+======================================================================
+Processing: CMI
+======================================================================
+  ✓ Found: CUMMINS INC
+  ✓ CIK: 0000026172
+  ✓ Sector: Manufacturing
+  ✓ Industry: Engines & Turbines
+  ✓ Company ID: 273
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 52
+
+[267/437] 
+======================================================================
+Processing: CSX
+======================================================================
+  ✓ Found: CSX CORP
+  ✓ CIK: 0000277948
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Railroads, Line-Haul Operating
+  ✓ Company ID: 274
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 67 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 67
+
+[268/437] 
+======================================================================
+Processing: UVV
+======================================================================
+  ✓ Found: UNIVERSAL CORP /VA/
+  ✓ CIK: 0000102037
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Farm Product Raw Materials
+  ✓ Company ID: 276
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[269/437] 
+======================================================================
+Processing: UBSI
+======================================================================
+  ✓ Found: UNITED BANKSHARES INC/WV
+  ✓ CIK: 0000729986
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ✓ Company ID: 277
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 38 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 38
+
+[270/437] 
+======================================================================
+Processing: AWR
+======================================================================
+  ✓ Found: WEST PHARMACEUTICAL SERVICES INC
+  ✓ CIK: 0000105770
+  ✓ Sector: Manufacturing
+  ✓ Industry: Surgical & Medical Instruments & Apparatus
+  ✓ Company ID: 278
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 44
+
+[271/437] 
+======================================================================
+Processing: MGEE
+======================================================================
+  ✓ Found: MGE ENERGY INC
+  ✓ CIK: 0001161728
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric, Gas & Sanitary Services
+  ✓ Company ID: 279
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[272/437] 
+======================================================================
+Processing: RLI
+======================================================================
+  ✓ Found: RLI CORP
+  ✓ CIK: 0000084246
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  ✓ Company ID: 280
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[273/437] 
+======================================================================
+Processing: NFG
+======================================================================
+  ✓ Found: NATIONAL FUEL GAS CO
+  ✓ CIK: 0000070145
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Natural Gas Distribution
+  ✓ Company ID: 281
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[274/437] 
+======================================================================
+Processing: BKH
+======================================================================
+  ✓ Found: BLACK HILLS CORP /SD/
+  ✓ CIK: 0001130464
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  ✓ Company ID: 282
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 49
+
+[275/437] 
+======================================================================
+Processing: ARR
+======================================================================
+  ✓ Found: NEWMAN HARVEY
+  ✓ CIK: 0001350868
+  ✓ Company ID: 283
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001350868
+  ✗ Could not fetch XBRL data
+
+[276/437] 
+======================================================================
+Processing: ORC
+======================================================================
+  ✓ Found: GMO Multi Strategy Fund Offshore II Great Britain Pound
+  ✓ CIK: 0001289774
+  ✓ Company ID: 284
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001289774
+  ✗ Could not fetch XBRL data
+
+[277/437] 
+======================================================================
+Processing: EFC
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001421102.json
+  ✗ Ticker EFC not in known list. Please use CIK directly.
+
+[278/437] 
+======================================================================
+Processing: TWO
+======================================================================
+  ✓ Found: ETF Series Solutions
+  ✓ CIK: 0001540305
+  ✓ Company ID: 285
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[279/437] 
+======================================================================
+Processing: CHCT
+======================================================================
+  ✓ Found: Peppertree Capital Fund IV, LP
+  ✓ CIK: 0001588006
+  ✓ Company ID: 286
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001588006
+  ✗ Could not fetch XBRL data
+
+[280/437] 
+======================================================================
+Processing: APA
+======================================================================
+  ✓ Found: APACHE CORP
+  ✓ CIK: 0000006769
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  ✓ Company ID: 287
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 43 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 43
+
+[281/437] 
+======================================================================
+Processing: HUM
+======================================================================
+  ✓ Found: HUMANA INC
+  ✓ CIK: 0000049071
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Hospital & Medical Service Plans
+  ✓ Company ID: 288
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 72 dividends
+  ✓ Inserted: 0
+  ⊘ Skipped: 72
+
+[282/437] 
+======================================================================
+Processing: ORLY
+======================================================================
+  ✓ Found: O REILLY AUTOMOTIVE INC
+  ✓ CIK: 0000898173
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Auto & Home Supply Stores
+  ✓ Company ID: 289
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[283/437] 
+======================================================================
+Processing: AZO
+======================================================================
+  ✓ Found: AUTOZONE INC
+  ✓ CIK: 0000866787
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Auto & Home Supply Stores
+  ✓ Company ID: 290
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[284/437] 
+======================================================================
+Processing: ADP
+======================================================================
+  ✓ Found: AUTOMATIC DATA PROCESSING INC
+  ✓ CIK: 0000008670
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Processing & Data Preparation
+  Created new company: ADP (ID: 294)
+  ✓ Company ID: 294
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 50
+  ⊘ Skipped: 0
+
+[285/437] 
+======================================================================
+Processing: AES
+======================================================================
+  ✓ Found: AES CORP
+  ✓ CIK: 0000874761
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Cogeneration Services & Small Power Producers
+  Created new company: AES (ID: 295)
+  ✓ Company ID: 295
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 7
+
+[286/437] 
+======================================================================
+Processing: AIZ
+======================================================================
+  ✓ Found: ASSURANT, INC.
+  ✓ CIK: 0001267238
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Insurance Carriers, NEC
+  Created new company: AIZ (ID: 296)
+  ✓ Company ID: 296
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+
+[287/437] 
+======================================================================
+Processing: AJG
+======================================================================
+  ✓ Found: Arthur J. Gallagher & Co.
+  ✓ CIK: 0000354190
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Insurance Agents, Brokers & Service
+  Created new company: AJG (ID: 297)
+  ✓ Company ID: 297
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[288/437] 
+======================================================================
+Processing: AKR
+======================================================================
+  ✓ Found: ACADIA REALTY TRUST
+  ✓ CIK: 0000899629
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: AKR (ID: 298)
+  ✓ Company ID: 298
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 10
+
+[289/437] 
+======================================================================
+Processing: AMPH
+======================================================================
+  ✓ Found: Amphastar Pharmaceuticals, Inc.
+  ✓ CIK: 0001297184
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  Created new company: AMPH (ID: 299)
+  ✓ Company ID: 299
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[290/437] 
+======================================================================
+Processing: ANDE
+======================================================================
+  ✓ Found: Andersons, Inc.
+  ✓ CIK: 0000821026
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Farm Product Raw Materials
+  Created new company: ANDE (ID: 300)
+  ✓ Company ID: 300
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[291/437] 
+======================================================================
+Processing: AOS
+======================================================================
+  ✓ Found: SMITH A O CORP
+  ✓ CIK: 0000091142
+  ✓ Sector: Manufacturing
+  ✓ Industry: Household Appliances
+  Created new company: AOS (ID: 301)
+  ✓ Company ID: 301
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[292/437] 
+======================================================================
+Processing: APH
+======================================================================
+  ✓ Found: AMPHENOL CORP /DE/
+  ✓ CIK: 0000820313
+  ✓ Sector: Manufacturing
+  ✓ Industry: Electronic Connectors
+  Created new company: APH (ID: 302)
+  ✓ Company ID: 302
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 68 dividends
+  ✓ Inserted: 68
+  ⊘ Skipped: 0
+
+[293/437] 
+======================================================================
+Processing: AUB
+======================================================================
+  ✓ Found: Atlantic Union Bankshares Corp
+  ✓ CIK: 0000883948
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  Created new company: AUB (ID: 303)
+  ✓ Company ID: 303
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 44
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[294/437] 
+======================================================================
+Processing: AVK
+======================================================================
+  ✓ Found: ADVENT CONVERTIBLE & INCOME FUND
+  ✓ CIK: 0001219120
+  Created new company: AVK (ID: 304)
+  ✓ Company ID: 304
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[295/437] 
+======================================================================
+Processing: AWK
+======================================================================
+  ✓ Found: American Water Works Company, Inc.
+  ✓ CIK: 0001410636
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Water Supply
+  Created new company: AWK (ID: 305)
+  ✓ Company ID: 305
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 57
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 6
+
+[296/437] 
+======================================================================
+Processing: AXS
+======================================================================
+  ✓ Found: AXIS CAPITAL HOLDINGS LTD
+  ✓ CIK: 0001214816
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  Created new company: AXS (ID: 306)
+  ✓ Company ID: 306
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+
+[297/437] 
+======================================================================
+Processing: BBD
+======================================================================
+  ✓ Found: BANK BRADESCO
+  ✓ CIK: 0001160330
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  Created new company: BBD (ID: 307)
+  ✓ Company ID: 307
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[298/437] 
+======================================================================
+Processing: BDN
+======================================================================
+  ✓ Found: BRANDYWINE REALTY TRUST
+  ✓ CIK: 0000790816
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ⊘ CIK already exists (likely alternate ticker)
+
+[299/437] 
+======================================================================
+Processing: BEP
+======================================================================
+  ✓ Found: Brookfield Renewable Partners L.P.
+  ✓ CIK: 0001533232
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  Created new company: BEP (ID: 309)
+  ✓ Company ID: 309
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[300/437] 
+======================================================================
+Processing: BFS
+======================================================================
+  ✓ Found: SAUL CENTERS, INC.
+  ✓ CIK: 0000907254
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: BFS (ID: 310)
+  ✓ Company ID: 310
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 33 dividends
+  ✓ Inserted: 33
+  ⊘ Skipped: 0
+
+[301/437] 
+======================================================================
+Processing: BHV
+======================================================================
+  ✓ Found: BLACKROCK VIRGINIA MUNICIPAL BOND TRUST
+  ✓ CIK: 0001169034
+  Created new company: BHV (ID: 311)
+  ✓ Company ID: 311
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[302/437] 
+======================================================================
+Processing: BKR
+======================================================================
+  ✓ Found: Baker Hughes Co
+  ✓ CIK: 0001701605
+  ✓ Sector: Manufacturing
+  ✓ Industry: Oil & Gas Field Machinery & Equipment
+  Created new company: BKR (ID: 312)
+  ✓ Company ID: 312
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[303/437] 
+======================================================================
+Processing: BKU
+======================================================================
+  ✓ Found: BankUnited, Inc.
+  ✓ CIK: 0001504008
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Savings Institution, Federally Chartered
+  Created new company: BKU (ID: 313)
+  ✓ Company ID: 313
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 5
+
+[304/437] 
+======================================================================
+Processing: BMR
+======================================================================
+  ✓ Found: BADGER METER INC
+  ✓ CIK: 0000009092
+  ✓ Sector: Manufacturing
+  ✓ Industry: Totalizing Fluid Meters & Counting Devices
+  Created new company: BMR (ID: 314)
+  ✓ Company ID: 314
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+
+[305/437] 
+======================================================================
+Processing: BWXT
+======================================================================
+  ✓ Found: NEWMONT Corp /DE/
+  ✓ CIK: 0001164727
+  ✓ Sector: Mining
+  ✓ Industry: Gold and Silver Ores
+  ⊘ CIK already exists (likely alternate ticker)
+
+[306/437] 
+======================================================================
+Processing: CBOE
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001216364.json
+  ✗ Ticker CBOE not in known list. Please use CIK directly.
+
+[307/437] 
+======================================================================
+Processing: CBSH
+======================================================================
+  ✓ Found: CAMDEN PROPERTY TRUST
+  ✓ CIK: 0000906345
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: CBSH (ID: 316)
+  ✓ Company ID: 316
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[308/437] 
+======================================================================
+Processing: CE
+======================================================================
+  ✓ Found: Celanese Corp
+  ✓ CIK: 0001306830
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)
+  Created new company: CE (ID: 317)
+  ✓ Company ID: 317
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[309/437] 
+======================================================================
+Processing: CHT
+======================================================================
+  ✓ Found: OVERLOOK APARTMENTS LIMITED LIABILITY CO
+  ✓ CIK: 0001014242
+  Created new company: CHT (ID: 318)
+  ✓ Company ID: 318
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001014242
+  ✗ Could not fetch XBRL data
+
+[310/437] 
+======================================================================
+Processing: CLB
+======================================================================
+  ✗ Ticker CLB not in known list. Please use CIK directly.
+
+[311/437] 
+======================================================================
+Processing: CMA
+======================================================================
+  ✓ Found: COMERICA INC
+  ✓ CIK: 0000028412
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  Created new company: CMA (ID: 319)
+  ✓ Company ID: 319
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[312/437] 
+======================================================================
+Processing: CNA
+======================================================================
+  ✓ Found: CNA FINANCIAL CORP
+  ✓ CIK: 0000021175
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  Created new company: CNA (ID: 320)
+  ✓ Company ID: 320
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 44
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 12
+
+[313/437] 
+======================================================================
+Processing: CNS
+======================================================================
+  ✓ Found: Seagen Inc.
+  ✓ CIK: 0001060736
+  ✓ Sector: Manufacturing
+  ✓ Industry: Biological Products, (No Diagnostic Substances)
+  Created new company: CNS (ID: 321)
+  ✓ Company ID: 321
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[314/437] 
+======================================================================
+Processing: CNX
+======================================================================
+  ✓ Found: CNX Resources Corp
+  ✓ CIK: 0001070412
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  Created new company: CNX (ID: 322)
+  ✓ Company ID: 322
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 25 dividends
+  ✓ Inserted: 25
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[315/437] 
+======================================================================
+Processing: CPRI
+======================================================================
+  ✓ Found: Capri Holdings Ltd
+  ✓ CIK: 0001530721
+  ✓ Sector: Manufacturing
+  ✓ Industry: Leather & Leather Products
+  Created new company: CPRI (ID: 323)
+  ✓ Company ID: 323
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[316/437] 
+======================================================================
+Processing: CSGP
+======================================================================
+  ✓ Found: COSTAR GROUP, INC.
+  ✓ CIK: 0001057352
+  ✓ Sector: Services
+  ✓ Industry: Services-Business Services, NEC
+  Created new company: CSGP (ID: 324)
+  ✓ Company ID: 324
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[317/437] 
+======================================================================
+Processing: CSL
+======================================================================
+  ✓ Found: CARLISLE COMPANIES INC
+  ✓ CIK: 0000790051
+  ✓ Sector: Manufacturing
+  ✓ Industry: Fabricated Rubber Products, NEC
+  Created new company: CSL (ID: 325)
+  ✓ Company ID: 325
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[318/437] 
+======================================================================
+Processing: CTRA
+======================================================================
+  ✓ Found: Mallinckrodt plc
+  ✓ CIK: 0001567892
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  Created new company: CTRA (ID: 326)
+  ✓ Company ID: 326
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[319/437] 
+======================================================================
+Processing: CTSH
+======================================================================
+  ✓ Found: COGNIZANT TECHNOLOGY SOLUTIONS CORP
+  ✓ CIK: 0001058290
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Programming Services
+  Created new company: CTSH (ID: 327)
+  ✓ Company ID: 327
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 23 dividends
+  ✓ Inserted: 23
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[320/437] 
+======================================================================
+Processing: CW
+======================================================================
+  ✓ Found: CURTISS WRIGHT CORP
+  ✓ CIK: 0000026324
+  ✓ Sector: Manufacturing
+  ✓ Industry: Misc Industrial & Commercial Machinery & Equipment
+  Created new company: CW (ID: 328)
+  ✓ Company ID: 328
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[321/437] 
+======================================================================
+Processing: DHI
+======================================================================
+  ✓ Found: HORTON D R INC /DE/
+  ✓ CIK: 0000882184
+  ✓ Sector: Construction
+  ✓ Industry: Operative Builders
+  Created new company: DHI (ID: 329)
+  ✓ Company ID: 329
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 61 dividends
+  ✓ Inserted: 61
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 5
+
+[322/437] 
+======================================================================
+Processing: DHR
+======================================================================
+  ✓ Found: DANAHER CORP /DE/
+  ✓ CIK: 0000313616
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Instruments For Measurement, Display, and Control
+  Created new company: DHR (ID: 330)
+  ✓ Company ID: 330
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[323/437] 
+======================================================================
+Processing: DLHC
+======================================================================
+  ✓ Found: Moatable, Inc.
+  ✓ CIK: 0001509223
+  ✓ Sector: Services
+  ✓ Industry: Services-Prepackaged Software
+  Created new company: DLHC (ID: 331)
+  ✓ Company ID: 331
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 1 dividends
+  ✓ Inserted: 1
+  ⊘ Skipped: 0
+
+[324/437] 
+======================================================================
+Processing: DRI
+======================================================================
+  ✓ Found: DARDEN RESTAURANTS INC
+  ✓ CIK: 0000940944
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Eating  Places
+  Created new company: DRI (ID: 332)
+  ✓ Company ID: 332
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[325/437] 
+======================================================================
+Processing: DXC
+======================================================================
+  ✓ Found: DXC Technology Co
+  ✓ CIK: 0001688568
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Processing & Data Preparation
+  Created new company: DXC (ID: 333)
+  ✓ Company ID: 333
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 12 dividends
+  ✓ Inserted: 12
+  ⊘ Skipped: 0
+
+[326/437] 
+======================================================================
+Processing: EAT
+======================================================================
+  ✓ Found: BRINKER INTERNATIONAL, INC
+  ✓ CIK: 0000703351
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Eating  Places
+  Created new company: EAT (ID: 334)
+  ✓ Company ID: 334
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 39 dividends
+  ✓ Inserted: 39
+  ⊘ Skipped: 0
+
+[327/437] 
+======================================================================
+Processing: EIX
+======================================================================
+  ✓ Found: SOUTHERN CALIFORNIA EDISON Co
+  ✓ CIK: 0000092103
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  Created new company: EIX (ID: 335)
+  ✓ Company ID: 335
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 2 dividends
+  ✓ Inserted: 2
+  ⊘ Skipped: 0
+
+[328/437] 
+======================================================================
+Processing: EL
+======================================================================
+  ✓ Found: ESTEE LAUDER COMPANIES INC
+  ✓ CIK: 0001001250
+  ✓ Sector: Manufacturing
+  ✓ Industry: Perfumes, Cosmetics & Other Toilet Preparations
+  Created new company: EL (ID: 336)
+  ✓ Company ID: 336
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 4
+
+[329/437] 
+======================================================================
+Processing: EMN
+======================================================================
+  ✓ Found: EASTMAN CHEMICAL CO
+  ✓ CIK: 0000915389
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastic Materials, Synth Resins & Nonvulcan Elastomers
+  Created new company: EMN (ID: 337)
+  ✓ Company ID: 337
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+
+[330/437] 
+======================================================================
+Processing: EQR
+======================================================================
+  ✓ Found: EQUITY RESIDENTIAL
+  ✓ CIK: 0000906107
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: EQR (ID: 338)
+  ✓ Company ID: 338
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 38 dividends
+  ✓ Inserted: 38
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[331/437] 
+======================================================================
+Processing: ESRT
+======================================================================
+  ✓ Found: Foresight Energy LP
+  ✓ CIK: 0001540729
+  ✓ Sector: Mining
+  ✓ Industry: Silver Ores
+  Created new company: ESRT (ID: 339)
+  ✓ Company ID: 339
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[332/437] 
+======================================================================
+Processing: EVRG
+======================================================================
+  ✓ Found: Evergy, Inc.
+  ✓ CIK: 0001711269
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  Created new company: EVRG (ID: 340)
+  ✓ Company ID: 340
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 25 dividends
+  ✓ Inserted: 25
+  ⊘ Skipped: 0
+
+[333/437] 
+======================================================================
+Processing: FANG
+======================================================================
+  ✓ Found: Diamondback Energy, Inc.
+  ✓ CIK: 0001539838
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  Created new company: FANG (ID: 341)
+  ✓ Company ID: 341
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 23 dividends
+  ✓ Inserted: 23
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 6
+
+[334/437] 
+======================================================================
+Processing: FHN
+======================================================================
+  ✓ Found: FIRST HORIZON CORP
+  ✓ CIK: 0000036966
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: National Commercial Banks
+  Created new company: FHN (ID: 342)
+  ✓ Company ID: 342
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 44
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[335/437] 
+======================================================================
+Processing: FLR
+======================================================================
+  ✓ Found: FLUOR CORP
+  ✓ CIK: 0001124198
+  ✓ Sector: Construction
+  ✓ Industry: Heavy Construction Other Than Bldg Const - Contractors
+  Created new company: FLR (ID: 343)
+  ✓ Company ID: 343
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 40
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[336/437] 
+======================================================================
+Processing: FLS
+======================================================================
+  ✓ Found: FLOWSERVE CORP
+  ✓ CIK: 0000030625
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pumps & Pumping Equipment
+  Created new company: FLS (ID: 344)
+  ✓ Company ID: 344
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 59 dividends
+  ✓ Inserted: 59
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[337/437] 
+======================================================================
+Processing: FNB
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001026608.json
+  ✗ Ticker FNB not in known list. Please use CIK directly.
+
+[338/437] 
+======================================================================
+Processing: FNF
+======================================================================
+  ✓ Found: Fidelity National Financial, Inc.
+  ✓ CIK: 0001331875
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Title Insurance
+  Created new company: FNF (ID: 345)
+  ✓ Company ID: 345
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 42 dividends
+  ✓ Inserted: 42
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[339/437] 
+======================================================================
+Processing: FSK
+======================================================================
+  ✓ Found: TOMA GEORGE B
+  ✓ CIK: 0001232344
+  Created new company: FSK (ID: 346)
+  ✓ Company ID: 346
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001232344
+  ✗ Could not fetch XBRL data
+
+[340/437] 
+======================================================================
+Processing: FTV
+======================================================================
+  ✓ Found: Fortive Corp
+  ✓ CIK: 0001659166
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Instruments For Measurement, Display, and Control
+  Created new company: FTV (ID: 347)
+  ✓ Company ID: 347
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 25 dividends
+  ✓ Inserted: 25
+  ⊘ Skipped: 0
+
+[341/437] 
+======================================================================
+Processing: GEN
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001034187.json
+  ✗ Ticker GEN not in known list. Please use CIK directly.
+
+[342/437] 
+======================================================================
+Processing: GLW
+======================================================================
+  ✓ Found: CORNING INC /NY
+  ✓ CIK: 0000024741
+  ✓ Sector: Manufacturing
+  ✓ Industry: Drawing & Insulating of  Nonferrous Wire
+  Created new company: GLW (ID: 348)
+  ✓ Company ID: 348
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 6
+
+[343/437] 
+======================================================================
+Processing: GPK
+======================================================================
+  ✓ Found: LYNCH ROBERT L
+  ✓ CIK: 0001041898
+  Created new company: GPK (ID: 349)
+  ✓ Company ID: 349
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001041898
+  ✗ Could not fetch XBRL data
+
+[344/437] 
+======================================================================
+Processing: GRMN
+======================================================================
+  ✓ Found: GARMIN LTD
+  ✓ CIK: 0001121788
+  ✓ Sector: Manufacturing
+  ✓ Industry: Search, Detection, Navigation, Guidance, Aeronautical Sys
+  Created new company: GRMN (ID: 350)
+  ✓ Company ID: 350
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 35 dividends
+  ✓ Inserted: 35
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 15
+
+[345/437] 
+======================================================================
+Processing: GSBD
+======================================================================
+  ✓ Found: CapitalSouth SBIC Fund IV, L.P.
+  ✓ CIK: 0001573630
+  Created new company: GSBD (ID: 351)
+  ✓ Company ID: 351
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001573630
+  ✗ Could not fetch XBRL data
+
+[346/437] 
+======================================================================
+Processing: HBI
+======================================================================
+  ✓ Found: Hanesbrands Inc.
+  ✓ CIK: 0001359841
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Apparel & Accessory Stores
+  Created new company: HBI (ID: 352)
+  ✓ Company ID: 352
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 29 dividends
+  ✓ Inserted: 29
+  ⊘ Skipped: 0
+
+[347/437] 
+======================================================================
+Processing: HIG
+======================================================================
+  ✓ Found: HARTFORD INSURANCE GROUP, INC.
+  ✓ CIK: 0000874766
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  Created new company: HIG (ID: 353)
+  ✓ Company ID: 353
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 57
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 5
+
+[348/437] 
+======================================================================
+Processing: HLT
+======================================================================
+  ✓ Found: Hilton Worldwide Holdings Inc.
+  ✓ CIK: 0001585689
+  ✓ Sector: Services
+  ✓ Industry: Hotels & Motels
+  Created new company: HLT (ID: 354)
+  ✓ Company ID: 354
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 26 dividends
+  ✓ Inserted: 26
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[349/437] 
+======================================================================
+Processing: HOG
+======================================================================
+  ✓ Found: HARLEY-DAVIDSON, INC.
+  ✓ CIK: 0000793952
+  ✓ Sector: Manufacturing
+  ✓ Industry: Motorcycles, Bicycles & Parts
+  Created new company: HOG (ID: 355)
+  ✓ Company ID: 355
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+
+[350/437] 
+======================================================================
+Processing: HPE
+======================================================================
+  ✓ Found: Hewlett Packard Enterprise Co
+  ✓ CIK: 0001645590
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer & office Equipment
+  Created new company: HPE (ID: 356)
+  ✓ Company ID: 356
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 32 dividends
+  ✓ Inserted: 32
+  ⊘ Skipped: 0
+
+[351/437] 
+======================================================================
+Processing: HRB
+======================================================================
+  ✓ Found: H&R BLOCK INC
+  ✓ CIK: 0000012659
+  ✓ Sector: Services
+  ✓ Industry: Services-Personal Services
+  Created new company: HRB (ID: 357)
+  ✓ Company ID: 357
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+
+[352/437] 
+======================================================================
+Processing: HST
+======================================================================
+  ✓ Found: HOST HOTELS & RESORTS, INC.
+  ✓ CIK: 0001070750
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: HST (ID: 358)
+  ✓ Company ID: 358
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 6 dividends
+  ✓ Inserted: 6
+  ⊘ Skipped: 0
+
+[353/437] 
+======================================================================
+Processing: IFF
+======================================================================
+  ✓ Found: INTERNATIONAL FLAVORS & FRAGRANCES INC
+  ✓ CIK: 0000051253
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Organic Chemicals
+  Created new company: IFF (ID: 359)
+  ✓ Company ID: 359
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[354/437] 
+======================================================================
+Processing: IRM
+======================================================================
+  ✓ Found: IRON MOUNTAIN INC
+  ✓ CIK: 0001020569
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: IRM (ID: 360)
+  ✓ Company ID: 360
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 109 dividends
+  ✓ Inserted: 109
+  ⊘ Skipped: 0
+
+[355/437] 
+======================================================================
+Processing: ISRG
+======================================================================
+  ✓ Found: INTUITIVE SURGICAL INC
+  ✓ CIK: 0001035267
+  ✓ Sector: Manufacturing
+  ✓ Industry: Orthopedic, Prosthetic & Surgical Appliances & Supplies
+  Created new company: ISRG (ID: 361)
+  ✓ Company ID: 361
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[356/437] 
+======================================================================
+Processing: IT
+======================================================================
+  ✓ Found: Proto Labs Inc
+  ✓ CIK: 0001443669
+  ✓ Sector: Manufacturing
+  ✓ Industry: Fabricated Structural Metal Products
+  Created new company: IT (ID: 362)
+  ✓ Company ID: 362
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[357/437] 
+======================================================================
+Processing: JCI
+======================================================================
+  ✓ Found: Johnson Controls International plc
+  ✓ CIK: 0000833444
+  ✓ Sector: Manufacturing
+  ✓ Industry: Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip
+  Created new company: JCI (ID: 363)
+  ✓ Company ID: 363
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 22 dividends
+  ✓ Inserted: 22
+  ⊘ Skipped: 0
+
+[358/437] 
+======================================================================
+Processing: JEF
+======================================================================
+  ✓ Found: Jefferies Group LLC
+  ✓ CIK: 0001084580
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  Created new company: JEF (ID: 364)
+  ✓ Company ID: 364
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 11 dividends
+  ✓ Inserted: 11
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[359/437] 
+======================================================================
+Processing: KWR
+======================================================================
+  ✓ Found: KENNAMETAL INC
+  ✓ CIK: 0000055242
+  ✓ Sector: Manufacturing
+  ✓ Industry: Machine Tools, Metal Cutting Types
+  Created new company: KWR (ID: 365)
+  ✓ Company ID: 365
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 36
+  ⊘ Skipped: 0
+
+[360/437] 
+======================================================================
+Processing: L
+======================================================================
+  ✓ Found: LOEWS CORP
+  ✓ CIK: 0000060086
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Fire, Marine & Casualty Insurance
+  Created new company: L (ID: 366)
+  ✓ Company ID: 366
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 50
+  ⊘ Skipped: 0
+
+[361/437] 
+======================================================================
+Processing: LAD
+======================================================================
+  ✓ Found: Option Care Health, Inc.
+  ✓ CIK: 0001014739
+  ✓ Sector: Services
+  ✓ Industry: Services-Home Health Care Services
+  Created new company: LAD (ID: 367)
+  ✓ Company ID: 367
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[362/437] 
+======================================================================
+Processing: LB
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001029490.json
+  ✗ Ticker LB not in known list. Please use CIK directly.
+
+[363/437] 
+======================================================================
+Processing: LH
+======================================================================
+  ✓ Found: LABCORP HOLDINGS INC.
+  ✓ CIK: 0000920148
+  ✓ Sector: Services
+  ✓ Industry: Services-Medical Laboratories
+  Created new company: LH (ID: 368)
+  ✓ Company ID: 368
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 3 dividends
+  ✓ Inserted: 3
+  ⊘ Skipped: 0
+
+[364/437] 
+======================================================================
+Processing: LNT
+======================================================================
+  ✓ Found: ALLIANT ENERGY CORP
+  ✓ CIK: 0000352541
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  Created new company: LNT (ID: 369)
+  ✓ Company ID: 369
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[365/437] 
+======================================================================
+Processing: LYB
+======================================================================
+  ✓ Found: LyondellBasell Industries N.V.
+  ✓ CIK: 0001489393
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Organic Chemicals
+  Created new company: LYB (ID: 370)
+  ✓ Company ID: 370
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[366/437] 
+======================================================================
+Processing: MCO
+======================================================================
+  ✓ Found: MOODYS CORP /DE/
+  ✓ CIK: 0001059556
+  ✓ Sector: Services
+  ✓ Industry: Services-Consumer Credit Reporting, Collection Agencies
+  Created new company: MCO (ID: 371)
+  ✓ Company ID: 371
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 45 dividends
+  ✓ Inserted: 45
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 10
+
+[367/437] 
+======================================================================
+Processing: MDU
+======================================================================
+  ✓ Found: MDU RESOURCES GROUP INC
+  ✓ CIK: 0000067716
+  ✓ Sector: Mining
+  ✓ Industry: Mining & Quarrying of  Nonmetallic Minerals (No Fuels)
+  Created new company: MDU (ID: 372)
+  ✓ Company ID: 372
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+
+[368/437] 
+======================================================================
+Processing: MGM
+======================================================================
+  ✓ Found: MGM Resorts International
+  ✓ CIK: 0000789570
+  ✓ Sector: Services
+  ✓ Industry: Hotels & Motels
+  Created new company: MGM (ID: 373)
+  ✓ Company ID: 373
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 18 dividends
+  ✓ Inserted: 18
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 8
+
+[369/437] 
+======================================================================
+Processing: MHK
+======================================================================
+  ✓ Found: MOHAWK INDUSTRIES INC
+  ✓ CIK: 0000851968
+  ✓ Sector: Manufacturing
+  ✓ Industry: Carpets & Rugs
+  Created new company: MHK (ID: 374)
+  ✓ Company ID: 374
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[370/437] 
+======================================================================
+Processing: MKL
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000799156.json
+  ✗ Ticker MKL not in known list. Please use CIK directly.
+
+[371/437] 
+======================================================================
+Processing: MLM
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001072189.json
+  ✗ Ticker MLM not in known list. Please use CIK directly.
+
+[372/437] 
+======================================================================
+Processing: MRVL
+======================================================================
+  ✓ Found: MARVELL TECHNOLOGY GROUP LTD
+  ✓ CIK: 0001058057
+  ✓ Sector: Manufacturing
+  ✓ Industry: Semiconductors & Related Devices
+  Created new company: MRVL (ID: 375)
+  ✓ Company ID: 375
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 26 dividends
+  ✓ Inserted: 26
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[373/437] 
+======================================================================
+Processing: MSA
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0000066890.json
+  ✗ Ticker MSA not in known list. Please use CIK directly.
+
+[374/437] 
+======================================================================
+Processing: MSCI
+======================================================================
+  ✓ Found: MSCI Inc.
+  ✓ CIK: 0001408198
+  ✓ Sector: Services
+  ✓ Industry: Services-Business Services, NEC
+  Created new company: MSCI (ID: 376)
+  ✓ Company ID: 376
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 34 dividends
+  ✓ Inserted: 34
+  ⊘ Skipped: 0
+
+[375/437] 
+======================================================================
+Processing: MSEX
+======================================================================
+  ✓ Found: MIDDLESEX WATER CO
+  ✓ CIK: 0000066004
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Water Supply
+  Created new company: MSEX (ID: 377)
+  ✓ Company ID: 377
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 42 dividends
+  ✓ Inserted: 42
+  ⊘ Skipped: 0
+
+[376/437] 
+======================================================================
+Processing: MUR
+======================================================================
+  ✓ Found: MURPHY OIL CORP
+  ✓ CIK: 0000717423
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  Created new company: MUR (ID: 378)
+  ✓ Company ID: 378
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 28 dividends
+  ✓ Inserted: 28
+  ⊘ Skipped: 0
+
+[377/437] 
+======================================================================
+Processing: NDAQ
+======================================================================
+  ✓ Found: NASDAQ, INC.
+  ✓ CIK: 0001120193
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security & Commodity Brokers, Dealers, Exchanges & Services
+  Created new company: NDAQ (ID: 379)
+  ✓ Company ID: 379
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 51
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 4
+
+[378/437] 
+======================================================================
+Processing: NGG
+======================================================================
+  ✓ Found: NORTHERN TRUST CORP
+  ✓ CIK: 0000073124
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: State Commercial Banks
+  ⊘ CIK already exists (likely alternate ticker)
+
+[379/437] 
+======================================================================
+Processing: NOG
+======================================================================
+  ✓ Found: NORTHERN OIL & GAS, INC.
+  ✓ CIK: 0001104485
+  ✓ Sector: Mining
+  ✓ Industry: Crude Petroleum & Natural Gas
+  Created new company: NOG (ID: 381)
+  ✓ Company ID: 381
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 18 dividends
+  ✓ Inserted: 18
+  ⊘ Skipped: 0
+
+[380/437] 
+======================================================================
+Processing: NPK
+======================================================================
+  ✓ Found: NPK International Inc.
+  ✓ CIK: 0000071829
+  ✓ Sector: Services
+  ✓ Industry: Services-Miscellaneous Equipment Rental & Leasing
+  Created new company: NPK (ID: 382)
+  ✓ Company ID: 382
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[381/437] 
+======================================================================
+Processing: NRG
+======================================================================
+  ✓ Found: NRG ENERGY, INC.
+  ✓ CIK: 0001013871
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric Services
+  Created new company: NRG (ID: 383)
+  ✓ Company ID: 383
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 42 dividends
+  ✓ Inserted: 42
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[382/437] 
+======================================================================
+Processing: NTAP
+======================================================================
+  ✓ Found: NetApp, Inc.
+  ✓ CIK: 0001002047
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer Storage Devices
+  Created new company: NTAP (ID: 384)
+  ✓ Company ID: 384
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 44 dividends
+  ✓ Inserted: 44
+  ⊘ Skipped: 0
+
+[383/437] 
+======================================================================
+Processing: NTR
+======================================================================
+  ✓ Found: CallRail, Inc.
+  ✓ CIK: 0001629683
+  Created new company: NTR (ID: 385)
+  ✓ Company ID: 385
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001629683
+  ✗ Could not fetch XBRL data
+
+[384/437] 
+======================================================================
+Processing: NWL
+======================================================================
+  ✓ Found: NEWELL BRANDS INC.
+  ✓ CIK: 0000814453
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastics Products, NEC
+  Created new company: NWL (ID: 386)
+  ✓ Company ID: 386
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+
+[385/437] 
+======================================================================
+Processing: OGS
+======================================================================
+  ✓ Found: Forida East Coast Railway L.L.C.
+  ✓ CIK: 0001519629
+  Created new company: OGS (ID: 387)
+  ✓ Company ID: 387
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001519629
+  ✗ Could not fetch XBRL data
+
+[386/437] 
+======================================================================
+Processing: OLN
+======================================================================
+  ✓ Found: BRANDYWINE REALTY TRUST
+  ✓ CIK: 0000790816
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ⊘ CIK already exists (likely alternate ticker)
+
+[387/437] 
+======================================================================
+Processing: OTEX
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001036733.json
+  ✗ Ticker OTEX not in known list. Please use CIK directly.
+
+[388/437] 
+======================================================================
+Processing: PDM
+======================================================================
+  ✓ Found: WANG YUI LOONG
+  ✓ CIK: 0001033172
+  Created new company: PDM (ID: 389)
+  ✓ Company ID: 389
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001033172
+  ✗ Could not fetch XBRL data
+
+[389/437] 
+======================================================================
+Processing: PGRE
+======================================================================
+  ✓ Found: Osborne, Jr. Charles F
+  ✓ CIK: 0001604065
+  Created new company: PGRE (ID: 390)
+  ✓ Company ID: 390
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001604065
+  ✗ Could not fetch XBRL data
+
+[390/437] 
+======================================================================
+Processing: PHM
+======================================================================
+  ✓ Found: PULTEGROUP INC/MI/
+  ✓ CIK: 0000822416
+  ✓ Sector: Construction
+  ✓ Industry: Operative Builders
+  Created new company: PHM (ID: 391)
+  ✓ Company ID: 391
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 36
+  ⊘ Skipped: 0
+
+[391/437] 
+======================================================================
+Processing: PNW
+======================================================================
+  ✓ Found: ARIZONA PUBLIC SERVICE CO
+  ✓ CIK: 0000007286
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Electric & Other Services Combined
+  Created new company: PNW (ID: 392)
+  ✓ Company ID: 392
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 2 dividends
+  ✓ Inserted: 2
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[392/437] 
+======================================================================
+Processing: PSTG
+======================================================================
+  ✓ Found: Pure Storage, Inc.
+  ✓ CIK: 0001474432
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer Storage Devices
+  Created new company: PSTG (ID: 393)
+  ✓ Company ID: 393
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[393/437] 
+======================================================================
+Processing: PTEN
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001008356.json
+  ✗ Ticker PTEN not in known list. Please use CIK directly.
+
+[394/437] 
+======================================================================
+Processing: PVH
+======================================================================
+  ✓ Found: PVH CORP. /DE/
+  ✓ CIK: 0000078239
+  ✓ Sector: Manufacturing
+  ✓ Industry: Men's & Boys' Furnishgs, Work Clothg, & Allied Garments
+  Created new company: PVH (ID: 394)
+  ✓ Company ID: 394
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 51
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 6
+
+[395/437] 
+======================================================================
+Processing: RCL
+======================================================================
+  ✓ Found: ROYAL CARIBBEAN CRUISES LTD
+  ✓ CIK: 0000884887
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Water Transportation
+  Created new company: RCL (ID: 395)
+  ✓ Company ID: 395
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 50 dividends
+  ✓ Inserted: 50
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[396/437] 
+======================================================================
+Processing: REXR
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001463558.json
+  ✗ Ticker REXR not in known list. Please use CIK directly.
+
+[397/437] 
+======================================================================
+Processing: RHI
+======================================================================
+  ✓ Found: ROBERT HALF INC.
+  ✓ CIK: 0000315213
+  ✓ Sector: Services
+  ✓ Industry: Services-Help Supply Services
+  Created new company: RHI (ID: 396)
+  ✓ Company ID: 396
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+
+[398/437] 
+======================================================================
+Processing: RHP
+======================================================================
+  ✓ Found: FURROW SAMUEL J
+  ✓ CIK: 0001041942
+  Created new company: RHP (ID: 397)
+  ✓ Company ID: 397
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001041942
+  ✗ Could not fetch XBRL data
+
+[399/437] 
+======================================================================
+Processing: RJF
+======================================================================
+  ✓ Found: RAYMOND JAMES FINANCIAL INC
+  ✓ CIK: 0000720005
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Security Brokers, Dealers & Flotation Companies
+  Created new company: RJF (ID: 398)
+  ✓ Company ID: 398
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+
+[400/437] 
+======================================================================
+Processing: RL
+======================================================================
+  ✓ Found: RALPH LAUREN CORP
+  ✓ CIK: 0001037038
+  ✓ Sector: Manufacturing
+  ✓ Industry: Men's & Boys' Furnishgs, Work Clothg, & Allied Garments
+  Created new company: RL (ID: 399)
+  ✓ Company ID: 399
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 54 dividends
+  ✓ Inserted: 54
+  ⊘ Skipped: 0
+
+[401/437] 
+======================================================================
+Processing: RRC
+======================================================================
+  ✓ Found: ASHLAND INC
+  ✓ CIK: 0000007694
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Chemicals & Allied Products
+  Created new company: RRC (ID: 400)
+  ✓ Company ID: 400
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0000007694
+  ✗ Could not fetch XBRL data
+
+[402/437] 
+======================================================================
+Processing: RVT
+======================================================================
+  ✗ Error fetching submissions: 404 Client Error: Not Found for url: https://data.sec.gov/submissions/CIK0001463558.json
+  ✗ Ticker RVT not in known list. Please use CIK directly.
+
+[403/437] 
+======================================================================
+Processing: SABR
+======================================================================
+  ✓ Found: SQN AIF IV, L.P.
+  ✓ CIK: 0001560046
+  ✓ Sector: Services
+  ✓ Industry: Services-Equipment Rental & Leasing, NEC
+  Created new company: SABR (ID: 401)
+  ✓ Company ID: 401
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[404/437] 
+======================================================================
+Processing: SBAC
+======================================================================
+  ✓ Found: SBA COMMUNICATIONS CORP
+  ✓ CIK: 0001034054
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: SBAC (ID: 402)
+  ✓ Company ID: 402
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[405/437] 
+======================================================================
+Processing: SEE
+======================================================================
+  ✓ Found: SEALED AIR CORP/DE
+  ✓ CIK: 0001012100
+  ✓ Sector: Manufacturing
+  ✓ Industry: Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)
+  Created new company: SEE (ID: 403)
+  ✓ Company ID: 403
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 86 dividends
+  ✓ Inserted: 86
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 4
+
+[406/437] 
+======================================================================
+Processing: SNA
+======================================================================
+  ✓ Found: Snap-on Inc
+  ✓ CIK: 0000091440
+  ✓ Sector: Manufacturing
+  ✓ Industry: Cutlery, Handtools & General Hardware
+  Created new company: SNA (ID: 404)
+  ✓ Company ID: 404
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[407/437] 
+======================================================================
+Processing: SNV
+======================================================================
+  ✓ Found: SEMPRA
+  ✓ CIK: 0001032208
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Gas & Other Services Combined
+  Created new company: SNV (ID: 405)
+  ✓ Company ID: 405
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+
+[408/437] 
+======================================================================
+Processing: SSTK
+======================================================================
+  ✓ Found: Shutterstock, Inc.
+  ✓ CIK: 0001549346
+  ✓ Sector: Services
+  ✓ Industry: Services-Computer Processing & Data Preparation
+  Created new company: SSTK (ID: 406)
+  ✓ Company ID: 406
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 18 dividends
+  ✓ Inserted: 18
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[409/437] 
+======================================================================
+Processing: SYF
+======================================================================
+  ✓ Found: Synchrony Financial
+  ✓ CIK: 0001601712
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Finance Services
+  Created new company: SYF (ID: 407)
+  ✓ Company ID: 407
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 27 dividends
+  ✓ Inserted: 27
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[410/437] 
+======================================================================
+Processing: SYK
+======================================================================
+  ✓ Found: STRYKER CORP
+  ✓ CIK: 0000310764
+  ✓ Sector: Manufacturing
+  ✓ Industry: Surgical & Medical Instruments & Apparatus
+  Created new company: SYK (ID: 408)
+  ✓ Company ID: 408
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 55 dividends
+  ✓ Inserted: 55
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 5
+
+[411/437] 
+======================================================================
+Processing: TECK
+======================================================================
+  ✓ Found: SUPERVALU INC
+  ✓ CIK: 0000095521
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Groceries, General Line
+  Created new company: TECK (ID: 409)
+  ✓ Company ID: 409
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 15 dividends
+  ✓ Inserted: 15
+  ⊘ Skipped: 0
+
+[412/437] 
+======================================================================
+Processing: TEL
+======================================================================
+  ✓ Found: TE Connectivity plc
+  ✓ CIK: 0001385157
+  ✓ Sector: Wholesale Trade
+  ✓ Industry: Wholesale-Electronic Parts & Equipment, NEC
+  Created new company: TEL (ID: 410)
+  ✓ Company ID: 410
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 57 dividends
+  ✓ Inserted: 57
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 5
+
+[413/437] 
+======================================================================
+Processing: TER
+======================================================================
+  ✓ Found: TERADYNE, INC
+  ✓ CIK: 0000097210
+  ✓ Sector: Manufacturing
+  ✓ Industry: Instruments For Meas & Testing of  Electricity & Elec Signals
+  Created new company: TER (ID: 411)
+  ✓ Company ID: 411
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 37 dividends
+  ✓ Inserted: 37
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 6
+
+[414/437] 
+======================================================================
+Processing: TEX
+======================================================================
+  ✓ Found: TECUMSEH PRODUCTS CO
+  ✓ CIK: 0000096831
+  ✓ Sector: Manufacturing
+  ✓ Industry: Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip
+  Created new company: TEX (ID: 412)
+  ✓ Company ID: 412
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[415/437] 
+======================================================================
+Processing: TFX
+======================================================================
+  ✓ Found: DEXCOM INC
+  ✓ CIK: 0001093557
+  ✓ Sector: Manufacturing
+  ✓ Industry: Surgical & Medical Instruments & Apparatus
+  Created new company: TFX (ID: 413)
+  ✓ Company ID: 413
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[416/437] 
+======================================================================
+Processing: THO
+======================================================================
+  ✓ Found: WITTER WILLIAM D INC
+  ✓ CIK: 0000732977
+  Created new company: THO (ID: 414)
+  ✓ Company ID: 414
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0000732977
+  ✗ Could not fetch XBRL data
+
+[417/437] 
+======================================================================
+Processing: TSCO
+======================================================================
+  ✓ Found: TRACTOR SUPPLY CO /DE/
+  ✓ CIK: 0000916365
+  ✓ Sector: Retail Trade
+  ✓ Industry: Retail-Building Materials, Hardware, Garden Supply
+  Created new company: TSCO (ID: 415)
+  ✓ Company ID: 415
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 82 dividends
+  ✓ Inserted: 82
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 14
+
+[418/437] 
+======================================================================
+Processing: TSE
+======================================================================
+  ✓ Found: Tronox Holdings plc
+  ✓ CIK: 0001530804
+  ✓ Sector: Manufacturing
+  ✓ Industry: Industrial Inorganic Chemicals
+  Created new company: TSE (ID: 416)
+  ✓ Company ID: 416
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 36 dividends
+  ✓ Inserted: 36
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[419/437] 
+======================================================================
+Processing: TT
+======================================================================
+  ✓ Found: Trane Technologies plc
+  ✓ CIK: 0001466258
+  ✓ Sector: Manufacturing
+  ✓ Industry: Auto Controls For Regulating Residential & Comml Environments
+  Created new company: TT (ID: 417)
+  ✓ Company ID: 417
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 51 dividends
+  ✓ Inserted: 51
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 13
+
+[420/437] 
+======================================================================
+Processing: TTWO
+======================================================================
+  ✓ Found: TAKE TWO INTERACTIVE SOFTWARE INC
+  ✓ CIK: 0000946581
+  ✓ Sector: Services
+  ✓ Industry: Services-Prepackaged Software
+  Created new company: TTWO (ID: 418)
+  ✓ Company ID: 418
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[421/437] 
+======================================================================
+Processing: UDR
+======================================================================
+  ✓ Found: UDR, Inc.
+  ✓ CIK: 0000074208
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  ⊘ CIK already exists (likely alternate ticker)
+
+[422/437] 
+======================================================================
+Processing: UE
+======================================================================
+  ✓ Found: DEC Associates Inc
+  ✓ CIK: 0001611606
+  Created new company: UE (ID: 420)
+  ✓ Company ID: 420
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001611606
+  ✗ Could not fetch XBRL data
+
+[423/437] 
+======================================================================
+Processing: UHS
+======================================================================
+  ✓ Found: UNIVERSAL HEALTH SERVICES INC
+  ✓ CIK: 0000352915
+  ✓ Sector: Services
+  ✓ Industry: Services-General Medical & Surgical Hospitals, NEC
+  Created new company: UHS (ID: 421)
+  ✓ Company ID: 421
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 47 dividends
+  ✓ Inserted: 47
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[424/437] 
+======================================================================
+Processing: VMC
+======================================================================
+  ✓ Found: Vulcan Materials CO
+  ✓ CIK: 0001396009
+  ✓ Sector: Mining
+  ✓ Industry: Mining & Quarrying of  Nonmetallic Minerals (No Fuels)
+  Created new company: VMC (ID: 422)
+  ✓ Company ID: 422
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+
+[425/437] 
+======================================================================
+Processing: WAB
+======================================================================
+  ✓ Found: WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP
+  ✓ CIK: 0000943452
+  ✓ Sector: Manufacturing
+  ✓ Industry: Railroad Equipment
+  Created new company: WAB (ID: 423)
+  ✓ Company ID: 423
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 9
+
+[426/437] 
+======================================================================
+Processing: WAT
+======================================================================
+  ✓ Found: WATERS CORP /DE/
+  ✓ CIK: 0001000697
+  ✓ Sector: Manufacturing
+  ✓ Industry: Laboratory Analytical Instruments
+  Created new company: WAT (ID: 424)
+  ✓ Company ID: 424
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[427/437] 
+======================================================================
+Processing: WDC
+======================================================================
+  ✓ Found: WESTERN DIGITAL CORP
+  ✓ CIK: 0000106040
+  ✓ Sector: Manufacturing
+  ✓ Industry: Computer Storage Devices
+  Created new company: WDC (ID: 425)
+  ✓ Company ID: 425
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 18 dividends
+  ✓ Inserted: 18
+  ⊘ Skipped: 0
+
+[428/437] 
+======================================================================
+Processing: WEX
+======================================================================
+  ✓ Found: HARATUNIAN MICHAEL
+  ✓ CIK: 0001013258
+  Created new company: WEX (ID: 426)
+  ✓ Company ID: 426
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0001013258
+  ✗ Could not fetch XBRL data
+
+[429/437] 
+======================================================================
+Processing: WHR
+======================================================================
+  ✓ Found: WHIRLPOOL CORP /DE/
+  ✓ CIK: 0000106640
+  ✓ Sector: Manufacturing
+  ✓ Industry: Household Appliances
+  Created new company: WHR (ID: 427)
+  ✓ Company ID: 427
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 49 dividends
+  ✓ Inserted: 49
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[430/437] 
+======================================================================
+Processing: WRB
+======================================================================
+  ✓ Found: PIONEER CORP /AR/
+  ✓ CIK: 0000078701
+  ✓ Sector: Services
+  ✓ Industry: Hotels & Motels
+  Created new company: WRB (ID: 428)
+  ✓ Company ID: 428
+  Fetching XBRL data...
+  ✗ No XBRL data found for CIK 0000078701
+  ✗ Could not fetch XBRL data
+
+[431/437] 
+======================================================================
+Processing: WU
+======================================================================
+  ✓ Found: Western Union CO
+  ✓ CIK: 0001365135
+  ✓ Sector: Services
+  ✓ Industry: Services-Business Services, NEC
+  Created new company: WU (ID: 429)
+  ✓ Company ID: 429
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 48 dividends
+  ✓ Inserted: 48
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 1
+
+[432/437] 
+======================================================================
+Processing: WY
+======================================================================
+  ✓ Found: WEYERHAEUSER CO
+  ✓ CIK: 0000106535
+  ✓ Sector: Finance, Insurance & Real Estate
+  ✓ Industry: Real Estate Investment Trusts
+  Created new company: WY (ID: 430)
+  ✓ Company ID: 430
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 52 dividends
+  ✓ Inserted: 52
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 4
+
+[433/437] 
+======================================================================
+Processing: XPO
+======================================================================
+  ✓ Found: XPO, Inc.
+  ✓ CIK: 0001166003
+  ✓ Sector: Transportation & Public Utilities
+  ✓ Industry: Transportation Services
+  Created new company: XPO (ID: 431)
+  ✓ Company ID: 431
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 4 dividends
+  ✓ Inserted: 4
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 2
+
+[434/437] 
+======================================================================
+Processing: XYL
+======================================================================
+  ✓ Found: Xylem Inc.
+  ✓ CIK: 0001524472
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pumps & Pumping Equipment
+  Created new company: XYL (ID: 432)
+  ✓ Company ID: 432
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 46 dividends
+  ✓ Inserted: 46
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[435/437] 
+======================================================================
+Processing: ZBH
+======================================================================
+  ✓ Found: ZIMMER BIOMET HOLDINGS, INC.
+  ✓ CIK: 0001136869
+  ✓ Sector: Manufacturing
+  ✓ Industry: Orthopedic, Prosthetic & Surgical Appliances & Supplies
+  Created new company: ZBH (ID: 433)
+  ✓ Company ID: 433
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 40
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 3
+
+[436/437] 
+======================================================================
+Processing: ZBRA
+======================================================================
+  ✓ Found: ZEBRA TECHNOLOGIES CORP
+  ✓ CIK: 0000877212
+  ✓ Sector: Manufacturing
+  ✓ Industry: General Industrial Machinery & Equipment
+  Created new company: ZBRA (ID: 434)
+  ✓ Company ID: 434
+  Fetching XBRL data...
+  Parsing dividends...
+  ⊘ No dividends found
+
+[437/437] 
+======================================================================
+Processing: ZTS
+======================================================================
+  ✓ Found: Zoetis Inc.
+  ✓ CIK: 0001555280
+  ✓ Sector: Manufacturing
+  ✓ Industry: Pharmaceutical Preparations
+  Created new company: ZTS (ID: 435)
+  ✓ Company ID: 435
+  Fetching XBRL data...
+  Parsing dividends...
+  ✓ Found 40 dividends
+  ✓ Inserted: 40
+  ⊘ Skipped: 0
+  ⚠️  Needs review: 7
+
+======================================================================
+SUMMARY
+======================================================================
+Total companies processed: 437
+  duplicate_cik: 7
+  failed: 26
+  no_dividends: 45
+  no_xbrl: 29
+  success: 330
+
+Total dividends inserted: 3980
+Total flagged for review: 229
+
+Time elapsed: 1260.7s
+API requests: 1251
+======================================================================
+

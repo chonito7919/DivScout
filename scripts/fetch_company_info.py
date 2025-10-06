@@ -71,7 +71,7 @@ def main():
         submissions = sec_client.get_company_submissions(cik) if cik else None
 
         # Fetch Wikipedia + website
-        info = fetcher.fetch_all_info(company_name, submissions)
+        info = fetcher.fetch_all_info(company_name, ticker, submissions)
 
         # Update database
         update_company_info(company_id, info)

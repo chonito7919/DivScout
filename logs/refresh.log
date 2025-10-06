@@ -1,0 +1,1310 @@
+Testing database connection...
+✔ Database connected successfully
+  PostgreSQL version: PostgreSQL 17.6 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 14.2.1 20240912 (Red Hat 14.2.1-3), 64-bit
+
+Refreshing 267 companies...
+[1/267] 
+[AAPL] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[2/267] 
+[ABBV] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[3/267] 
+[ABT] Refreshing...
+  ✓ Found 40 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 40 existing dividends
+[4/267] 
+[ADI] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[5/267] 
+[ADM] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[6/267] 
+[AEP] Refreshing...
+  ✓ Found 58 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 58 existing dividends
+[7/267] 
+[AFL] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[8/267] 
+[AIG] Refreshing...
+  ✓ Found 56 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 56 existing dividends
+[9/267] 
+[ALB] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[10/267] 
+[AMAT] Refreshing...
+  ✓ Found 74 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 74 existing dividends
+[11/267] 
+[AMGN] Refreshing...
+  ✓ Found 87 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 87 existing dividends
+[12/267] 
+[AMP] Refreshing...
+  ✗ No XBRL data found for CIK 0001258433
+  ⊘ No XBRL data available
+[13/267] 
+[AMT] Refreshing...
+  ✓ Found 38 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 38 existing dividends
+[14/267] 
+[AMZN] Refreshing...
+  ⊘ No dividends found
+[15/267] 
+[AON] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[16/267] 
+[APA] Refreshing...
+  ✓ Found 43 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 43 existing dividends
+[17/267] 
+[APD] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[18/267] 
+[APLE] Refreshing...
+  ⊘ No dividends found
+[19/267] 
+[ARCC] Refreshing...
+  ⊘ No dividends found
+[20/267] 
+[ARR] Refreshing...
+  ✗ No XBRL data found for CIK 0001350868
+  ⊘ No XBRL data available
+[21/267] 
+[ATO] Refreshing...
+  ✓ Found 47 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 47 existing dividends
+[22/267] 
+[AVB] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[23/267] 
+[AVGO] Refreshing...
+  ✓ Found 26 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 26 existing dividends
+[24/267] 
+[AVY] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[25/267] 
+[AWR] Refreshing...
+  ✓ Found 44 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 44 existing dividends
+[26/267] 
+[AXP] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[27/267] 
+[AZO] Refreshing...
+  ⊘ No dividends found
+[28/267] 
+[BA] Refreshing...
+  ✓ Found 35 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 35 existing dividends
+[29/267] 
+[BAC] Refreshing...
+  ✓ Found 74 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 74 existing dividends
+[30/267] 
+[BDX] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[31/267] 
+[BEN] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[32/267] 
+[BG] Refreshing...
+  ⊘ No dividends found
+[33/267] 
+[BIIB] Refreshing...
+  ⊘ No dividends found
+[34/267] 
+[BK] Refreshing...
+  ✓ Found 56 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 56 existing dividends
+[35/267] 
+[BKH] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[36/267] 
+[BLK] Refreshing...
+  ✓ Found 33 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 33 existing dividends
+[37/267] 
+[BMY] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[38/267] 
+[BTI] Refreshing...
+  ✗ No XBRL data found for CIK 0000898960
+  ⊘ No XBRL data available
+[39/267] 
+[BXP] Refreshing...
+  ✓ Found 19 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 19 existing dividends
+[40/267] 
+[C] Refreshing...
+  ✓ Found 45 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 45 existing dividends
+[41/267] 
+[CAH] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[42/267] 
+[CARR] Refreshing...
+  ✓ Found 6 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 6 existing dividends
+[43/267] 
+[CAT] Refreshing...
+  ✓ Found 35 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 35 existing dividends
+[44/267] 
+[CB] Refreshing...
+  ✓ Found 37 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 37 existing dividends
+[45/267] 
+[CCI] Refreshing...
+  ✓ Found 36 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 36 existing dividends
+[46/267] 
+[CF] Refreshing...
+  ✓ Found 57 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 57 existing dividends
+[47/267] 
+[CFG] Refreshing...
+  ✓ Found 40 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 40 existing dividends
+[48/267] 
+[CHCT] Refreshing...
+  ✗ No XBRL data found for CIK 0001588006
+  ⊘ No XBRL data available
+[49/267] 
+[CHD] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[50/267] 
+[CHRW] Refreshing...
+  ✓ Found 29 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 29 existing dividends
+[51/267] 
+[CINF] Refreshing...
+  ✓ Found 12 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 12 existing dividends
+[52/267] 
+[CL] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[53/267] 
+[CLX] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[54/267] 
+[CME] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[55/267] 
+[CMI] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[56/267] 
+[CNP] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[57/267] 
+[COF] Refreshing...
+  ✓ Found 55 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 55 existing dividends
+[58/267] 
+[COP] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[59/267] 
+[COST] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[60/267] 
+[CPB] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[61/267] 
+[CRM] Refreshing...
+  ✓ Found 6 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 6 existing dividends
+[62/267] 
+[CSCO] Refreshing...
+  ✓ Found 45 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 45 existing dividends
+[63/267] 
+[CSX] Refreshing...
+  ✓ Found 67 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 67 existing dividends
+[64/267] 
+[CTAS] Refreshing...
+  ✓ Found 35 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 35 existing dividends
+[65/267] 
+[CVS] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[66/267] 
+[CVX] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[67/267] 
+[D] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[68/267] 
+[DE] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[69/267] 
+[DFS] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[70/267] 
+[DG] Refreshing...
+  ✓ Found 42 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 42 existing dividends
+[71/267] 
+[DIS] Refreshing...
+  ✓ Found 12 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 12 existing dividends
+[72/267] 
+[DLR] Refreshing...
+  ⊘ No dividends found
+[73/267] 
+[DOC] Refreshing...
+  ✓ Found 11 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 11 existing dividends
+[74/267] 
+[DOV] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[75/267] 
+[DOW] Refreshing...
+  ✓ Found 19 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 19 existing dividends
+[76/267] 
+[DUK] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[77/267] 
+[DVN] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[78/267] 
+[ECL] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[79/267] 
+[ED] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[80/267] 
+[EMR] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[81/267] 
+[ENB] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[82/267] 
+[EOG] Refreshing...
+  ✓ Found 47 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 47 existing dividends
+[83/267] 
+[EPD] Refreshing...
+  ⊘ No dividends found
+[84/267] 
+[EQIX] Refreshing...
+  ✓ Found 40 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 40 existing dividends
+[85/267] 
+[ERIE] Refreshing...
+  ⊘ No dividends found
+[86/267] 
+[ES] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[87/267] 
+[ESS] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[88/267] 
+[ETN] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[89/267] 
+[ETR] Refreshing...
+  ✓ Found 58 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 58 existing dividends
+[90/267] 
+[EXC] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[91/267] 
+[EXPD] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[92/267] 
+[F] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[93/267] 
+[FCX] Refreshing...
+  ✓ Found 54 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 54 existing dividends
+[94/267] 
+[FDX] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[95/267] 
+[FE] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[96/267] 
+[FITB] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[97/267] 
+[FRT] Refreshing...
+  ✓ Found 28 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 28 existing dividends
+[98/267] 
+[GD] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[99/267] 
+[GE] Refreshing...
+  ✓ Found 55 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 55 existing dividends
+[100/267] 
+[GILD] Refreshing...
+  ✓ Found 31 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 31 existing dividends
+[101/267] 
+[GIS] Refreshing...
+  ✓ Found 62 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 62 existing dividends
+[102/267] 
+[GL] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[103/267] 
+[GM] Refreshing...
+  ✓ Found 30 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 30 existing dividends
+[104/267] 
+[GOOD] Refreshing...
+  ✗ No XBRL data found for CIK 0001085391
+  ⊘ No XBRL data available
+[105/267] 
+[GOOGL] Refreshing...
+  ✓ Found 4 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 4 existing dividends
+[106/267] 
+[GPC] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[107/267] 
+[GS] Refreshing...
+  ✓ Found 57 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 57 existing dividends
+[108/267] 
+[GWW] Refreshing...
+  ✓ Found 54 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 54 existing dividends
+[109/267] 
+[HAL] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[110/267] 
+[HBAN] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[111/267] 
+[HD] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[112/267] 
+[HON] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[113/267] 
+[HPQ] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[114/267] 
+[HRL] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[115/267] 
+[HSY] Refreshing...
+  ✓ Found 6 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 6 existing dividends
+[116/267] 
+[HUM] Refreshing...
+  ✓ Found 72 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 72 existing dividends
+[117/267] 
+[IBM] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[118/267] 
+[ICE] Refreshing...
+  ⊘ No dividends found
+[119/267] 
+[IEX] Refreshing...
+  ✓ Found 31 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 31 existing dividends
+[120/267] 
+[INTC] Refreshing...
+  ✓ Found 37 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 37 existing dividends
+[121/267] 
+[IP] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[122/267] 
+[IPG] Refreshing...
+  ✓ Found 26 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 26 existing dividends
+[123/267] 
+[ITW] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[124/267] 
+[J] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[125/267] 
+[JNJ] Refreshing...
+  ✓ Found 52 total dividends from XBRLINFO:parsers.xbrl_dividend_parser:Removed 1 outliers from year 2021
+INFO:parsers.xbrl_dividend_parser:Removed 1 outliers from year 2024
+INFO:parsers.xbrl_dividend_parser:Removed 1 outliers from year 2023
+WARNING:parsers.xbrl_dividend_parser:No US-GAAP facts found for CIK 0000079732
+
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[126/267] 
+[JPM] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[127/267] 
+[K] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[128/267] 
+[KEY] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[129/267] 
+[KHC] Refreshing...
+  ✓ Found 30 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 30 existing dividends
+[130/267] 
+[KIM] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[131/267] 
+[KLAC] Refreshing...
+  ✓ Found 60 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 60 existing dividends
+[132/267] 
+[KMB] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[133/267] 
+[KMI] Refreshing...
+  ✓ Found 43 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 43 existing dividends
+[134/267] 
+[KO] Refreshing...
+  ✓ Found 43 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 43 existing dividends
+[135/267] 
+[KR] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[136/267] 
+[LAND] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[137/267] 
+[LEG] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[138/267] 
+[LHX] Refreshing...
+  ✓ Found 22 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 22 existing dividends
+[139/267] 
+[LIN] Refreshing...
+  ✓ Found 23 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 23 existing dividends
+[140/267] 
+[LLY] Refreshing...
+  ✓ Found 45 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 45 existing dividends
+[141/267] 
+[LMT] Refreshing...
+  ✓ Found 56 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 56 existing dividends
+[142/267] 
+[LNC] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[143/267] 
+[LOW] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[144/267] 
+[LRCX] Refreshing...
+  ✓ Found 33 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 33 existing dividends
+[145/267] 
+[LTC] Refreshing...
+  ✓ Found 15 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 15 existing dividends
+[146/267] 
+[MA] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[147/267] 
+[MAIN] Refreshing...
+  ✗ No XBRL data found for CIK 0001520506
+  ⊘ No XBRL data available
+[148/267] 
+[MCD] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[149/267] 
+[MCHP] Refreshing...
+  ✓ Found 88 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 88 existing dividends
+[150/267] 
+[MDLZ] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[151/267] 
+[MDT] Refreshing...
+  ✓ Found 35 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 35 existing dividends
+[152/267] 
+[MET] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[153/267] 
+[META] Refreshing...
+  ✓ Found 5 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 5 existing dividends
+[154/267] 
+[MGEE] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[155/267] 
+[MKC] Refreshing...
+  ✓ Found 36 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 36 existing dividends
+[156/267] 
+[MMC] Refreshing...
+  ✓ Found 28 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 28 existing dividends
+[157/267] 
+[MMM] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[158/267] 
+[MMP] Refreshing...
+  ✗ No XBRL data found for CIK 0001554976
+  ⊘ No XBRL data available
+[159/267] 
+[MNST] Refreshing...
+  ⊘ No dividends found
+[160/267] 
+[MO] Refreshing...
+  ✓ Found 66 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 66 existing dividends
+[161/267] 
+[MOS] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[162/267] 
+[MPC] Refreshing...
+  ✓ Found 42 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 42 existing dividends
+[163/267] 
+[MRK] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[164/267] 
+[MS] Refreshing...
+  ✓ Found 44 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 44 existing dividends
+[165/267] 
+[MSFT] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[166/267] 
+[MTB] Refreshing...
+  ✓ Found 38 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 38 existing dividends
+[167/267] 
+[NDSN] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[168/267] 
+[NEE] Refreshing...
+  ✓ Found 54 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 54 existing dividends
+[169/267] 
+[NEM] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[170/267] 
+[NFG] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[171/267] 
+[NI] Refreshing...
+  ⊘ No dividends found
+[172/267] 
+[NKE] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[173/267] 
+[NOC] Refreshing...
+  ✓ Found 66 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 66 existing dividends
+[174/267] 
+[NSC] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[175/267] 
+[NTRS] Refreshing...
+  ✓ Found 32 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 32 existing dividends
+[176/267] 
+[NVDA] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[177/267] 
+[O] Refreshing...
+  ✓ Found 72 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 72 existing dividends
+[178/267] 
+[OGE] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[179/267] 
+[OKE] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[180/267] 
+[OMC] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[181/267] 
+[ORC] Refreshing...
+  ✗ No XBRL data found for CIK 0001289774
+  ⊘ No XBRL data available
+[182/267] 
+[ORCL] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[183/267] 
+[ORLY] Refreshing...
+  ⊘ No dividends found
+[184/267] 
+[OTIS] Refreshing...
+  ✓ Found 16 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 16 existing dividends
+[185/267] 
+[OXY] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[186/267] 
+[PAYX] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividendsINFO:parsers.xbrl_dividend_parser:Skipping very high amount: $41.0 (100.0x median)
+INFO:parsers.xbrl_dividend_parser:Skipping very high amount: $225.0 (1000.0x median)
+WARNING:parsers.xbrl_dividend_parser:No US-GAAP facts found for CIK 0001540305
+
+[187/267] 
+[PCAR] Refreshing...
+  ✓ Found 38 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 38 existing dividends
+[188/267] 
+[PCG] Refreshing...
+  ✓ Found 32 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 32 existing dividends
+[189/267] 
+[PEP] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[190/267] 
+[PFE] Refreshing...
+  ✓ Found 56 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 56 existing dividends
+[191/267] 
+[PFG] Refreshing...
+  ✓ Found 25 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 25 existing dividends
+[192/267] 
+[PG] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[193/267] 
+[PGR] Refreshing...
+  ✓ Found 29 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 29 existing dividends
+[194/267] 
+[PH] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[195/267] 
+[PLD] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[196/267] 
+[PM] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[197/267] 
+[PNC] Refreshing...
+  ✓ Found 28 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 28 existing dividends
+[198/267] 
+[PPL] Refreshing...
+  ✓ Found 82 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 82 existing dividends
+[199/267] 
+[PRU] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[200/267] 
+[PSA] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[201/267] 
+[PSEC] Refreshing...
+  ✗ No XBRL data found for CIK 0001093782
+  ⊘ No XBRL data available
+[202/267] 
+[PSX] Refreshing...
+  ✓ Found 39 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 39 existing dividends
+[203/267] 
+[PWR] Refreshing...
+  ✓ Found 45 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 45 existing dividends
+[204/267] 
+[QCOM] Refreshing...
+  ✓ Found 54 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 54 existing dividends
+[205/267] 
+[RF] Refreshing...
+  ✓ Found 54 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 54 existing dividends
+[206/267] 
+[RLI] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[207/267] 
+[ROK] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[208/267] 
+[ROP] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[209/267] 
+[ROST] Refreshing...
+  ✓ Found 112 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 112 existing dividends
+[210/267] 
+[RSG] Refreshing...
+  ✓ Found 81 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 81 existing dividends
+[211/267] 
+[RTX] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[212/267] 
+[SBRA] Refreshing...
+  ✗ No XBRL data found for CIK 0001610524
+  ⊘ No XBRL data available
+[213/267] 
+[SBUX] Refreshing...
+  ✓ Found 46 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 46 existing dividends
+[214/267] 
+[SCHW] Refreshing...
+  ✓ Found 36 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 36 existing dividends
+[215/267] 
+[SHW] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[216/267] 
+[SLB] Refreshing...
+  ✓ Found 13 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 13 existing dividends
+[217/267] 
+[SLG] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[218/267] 
+[SO] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[219/267] 
+[SPG] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[220/267] 
+[SPGI] Refreshing...
+  ✓ Found 57 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 57 existing dividends
+[221/267] 
+[SRE] Refreshing...
+  ✗ No XBRL data found for CIK 0000086521
+  ⊘ No XBRL data available
+[222/267] 
+[STAG] Refreshing...
+  ✗ No XBRL data found for CIK 0001536989
+  ⊘ No XBRL data available
+[223/267] 
+[STT] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[224/267] 
+[STZ] Refreshing...
+  ⊘ No dividends found
+[225/267] 
+[SWK] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[226/267] 
+[SWKS] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[227/267] 
+[SYY] Refreshing...
+  ✓ Found 51 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 51 existing dividends
+[228/267] 
+[T] Refreshing...
+  ✓ Found 50 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 50 existing dividends
+[229/267] 
+[TAP] Refreshing...
+  ✓ Found 53 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 53 existing dividends
+[230/267] 
+[TFC] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[231/267] 
+[TGT] Refreshing...
+  ✓ Found 65 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 65 existing dividends
+[232/267] 
+[TJX] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[233/267] 
+[TMO] Refreshing...
+  ✓ Found 41 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 41 existing dividends
+[234/267] 
+[TMUS] Refreshing...
+  ✓ Found 6 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 6 existing dividends
+[235/267] 
+[TROW] Refreshing...
+  ✓ Found 32 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 32 existing dividends
+[236/267] 
+[TRP] Refreshing...
+  ⊘ No dividends found
+[237/267] 
+[TRV] Refreshing...
+  ✓ Found 34 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 34 existing dividends
+[238/267] 
+[TSLA] Refreshing...
+  ⊘ No dividends found
+[239/267] 
+[TSN] Refreshing...
+  ⊘ No dividends found
+[240/267] 
+[TWO] Refreshing...
+  ⊘ No dividends found
+[241/267] 
+[TXN] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[242/267] 
+[TXT] Refreshing...
+  ✓ Found 48 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 48 existing dividends
+[243/267] 
+[UBSI] Refreshing...
+  ✓ Found 38 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 38 existing dividends
+[244/267] 
+[UHT] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[245/267] 
+[UNH] Refreshing...
+  ✓ Found 92 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 92 existing dividends
+[246/267] 
+[UNM] Refreshing...
+  ✓ Found 20 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 20 existing dividends
+[247/267] 
+[UNP] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[248/267] 
+[UPS] Refreshing...
+  ✓ Found 27 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 27 existing dividends
+[249/267] 
+[USB] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[250/267] 
+[UVV] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+[251/267] 
+[V] Refreshing...
+  ✓ Found 27 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 27 existing dividends
+[252/267] 
+[VICI] Refreshing...
+  ✗ No XBRL data found for CIK 0001721408
+  ⊘ No XBRL data available
+[253/267] 
+[VLO] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[254/267] 
+[VNO] Refreshing...
+  ✓ Found 47 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 47 existing dividends
+[255/267] 
+[VRTX] Refreshing...
+  ⊘ No dividends found
+[256/267] 
+[VTR] Refreshing...
+  ✓ Found 62 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 62 existing dividends
+[257/267] 
+[VZ] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[258/267] 
+[WBA] Refreshing...
+  ✓ Found 35 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 35 existing dividends
+[259/267] 
+[WEC] Refreshing...
+  ✗ No XBRL data found for CIK 0001078727
+  ⊘ No XBRL data available
+[260/267] 
+[WFC] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[261/267] 
+[WM] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[262/267] 
+[WMB] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[263/267] 
+[WMT] Refreshing...
+  ✓ Found 59 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 59 existing dividends
+[264/267] 
+[WST] Refreshing...
+  ✗ No XBRL data found for CIK 0001591272
+  ⊘ No XBRL data available
+[265/267] 
+[XEL] Refreshing...
+  ✓ Found 40 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 40 existing dividends
+[266/267] 
+[XOM] Refreshing...
+  ✓ Found 52 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 52 existing dividends
+[267/267] 
+[ZION] Refreshing...
+  ✓ Found 49 total dividends from XBRL
+  ✓ Inserted 0 new dividends
+  ⊘ Skipped 49 existing dividends
+
+======================================================================
+REFRESH SUMMARY
+======================================================================
+Companies processed: 267
+  no_data: 15
+  no_dividends: 19
+  success: 233
+
+New dividends inserted: 0
+Flagged for review: 0
+
+Time elapsed: 638.4s
+API requests: 267
+======================================================================
+

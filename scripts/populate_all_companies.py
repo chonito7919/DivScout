@@ -141,7 +141,7 @@ def process_company(ticker, client, parser, info_fetcher, dry_run=False):
 
         # Fetch company description and website
         print(f"  Fetching company info...")
-        company_extra_info = info_fetcher.fetch_all_info(company_name, submissions)
+        company_extra_info = info_fetcher.fetch_all_info(company_name, ticker, submissions)
         if company_extra_info['description'] or company_extra_info['website']:
             with db.get_connection() as conn:
                 cur = conn.cursor()

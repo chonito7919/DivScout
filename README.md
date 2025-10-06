@@ -27,7 +27,7 @@ The web interface provides:
 - 📈 **Dividend histories** with confidence scores
 - 🔍 **High-confidence data** (≥0.8 confidence threshold)
 
-**Current dataset**: 10,331 verified dividend records across 267 companies with 95.7% data quality (10,331 high-confidence, 467 flagged for review).
+**Current dataset**: 11,248 verified dividend records across 267 companies with 95.3% data quality (11,248 high-confidence, 552 flagged for review).
 
 **Tech stack**: Flask API + Vanilla JavaScript frontend hosted on Namecheap Stellar with PostgreSQL on DigitalOcean.
 
@@ -61,7 +61,7 @@ DivScout automatically:
 ## Known Limitations
 
 ### Ticker Coverage
-- **284 tickers** are hardcoded in the CIK lookup function across all major sectors:
+- **306 tickers** are hardcoded in the CIK lookup function across all major sectors:
   - Technology (17 companies): AAPL, MSFT, NVDA, CSCO, ORCL, IBM, INTC, TXN, QCOM, ADI, HPQ, PAYX, SWKS, etc.
   - Healthcare (13 companies): JNJ, UNH, LLY, ABBV, MRK, TMO, ABT, PFE, AMGN, CVS, BDX, MDT, BMY
   - Financials (46 companies): JPM, BAC, WFC, MS, GS, BLK, C, USB, PNC, TFC, V, MA, SPGI, AFL, AON, AIG, CB, CME, COF, DFS, ICE, MET, MMC, PRU, PGR, SCHW, TRV, BEN, CINF, TROW, NTRS, HBAN, KEY, RF, CFG, FITB, MTB, STT, ZION, etc.

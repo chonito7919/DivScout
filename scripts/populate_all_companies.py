@@ -29,102 +29,35 @@ from sec_edgar_client import SECAPIClient
 from parsers.xbrl_dividend_parser import XBRLDividendParser
 from db_connection import db
 import argparse
+import csv
 
 
-# All known tickers from sec_edgar_client.py
-ALL_TICKERS = [
-    # Technology
-    'AAPL', 'MSFT', 'GOOGL', 'GOOG', 'META', 'NVDA', 'AVGO', 'CSCO', 'ORCL',
-    'IBM', 'INTC', 'TXN', 'QCOM', 'ADI', 'HPQ', 'PAYX', 'SWKS',
+def load_tickers_from_csv():
+    """
+    Load all tickers from data/companies.csv
+    Returns: list of ticker symbols
+    """
+    csv_path = Path(__file__).parent.parent / 'data' / 'companies.csv'
+    tickers = []
 
-    # Healthcare
-    'JNJ', 'UNH', 'LLY', 'ABBV', 'MRK', 'TMO', 'ABT', 'PFE', 'AMGN', 'CVS',
-    'BDX', 'MDT', 'BMY',
+    try:
+        with open(csv_path, 'r') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                tickers.append(row['ticker'].upper())
+    except FileNotFoundError:
+        print(f"✗ Error: companies.csv not found at {csv_path}")
+        print(f"  Create it with format: ticker,cik,company_name")
+        return []
+    except Exception as e:
+        print(f"✗ Error loading companies.csv: {e}")
+        return []
 
-    # Financials
-    'JPM', 'BAC', 'WFC', 'MS', 'GS', 'BLK', 'C', 'USB', 'PNC', 'TFC', 'BK',
-    'AXP', 'V', 'MA', 'SPGI', 'AFL', 'ALL', 'AMP', 'AON', 'AIG', 'BRO', 'CB',
-    'CME', 'COF', 'DFS', 'ICE', 'MET', 'MMC', 'PRU', 'PGR', 'SCHW', 'TRV',
-    'BEN', 'CINF', 'TROW', 'NTRS', 'HBAN', 'KEY', 'RF', 'CFG', 'FITB', 'MTB',
-    'STT', 'ZION',
+    return sorted(tickers)
 
-    # Consumer Staples
-    'KO', 'PEP', 'PG', 'WMT', 'COST', 'PM', 'MO', 'CL', 'KMB', 'GIS', 'K',
-    'HSY', 'MDLZ', 'KHC', 'CHD', 'CLX', 'CPB', 'HRL', 'MKC', 'SJM', 'TSN', 'WBA',
-    'KR', 'DG',
 
-    # Consumer Discretionary
-    'AMZN', 'TSLA', 'HD', 'MCD', 'NKE', 'SBUX', 'TGT', 'LOW', 'F', 'GM',
-    'ROST', 'TJX',
-
-    # Energy
-    'XOM', 'CVX', 'COP', 'SLB', 'EOG', 'PSX', 'VLO', 'OXY', 'KMI', 'WMB',
-    'EPD', 'MMP', 'OKE', 'TRP', 'ENB',
-
-    # Industrials
-    'BA', 'CAT', 'GE', 'LMT', 'RTX', 'UNP', 'HON', 'UPS', 'DE', 'MMM',
-    'EMR', 'ETN', 'FDX', 'GD', 'GWW', 'ITW', 'NSC', 'PH', 'ROK', 'RSG',
-    'SWK', 'SYY', 'WM', 'CTAS', 'DOV', 'IEX', 'J', 'PWR', 'LEG', 'CHRW',
-    'CAH', 'EXPD',
-
-    # Utilities
-    'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE', 'XEL', 'PCG', 'ED', 'ETR',
-    'ES', 'FE', 'PPL', 'WEC', 'ATO', 'CNP', 'NI', 'OGE',
-
-    # Real Estate / REITs
-    'O', 'AMT', 'PLD', 'CCI', 'EQIX', 'PSA', 'WELL', 'DLR', 'SPG', 'AVB',
-    'VNO', 'MPW', 'STAG', 'NNN', 'DOC', 'ESS', 'FRT', 'ADC', 'EPR', 'GOOD',
-    'APLE', 'LAND', 'SLG', 'LTC', 'MAIN', 'SBRA', 'UHT',
-
-    # Materials
-    'LIN', 'APD', 'SHW', 'FCX', 'NEM', 'ECL', 'ADM', 'BG', 'MOS', 'CF',
-    'PKG', 'IP', 'AVY', 'ALB', 'NDSN', 'ROP', 'WST',
-
-    # Telecommunications & Media
-    'T', 'VZ', 'TMUS', 'OMC', 'IPG',
-
-    # Dividend Aristocrats & Special Additions
-    'FDS', 'ERIE', 'BTI',
-
-    # Dow 30 Additions
-    'CRM', 'DIS', 'DOW',
-
-    # Consumer & Retail (Additional)
-    'MNST', 'STZ', 'TAP', 'CAG', 'GPC',
-
-    # BDCs (Business Development Companies)
-    'ARCC', 'HTGC', 'PSEC',
-
-    # Additional REITs
-    'VTR', 'VICI', 'WPC', 'BXP', 'KIM', 'REG',
-
-    # Healthcare & Pharma (Additional)
-    'GILD', 'VRTX', 'BIIB',
-
-    # Energy (Additional)
-    'HAL', 'MPC', 'DVN',
-
-    # Insurance
-    'UNM', 'LNC', 'PFG', 'GL',
-
-    # Technology (Additional)
-    'AMAT', 'LRCX', 'KLAC', 'MCHP',
-
-    # Aerospace & Defense
-    'LHX', 'NOC', 'TXT',
-
-    # Industrials (Additional)
-    'CARR', 'OTIS', 'PCAR', 'CMI', 'CSX',
-
-    # Dividend Kings (50+ years)
-    'UVV', 'UBSI', 'AWR', 'MGEE', 'RLI', 'NFG', 'BKH',
-
-    # Mortgage REITs
-    'ARR', 'ORC', 'EFC', 'TWO', 'CHCT',
-
-    # Retail & Healthcare
-    'APA', 'HUM', 'ORLY', 'AZO',
-]
+# All tickers are now loaded from data/companies.csv
+# No hardcoded lists needed - just edit the CSV to add new companies
 
 
 def process_company(ticker, client, parser, dry_run=False):
@@ -263,10 +196,9 @@ def main():
     )
 
     parser.add_argument(
-        '--sector',
-        choices=['tech', 'healthcare', 'financials', 'staples', 'discretionary',
-                 'energy', 'industrials', 'utilities', 'reits', 'materials', 'telecom'],
-        help='Only process companies from specific sector'
+        '--tickers',
+        nargs='*',
+        help='Specific ticker(s) to process (overrides CSV)'
     )
 
     parser.add_argument(
@@ -277,24 +209,16 @@ def main():
 
     args = parser.parse_args()
 
-    # Filter by sector if specified
-    tickers = ALL_TICKERS
-
-    if args.sector:
-        sector_map = {
-            'tech': ALL_TICKERS[0:14],
-            'healthcare': ALL_TICKERS[14:24],
-            'financials': ALL_TICKERS[24:39],
-            'staples': ALL_TICKERS[39:53],
-            'discretionary': ALL_TICKERS[53:63],
-            'energy': ALL_TICKERS[63:73],
-            'industrials': ALL_TICKERS[73:83],
-            'utilities': ALL_TICKERS[83:92],
-            'reits': ALL_TICKERS[92:102],
-            'materials': ALL_TICKERS[102:108],
-            'telecom': ALL_TICKERS[108:111],
-        }
-        tickers = sector_map.get(args.sector, ALL_TICKERS)
+    # Load tickers from CSV or use command-line specified tickers
+    if args.tickers:
+        tickers = [t.upper() for t in args.tickers]
+        print(f"Processing {len(tickers)} ticker(s) from command line: {', '.join(tickers)}")
+    else:
+        tickers = load_tickers_from_csv()
+        if not tickers:
+            print("✗ No tickers loaded from CSV. Exiting.")
+            return
+        print(f"Processing {len(tickers)} tickers from data/companies.csv")
 
     if args.limit:
         tickers = tickers[:args.limit]

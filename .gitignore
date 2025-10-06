@@ -14,9 +14,10 @@
 
 # Data
 # Ignore the data directory, which likely holds scraped data or temporary files.
-# If you have specific files in 'data' you *do* want to track, you will need 
+# If you have specific files in 'data' you *do* want to track, you will need
 # to add exceptions below, e.g., '!data/important_config.json'
 data/
+!data/companies.csv
 
 # IDE/Editor Files (VS Code)
 # These are local user settings and should not be shared.

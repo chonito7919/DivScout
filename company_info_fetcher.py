@@ -157,16 +157,65 @@ class CompanyInfoFetcher:
                 # Get only first paragraph (split on double newline or first period + newline)
                 first_para = description.split('\n\n')[0].split('\n')[0]
 
+                # Get wikibase_item for website lookup
+                wikibase_item = data.get('wikibase_item')
+
                 return {
                     'description': first_para,
                     'source_url': data.get('content_urls', {}).get('desktop', {}).get('page', ''),
-                    'license': 'CC BY-SA 3.0'
+                    'license': 'CC BY-SA 3.0',
+                    'wikibase_item': wikibase_item
                 }
 
             return None
 
         except Exception as e:
             print(f"  Wikipedia fetch error for '{search_term}': {e}")
+            return None
+
+    def get_company_website_from_wikidata(self, wikibase_item: str) -> Optional[str]:
+        """
+        Fetch official website from Wikidata
+
+        Args:
+            wikibase_item: Wikidata ID (e.g., 'Q312' for Apple)
+
+        Returns:
+            Website URL or None
+        """
+        if not wikibase_item:
+            return None
+
+        try:
+            url = f"https://www.wikidata.org/wiki/Special:EntityData/{wikibase_item}.json"
+            headers = {'User-Agent': self.user_agent}
+            response = requests.get(url, headers=headers, timeout=10)
+
+            if response.status_code == 200:
+                data = response.json()
+
+                # Navigate to P856 (official website property)
+                entity = data.get('entities', {}).get(wikibase_item, {})
+                claims = entity.get('claims', {})
+                website_claims = claims.get('P856', [])
+
+                if website_claims:
+                    # Get the first website claim without qualifiers (main website)
+                    for claim in website_claims:
+                        if 'qualifiers' not in claim:
+                            website = claim.get('mainsnak', {}).get('datavalue', {}).get('value')
+                            if website:
+                                return website
+
+                    # Fallback: get any website
+                    website = website_claims[0].get('mainsnak', {}).get('datavalue', {}).get('value')
+                    if website:
+                        return website
+
+            return None
+
+        except Exception as e:
+            print(f"  Wikidata fetch error for '{wikibase_item}': {e}")
             return None
 
     def get_company_website(self, submissions_data: dict) -> Optional[str]:
@@ -228,8 +277,15 @@ class CompanyInfoFetcher:
             result['description_source'] = wiki_info['source_url']
             result['description_license'] = wiki_info['license']
 
-        # Get website from SEC
-        if submissions_data:
+            # Try to get website from Wikidata
+            wikibase_item = wiki_info.get('wikibase_item')
+            if wikibase_item:
+                website = self.get_company_website_from_wikidata(wikibase_item)
+                if website:
+                    result['website'] = website
+
+        # Fallback: Get website from SEC
+        if not result['website'] and submissions_data:
             website = self.get_company_website(submissions_data)
             if website:
                 result['website'] = website

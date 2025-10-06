@@ -27,9 +27,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from sec_edgar_client import SECAPIClient
 from parsers.xbrl_dividend_parser import XBRLDividendParser
+from company_info_fetcher import CompanyInfoFetcher
 from db_connection import db
 import argparse
 import csv
+from datetime import datetime
 
 
 def load_tickers_from_csv():
@@ -60,7 +62,7 @@ def load_tickers_from_csv():
 # No hardcoded lists needed - just edit the CSV to add new companies
 
 
-def process_company(ticker, client, parser, dry_run=False):
+def process_company(ticker, client, parser, info_fetcher, dry_run=False):
     """Process a single company"""
     ticker = ticker.upper()
 
@@ -136,6 +138,33 @@ def process_company(ticker, client, parser, dry_run=False):
                 print(f"  ⊘ CIK already exists (likely alternate ticker)")
                 return {'ticker': ticker, 'status': 'duplicate_cik', 'cik': cik}
             raise
+
+        # Fetch company description and website
+        print(f"  Fetching company info...")
+        company_extra_info = info_fetcher.fetch_all_info(company_name, submissions)
+        if company_extra_info['description'] or company_extra_info['website']:
+            with db.get_connection() as conn:
+                cur = conn.cursor()
+                cur.execute('''
+                    UPDATE companies
+                    SET description = %s,
+                        description_source = %s,
+                        description_license = %s,
+                        website = %s,
+                        info_updated_at = %s
+                    WHERE company_id = %s
+                ''', (
+                    company_extra_info['description'],
+                    company_extra_info['description_source'],
+                    company_extra_info['description_license'],
+                    company_extra_info['website'],
+                    datetime.now(),
+                    company_id
+                ))
+                conn.commit()
+            desc_mark = "✓" if company_extra_info['description'] else "✗"
+            web_mark = "✓" if company_extra_info['website'] else "✗"
+            print(f"  {desc_mark} Description  {web_mark} Website")
 
         # Fetch XBRL data
         print(f"  Fetching XBRL data...")
@@ -233,9 +262,10 @@ def main():
     if args.dry_run:
         print("*** DRY RUN MODE - No changes will be made ***\n")
 
-    # Initialize client and parser
+    # Initialize client, parser, and info fetcher
     client = SECAPIClient()
     xbrl_parser = XBRLDividendParser()
+    info_fetcher = CompanyInfoFetcher()
 
     # Process companies
     results = []
@@ -244,7 +274,7 @@ def main():
     for i, ticker in enumerate(tickers, 1):
         print(f"\n[{i}/{len(tickers)}]", end=' ')
 
-        result = process_company(ticker, client, xbrl_parser, args.dry_run)
+        result = process_company(ticker, client, xbrl_parser, info_fetcher, args.dry_run)
         results.append(result)
 
         # Small delay to respect rate limits

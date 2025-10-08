@@ -21,13 +21,13 @@ The authors and contributors of this software accept **NO LIABILITY** for any fi
 **Visit [divscout.app](https://divscout.app)** to see DivScout in action!
 
 The web interface provides:
-- 📊 **Dashboard** with dividend statistics overview
-- 🏢 **Company browser** with sector and industry filtering
-- 📅 **Payment calendar** showing upcoming dividends
-- 📈 **Dividend histories** with confidence scores
-- 🔍 **High-confidence data** (≥0.8 confidence threshold)
+- **Dashboard** with dividend statistics overview
+- **Company browser** with sector and industry filtering
+- **Payment calendar** showing upcoming dividends
+- **Dividend histories** with confidence scores
+- **High-confidence data** (≥0.8 confidence threshold)
 
-**Current dataset**: 11,248 verified dividend records across 267 companies with 95.3% data quality (11,248 high-confidence, 552 flagged for review).
+**Current dataset**: 14,001 verified dividend records across 404 companies with 94.7% data quality (14,001 high-confidence, 696 flagged for review).
 
 **Tech stack**: Flask API + Vanilla JavaScript frontend hosted on Namecheap Stellar with PostgreSQL on DigitalOcean.
 
@@ -49,33 +49,31 @@ DivScout automatically:
 
 ## What It Does NOT Do
 
-- ❌ **Does not provide real-time data** - XBRL data reflects filed reports, which lag behind announcements
-- ❌ **Does not scrape HTML** - uses only official SEC JSON APIs
-- ❌ **Does not predict future dividends** - only historical data
-- ❌ **Does not validate data accuracy** - automated quality checks are heuristic, not definitive
-- ❌ **Does not handle special dividends comprehensively** - focuses on regular cash dividends
-- ❌ **Does not track dividend reinvestment programs (DRIPs)**
-- ❌ **Does not process stock dividends or splits**
-- ❌ **Does not support all companies** - limited to those with XBRL data and known CIKs
+- **Does not provide real-time data** - XBRL data reflects filed reports, which lag behind announcements
+- **Does not scrape HTML** - uses only official SEC JSON APIs
+- **Does not predict future dividends** - only historical data
+- **Does not validate data accuracy** - automated quality checks are heuristic, not definitive
+- **Does not handle special dividends comprehensively** - focuses on regular cash dividends
+- **Does not track dividend reinvestment programs (DRIPs)**
+- **Does not process stock dividends or splits**
+- **Does not support all companies** - limited to those with XBRL data and known CIKs
 
 ## Known Limitations
 
 ### Ticker Coverage
-- **306 tickers** are hardcoded in the CIK lookup function across all major sectors:
-  - Technology (17 companies): AAPL, MSFT, NVDA, CSCO, ORCL, IBM, INTC, TXN, QCOM, ADI, HPQ, PAYX, SWKS, etc.
-  - Healthcare (13 companies): JNJ, UNH, LLY, ABBV, MRK, TMO, ABT, PFE, AMGN, CVS, BDX, MDT, BMY
-  - Financials (46 companies): JPM, BAC, WFC, MS, GS, BLK, C, USB, PNC, TFC, V, MA, SPGI, AFL, AON, AIG, CB, CME, COF, DFS, ICE, MET, MMC, PRU, PGR, SCHW, TRV, BEN, CINF, TROW, NTRS, HBAN, KEY, RF, CFG, FITB, MTB, STT, ZION, etc.
-  - Consumer Staples (24 companies): KO, PEP, PG, WMT, COST, PM, MO, CL, KMB, GIS, K, HSY, MDLZ, KHC, CHD, CLX, CPB, HRL, MKC, SJM, TSN, WBA, KR, DG
-  - Consumer Discretionary (12 companies): HD, MCD, NKE, SBUX, TGT, LOW, F, GM, ROST, TJX, etc.
-  - Energy (15 companies): XOM, CVX, COP, SLB, EOG, PSX, VLO, OXY, KMI, WMB, EPD, MMP, OKE, TRP, ENB
-  - Industrials (32 companies): BA, CAT, GE, LMT, RTX, UNP, HON, UPS, DE, MMM, EMR, ETN, FDX, NSC, PH, ROK, RSG, WM, CTAS, DOV, IEX, J, PWR, LEG, CHRW, CAH, EXPD, etc.
-  - Utilities (19 companies): NEE, DUK, SO, D, AEP, EXC, SRE, XEL, PCG, ED, ETR, ES, FE, PPL, WEC, ATO, CNP, NI, OGE
-  - REITs (27 companies): O, AMT, PLD, CCI, EQIX, PSA, WELL, DLR, SPG, AVB, VNO, MPW, STAG, NNN, DOC, ESS, FRT, ADC, EPR, GOOD, APLE, LAND, SLG, LTC, MAIN, SBRA, UHT
-  - Materials (17 companies): LIN, APD, SHW, FCX, NEM, ECL, ADM, BG, MOS, CF, PKG, IP, AVY, ALB, NDSN, ROP, WST
-  - Telecom & Media (5 companies): T, VZ, TMUS, OMC, IPG
-  - Dividend Aristocrats (3 companies): FDS, ERIE, BTI
-- For other companies, you must manually find the CIK and add to `sec_edgar_client.py`
-- The SEC's `company_tickers.json` endpoint is sometimes unavailable
+- **404 companies** are available in the CSV-based company database across all major sectors:
+  - Technology: AAPL, MSFT, NVDA, CSCO, ORCL, IBM, INTC, TXN, QCOM, ADI, and more
+  - Healthcare: JNJ, UNH, LLY, ABBV, MRK, TMO, ABT, PFE, AMGN, CVS, and more
+  - Financials: JPM, BAC, WFC, MS, GS, BLK, C, USB, PNC, V, MA, and more
+  - Consumer Staples: KO, PEP, PG, WMT, COST, PM, MO, CL, KMB, and more
+  - Consumer Discretionary: HD, MCD, NKE, SBUX, TGT, LOW, F, GM, and more
+  - Energy: XOM, CVX, COP, SLB, EOG, PSX, VLO, OXY, KMI, WMB, and more
+  - Industrials: BA, CAT, GE, LMT, RTX, UNP, HON, UPS, DE, MMM, and more
+  - Utilities: NEE, DUK, SO, D, AEP, EXC, SRE, XEL, PCG, ED, and more
+  - REITs: O, AMT, PLD, CCI, EQIX, PSA, WELL, DLR, SPG, AVB, and more
+  - Materials: LIN, APD, SHW, FCX, NEM, ECL, ADM, and more
+  - Telecom & Media: T, VZ, TMUS, OMC, IPG
+- Companies are managed via `data/companies.csv` - see [ADDING_COMPANIES.md](docs/ADDING_COMPANIES.md) for adding new companies
 
 ### Data Completeness
 - **Declaration dates**, **record dates**, and **payment dates** are **NOT available** in XBRL CompanyFacts API
@@ -120,25 +118,24 @@ Each dividend receives a confidence score based on multiple factors:
 
 The tool has been tested against real SEC XBRL data with the following results:
 
-#### ✅ Production Database Statistics
+#### Production Database Statistics
 
 **As of October 2025:**
-- **Companies**: 109 companies across all major sectors
-- **Total dividends extracted**: 4,909 dividend records
-- **Clean data**: 4,643 verified dividends (94.6% after quality filtering)
-- **Annual totals filtered**: 64 cumulative totals removed
-- **Low confidence removed**: 202 dividends with confidence < 0.8 deleted
+- **Companies**: 404 companies across all major sectors (356 with Wikipedia descriptions, 312 with websites)
+- **Total dividends extracted**: 14,778 dividend records
+- **Clean data**: 14,001 verified dividends (94.7% quality after filtering)
+- **Low confidence flagged**: 696 dividends with confidence < 0.8 marked for review
 - **Date range**: Historical data from 2008-2025 depending on company
-- **Average per company**: ~43 dividend records
+- **Average per company**: 36.6 dividend records
 
 **Sample Companies:**
-- **AAPL**: 46 dividends (2012-2025), 100% confidence
-- **JNJ**: 52 dividends, stable quarterly pattern
-- **MSFT**: 51 dividends, consistent growth
-- **KO**: 43 dividends, long dividend history
-- **O** (Realty Income): Monthly dividend payer
+- **AAPL**: Apple Inc. - Quarterly dividends (2012-2025), high confidence
+- **JNJ**: Johnson & Johnson - Stable quarterly pattern
+- **MSFT**: Microsoft - Consistent growth
+- **KO**: Coca-Cola - Long dividend history
+- **O**: Realty Income - Monthly dividend payer
 
-#### ✅ Built-in Parser Test (Sample XBRL Data)
+#### Built-in Parser Test (Sample XBRL Data)
 - **Test data**: Apple Q1-Q2 2024 sample
 - **Dividends parsed**: 2 quarterly dividends
 - **Confidence**: 100% (1.00) for both entries
@@ -148,22 +145,22 @@ The tool has been tested against real SEC XBRL data with the following results:
 #### Test Coverage Summary
 
 Available test files:
-- ✅ **`tests/test_apple_dividends.py`**: Apple Inc. (AAPL) - stable quarterly dividend payer
-- ✅ **`tests/test_us_market_diverse.py`**: Diverse set of US companies with varying dividend patterns
-- ✅ **`tests/test_edge_cases.py`**: Special cases, suspensions, and irregular patterns
-- ✅ **`tests/test_multiple_companies.py`**: Batch processing of multiple tickers
-- ✅ **`tests/test_load_with_confidence.py`**: Confidence scoring and quality metrics
-- ✅ **`tests/test_one.py`**: Single company quick test
+- **`tests/test_apple_dividends.py`**: Apple Inc. (AAPL) - stable quarterly dividend payer
+- **`tests/test_us_market_diverse.py`**: Diverse set of US companies with varying dividend patterns
+- **`tests/test_edge_cases.py`**: Special cases, suspensions, and irregular patterns
+- **`tests/test_multiple_companies.py`**: Batch processing of multiple tickers
+- **`tests/test_load_with_confidence.py`**: Confidence scoring and quality metrics
+- **`tests/test_one.py`**: Single company quick test
 
 Feature coverage:
-- ✅ **Quarterly dividend extraction**: Working correctly
-- ✅ **Annual total filtering**: Successfully removes cumulative amounts
-- ✅ **Confidence scoring**: Assigns appropriate scores based on data quality
-- ✅ **Duplicate detection**: Prevents duplicate entries for same date
-- ✅ **XBRL tag parsing**: Correctly processes CommonStockDividendsPerShareDeclared
-- ✅ **Fiscal period mapping**: Accurately maps Q1-Q4 periods
-- ⚠️ **Edge cases**: Companies with irregular patterns may need manual review
-- ⚠️ **Limited ticker coverage**: Only works for companies in hardcoded CIK list
+- **Quarterly dividend extraction**: Working correctly
+- **Annual total filtering**: Successfully removes cumulative amounts
+- **Confidence scoring**: Assigns appropriate scores based on data quality
+- **Duplicate detection**: Prevents duplicate entries for same date
+- **XBRL tag parsing**: Correctly processes CommonStockDividendsPerShareDeclared
+- **Fiscal period mapping**: Accurately maps Q1-Q4 periods
+- **Edge cases**: Companies with irregular patterns may need manual review
+- **CSV-based management**: Companies managed via data/companies.csv
 
 #### Known Test Limitations
 - Tests primarily focused on stable, quarterly dividend payers
@@ -412,12 +409,12 @@ See [LICENSE](LICENSE) for full details.
 
 ### Key License Points
 
-- ✅ You may use, modify, and distribute this software freely
-- ✅ You may use this software for commercial purposes
-- ✅ Includes explicit patent grant protection
-- ✅ Can be used in proprietary software
-- ⚠️ Must include copy of license and notice of any modifications
-- ⚠️ No warranty is provided - use at your own risk
+- You may use, modify, and distribute this software freely
+- You may use this software for commercial purposes
+- Includes explicit patent grant protection
+- Can be used in proprietary software
+- Must include copy of license and notice of any modifications
+- No warranty is provided - use at your own risk
 
 ## Final Disclaimer
 

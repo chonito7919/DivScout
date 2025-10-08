@@ -301,15 +301,15 @@ After automation runs, the frontend will automatically see new data since it que
 
 ## Best Practices
 
-1. ✅ **Use weekly refresh** - catches new dividends within days
-2. ✅ **Monitor logs** - set up log rotation and occasional review
-3. ✅ **Test dry-run first** - always test with `--dry-run` before scheduling
-4. ✅ **Keep backups** - regular PostgreSQL backups of the database
-5. ✅ **Update incrementally** - don't do full reloads unless necessary
+1. **Use weekly refresh** - catches new dividends within days
+2. **Monitor logs** - set up log rotation and occasional review
+3. **Test dry-run first** - always test with `--dry-run` before scheduling
+4. **Keep backups** - regular PostgreSQL backups of the database
+5. **Update incrementally** - don't do full reloads unless necessary
 
-6. ❌ **Don't run refresh daily** - unnecessary API load, companies don't announce that often
-7. ❌ **Don't run multiple instances** - can hit rate limits
-8. ❌ **Don't skip error handling** - always redirect stderr to logs
+6. **Don't run refresh daily** - unnecessary API load, companies don't announce that often
+7. **Don't run multiple instances** - can hit rate limits
+8. **Don't skip error handling** - always redirect stderr to logs
 
 ## Example Full Setup
 

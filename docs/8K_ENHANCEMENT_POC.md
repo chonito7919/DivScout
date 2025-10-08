@@ -9,11 +9,11 @@ This document summarizes the proof-of-concept for enhancing XBRL dividend data w
 **File**: `parsers/filing_8k_enhancer.py`
 
 A complete 8-K enhancement module that:
-1. ✅ Finds 8-K filings for a company using SEC Submissions API
-2. ✅ Fetches 8-K filing content (HTML/TXT)
-3. ✅ Parses dividend-related dates from unstructured text
-4. ✅ Extracts dividend amounts for matching
-5. ✅ Matches 8-K data to existing XBRL dividends
+1. Finds 8-K filings for a company using SEC Submissions API
+2. Fetches 8-K filing content (HTML/TXT)
+3. Parses dividend-related dates from unstructured text
+4. Extracts dividend amounts for matching
+5. Matches 8-K data to existing XBRL dividends
 
 ## Key Features
 
@@ -68,7 +68,7 @@ A complete 8-K enhancement module that:
 
 ## Recommendation
 
-### ❌ Do NOT implement 8-K enhancement at this time
+### Do NOT implement 8-K enhancement at this time
 
 **Reasons:**
 1. **Low ROI**: Adds complexity for marginal benefit (just 3 date fields)
@@ -77,7 +77,7 @@ A complete 8-K enhancement module that:
 4. **Maintenance Burden**: Regex patterns need constant updates
 5. **Data Quality**: XBRL ex-dividend dates are sufficient for most use cases
 
-### ✅ Alternative: Document the limitation
+### Alternative: Document the limitation
 
 The current README already states:
 > **Declaration dates**, **record dates**, and **payment dates** are **NOT available** in XBRL CompanyFacts API
@@ -119,7 +119,7 @@ This is acceptable because:
    - Limit to companies where users request it
 
 ### Estimated Effort:
-- **Core implementation**: 1-2 days (✅ Already done in POC)
+- **Core implementation**: 1-2 days (Already done in POC)
 - **Testing & refinement**: 2-3 days (handling edge cases)
 - **URL structure fixes**: 1-2 days (third-party filings)
 - **Validation & accuracy**: 2-3 days (ensure correct matches)
@@ -131,12 +131,12 @@ This is acceptable because:
 
 The proof-of-concept demonstrates that 8-K enhancement is **technically feasible** but **not practically valuable**:
 
-✅ **What works**:
+**What works**:
 - Date extraction from text
 - Matching logic
 - Additive architecture
 
-❌ **What doesn't**:
+**What doesn't**:
 - Inconsistent filing access
 - Variable text formats
 - High API overhead

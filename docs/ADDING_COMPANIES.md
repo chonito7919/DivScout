@@ -102,7 +102,7 @@ To stop tracking a company:
 
 ### "Ticker not in companies.csv"
 
-✅ **Solution**: Add the ticker to `data/companies.csv` with correct CIK
+**Solution**: Add the ticker to `data/companies.csv` with correct CIK
 
 ### "No XBRL data found"
 
@@ -111,13 +111,13 @@ This means the company doesn't report dividends in XBRL format. Some possibiliti
 - Company uses non-standard reporting
 - CIK is incorrect
 
-✅ **Solution**: Verify the company pays dividends and CIK is correct
+**Solution**: Verify the company pays dividends and CIK is correct
 
 ### "Duplicate CIK"
 
 Multiple tickers map to same CIK (e.g., GOOG and GOOGL both = Alphabet).
 
-✅ **Solution**: This is normal, script will skip the duplicate
+**Solution**: This is normal, script will skip the duplicate
 
 ## Batch Adding Companies
 
@@ -157,13 +157,13 @@ systemctl --user status divscout-refresh.timer
 
 ## Best Practices
 
-✅ **Do:**
+**Do:**
 - Add companies with established dividend histories
 - Verify CIK before adding
 - Test with `--dry-run` first
 - Keep CSV sorted alphabetically (optional but clean)
 
-❌ **Don't:**
+**Don't:**
 - Add companies that don't pay dividends (they'll just show "no dividends found")
 - Modify existing CIKs unless correcting an error
 - Delete rows from CSV to remove from database (just stops tracking new additions)

@@ -181,7 +181,7 @@ class CompanyInfoFetcher:
             wikibase_item: Wikidata ID (e.g., 'Q312' for Apple)
 
         Returns:
-            Website URL or None
+            Website URL or None (prefers US websites for US companies)
         """
         if not wikibase_item:
             return None
@@ -200,14 +200,27 @@ class CompanyInfoFetcher:
                 website_claims = claims.get('P856', [])
 
                 if website_claims:
-                    # Get the first website claim without qualifiers (main website)
+                    # Strategy 1: Find website for United States (P1001=Q30)
                     for claim in website_claims:
-                        if 'qualifiers' not in claim:
+                        qualifiers = claim.get('qualifiers', {})
+                        p1001_qualifiers = qualifiers.get('P1001', [])
+
+                        for qualifier in p1001_qualifiers:
+                            country_id = qualifier.get('datavalue', {}).get('value', {}).get('id')
+                            if country_id == 'Q30':  # United States
+                                website = claim.get('mainsnak', {}).get('datavalue', {}).get('value')
+                                if website:
+                                    return website
+
+                    # Strategy 2: Get website without country qualifiers (usually global)
+                    for claim in website_claims:
+                        qualifiers = claim.get('qualifiers', {})
+                        if 'P1001' not in qualifiers:
                             website = claim.get('mainsnak', {}).get('datavalue', {}).get('value')
                             if website:
                                 return website
 
-                    # Fallback: get any website
+                    # Strategy 3: Fallback to first website
                     website = website_claims[0].get('mainsnak', {}).get('datavalue', {}).get('value')
                     if website:
                         return website
